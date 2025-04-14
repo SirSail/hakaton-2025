@@ -1,0 +1,1 @@
+C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Frontend.csproj;x64
