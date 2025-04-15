@@ -1,6 +1,6 @@
 # Build output
-bin/
-obj/
+Frontend/bin/
+Frontend/obj/
 
 # Common .NET artifacts
 *.user
