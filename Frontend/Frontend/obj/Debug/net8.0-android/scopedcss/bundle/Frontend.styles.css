@@ -178,6 +178,20 @@ main[b-cj3fj28uav] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/Logowanie.razor.rz.scp.css */
+.ikonka[b-3gyjxoldwl] {
+    background-color: white;
+}
+
+.ramka[b-3gyjxoldwl] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input[b-3gyjxoldwl] {
+    border: none;
+}
 /* /Components/Pages/Rejestracja.razor.rz.scp.css */
 .ikonka[b-sn6egdmfgh]{
     background-color: white;

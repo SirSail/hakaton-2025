@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cHhkEEavZi8Tl+8PGL3OOs7xA1fGqww6Br633Vgy36A=",
+  "Hash": "SnMyC6M6EsceIDZCE/5dQfMb7BkxSfKjx/B3PEvfGm0=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "swwvu5d6wh",
-      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
+      "Fingerprint": "8r3ck7bhqd",
+      "Integrity": "/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "swwvu5d6wh",
-      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
+      "Fingerprint": "8r3ck7bhqd",
+      "Integrity": "/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
@@ -494,6 +494,96 @@
       ]
     },
     {
+      "Route": "Frontend.8r3ck7bhqd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 16:00:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8r3ck7bhqd"
+        },
+        {
+          "Name": "label",
+          "Value": "Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8="
+        }
+      ]
+    },
+    {
+      "Route": "Frontend.8r3ck7bhqd.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 16:00:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8r3ck7bhqd"
+        },
+        {
+          "Name": "label",
+          "Value": "Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8="
+        }
+      ]
+    },
+    {
       "Route": "Frontend.bundle.scp.css",
       "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
@@ -504,7 +594,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5801"
+          "Value": "5853"
         },
         {
           "Name": "Content-Type",
@@ -512,11 +602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
+          "Value": "\"/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 15:01:38 GMT"
+          "Value": "Wed, 16 Apr 2025 16:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,7 +616,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
+          "Value": "sha256-/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8="
         }
       ]
     },
@@ -541,7 +631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5801"
+          "Value": "5853"
         },
         {
           "Name": "Content-Type",
@@ -549,11 +639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
+          "Value": "\"/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 15:01:38 GMT"
+          "Value": "Wed, 16 Apr 2025 16:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -563,97 +653,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
-        }
-      ]
-    },
-    {
-      "Route": "Frontend.swwvu5d6wh.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 15:01:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "swwvu5d6wh"
-        },
-        {
-          "Name": "label",
-          "Value": "Frontend.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
-        }
-      ]
-    },
-    {
-      "Route": "Frontend.swwvu5d6wh.styles.css",
-      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 15:01:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "swwvu5d6wh"
-        },
-        {
-          "Name": "label",
-          "Value": "Frontend.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
+          "Value": "sha256-/GEmnZDkPSam/nQP506DmGGZwYa78i5j9yZzbIWtBl8="
         }
       ]
     },

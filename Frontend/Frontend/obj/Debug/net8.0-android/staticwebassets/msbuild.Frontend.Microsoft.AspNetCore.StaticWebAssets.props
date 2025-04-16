@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>swwvu5d6wh</Fingerprint>
-      <Integrity>XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=</Integrity>
+      <Fingerprint>lgg4wzo08d</Fingerprint>
+      <Integrity>VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Frontend.styles.css'))</OriginalItemSpec>

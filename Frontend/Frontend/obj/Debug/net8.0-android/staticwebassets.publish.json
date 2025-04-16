@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wmHHsGVvL03tq72jfX483Nm17FuEr4F/pzyrjbpqeSo=",
+  "Hash": "IYO+MAHG/6tTEpCh0ucQlrw9AOGrSst/VJqpawgGCuU=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "swwvu5d6wh",
-      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
+      "Fingerprint": "lgg4wzo08d",
+      "Integrity": "VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "swwvu5d6wh",
-      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
+      "Fingerprint": "lgg4wzo08d",
+      "Integrity": "VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
@@ -504,7 +504,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5801"
+          "Value": "6061"
         },
         {
           "Name": "Content-Type",
@@ -512,11 +512,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
+          "Value": "\"VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
+          "Value": "Wed, 16 Apr 2025 16:02:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,7 +526,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
+          "Value": "sha256-VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc="
+        }
+      ]
+    },
+    {
+      "Route": "Frontend.lgg4wzo08d.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 16:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lgg4wzo08d"
+        },
+        {
+          "Name": "label",
+          "Value": "Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc="
+        }
+      ]
+    },
+    {
+      "Route": "Frontend.lgg4wzo08d.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 16:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lgg4wzo08d"
+        },
+        {
+          "Name": "label",
+          "Value": "Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc="
         }
       ]
     },
@@ -541,7 +631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5801"
+          "Value": "6061"
         },
         {
           "Name": "Content-Type",
@@ -549,11 +639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
+          "Value": "\"VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
+          "Value": "Wed, 16 Apr 2025 16:02:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -563,97 +653,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
-        }
-      ]
-    },
-    {
-      "Route": "Frontend.swwvu5d6wh.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "swwvu5d6wh"
-        },
-        {
-          "Name": "label",
-          "Value": "Frontend.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
-        }
-      ]
-    },
-    {
-      "Route": "Frontend.swwvu5d6wh.styles.css",
-      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "swwvu5d6wh"
-        },
-        {
-          "Name": "label",
-          "Value": "Frontend.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
+          "Value": "sha256-VThRPK93qs8WJ25zDRwiAsTU4TXVj4OtqS3dXnVsbmc="
         }
       ]
     },
