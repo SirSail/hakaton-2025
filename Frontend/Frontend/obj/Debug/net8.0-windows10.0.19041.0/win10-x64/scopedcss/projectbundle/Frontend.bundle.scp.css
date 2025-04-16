@@ -178,3 +178,21 @@ main[b-cj3fj28uav] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/Rejestracja.razor.rz.scp.css */
+.ikonka[b-sn6egdmfgh]{
+    background-color: white;
+}
+
+.ramka[b-sn6egdmfgh] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input[b-sn6egdmfgh]{
+    border: none;
+}
+
+.kalendarz[b-sn6egdmfgh]  {
+    margin-bottom: 10px;
+}

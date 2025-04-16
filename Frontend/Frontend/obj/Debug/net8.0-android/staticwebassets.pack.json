@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "PackagePath": "staticwebassets\\Frontend.styles.css"
     },
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

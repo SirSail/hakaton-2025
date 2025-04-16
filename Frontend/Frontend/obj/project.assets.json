@@ -44205,24 +44205,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Igor\\.nuget\\packages\\": {},
+    "C:\\Users\\Kamil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj",
       "projectName": "Frontend",
-      "projectPath": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
-      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\",
+      "projectPath": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj",
+      "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

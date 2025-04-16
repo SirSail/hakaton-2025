@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Da2kfHw3kmCgQbmZI0qWm677Ef0enp9rhH5phG4uA5M=",
+  "Hash": "wmHHsGVvL03tq72jfX483Nm17FuEr4F/pzyrjbpqeSo=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "Frontend\\wwwroot",
       "Source": "Frontend",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "SourceId": "Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "Frontend#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vvfjsmkxft",
-      "Integrity": "Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=",
+      "Fingerprint": "swwvu5d6wh",
+      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "SourceId": "Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "Frontend#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -52,17 +52,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vvfjsmkxft",
-      "Integrity": "Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=",
+      "Fingerprint": "swwvu5d6wh",
+      "Integrity": "XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dex3usdpik",
-      "Integrity": "K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=",
+      "Fingerprint": "jm08vgm79a",
+      "Integrity": "K5R6txDuNgIjfNvovNG7nnF7/rUqHUSbLzLdCXBBXLQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6gzpyzhau4",
-      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nnmjaex12q",
-      "Integrity": "c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=",
+      "Fingerprint": "pvna6vvew8",
+      "Integrity": "ZamFTL4Vy5ZBbAnHhnzU+R6/dYqtTsZhtTAmoAkINu0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -176,7 +176,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3286"
         },
         {
           "Name": "Content-Type",
@@ -184,11 +184,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"K5R6txDuNgIjfNvovNG7nnF7/rUqHUSbLzLdCXBBXLQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 13:58:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -198,13 +198,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-K5R6txDuNgIjfNvovNG7nnF7/rUqHUSbLzLdCXBBXLQ="
         }
       ]
     },
     {
-      "Route": "css/app.dex3usdpik.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Route": "css/app.jm08vgm79a.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -213,7 +213,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3286"
         },
         {
           "Name": "Content-Type",
@@ -221,11 +221,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"K5R6txDuNgIjfNvovNG7nnF7/rUqHUSbLzLdCXBBXLQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 13:58:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -235,7 +235,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dex3usdpik"
+          "Value": "jm08vgm79a"
         },
         {
           "Name": "label",
@@ -243,13 +243,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-K5R6txDuNgIjfNvovNG7nnF7/rUqHUSbLzLdCXBBXLQ="
         }
       ]
     },
     {
-      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -258,7 +258,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -266,11 +266,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -280,7 +280,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6gzpyzhau4"
+          "Value": "bpk8xqwxhs"
         },
         {
           "Name": "label",
@@ -288,13 +288,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -303,7 +303,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -311,11 +311,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -325,13 +325,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -352,7 +352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -376,7 +376,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -397,7 +397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -413,7 +413,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -434,7 +434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -458,7 +458,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -479,7 +479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -495,7 +495,7 @@
     },
     {
       "Route": "Frontend.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -504,7 +504,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5801"
         },
         {
           "Name": "Content-Type",
@@ -512,11 +512,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:19:40 GMT"
+          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,13 +526,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
         }
       ]
     },
     {
       "Route": "Frontend.styles.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -541,7 +541,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5801"
         },
         {
           "Name": "Content-Type",
@@ -549,11 +549,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:19:40 GMT"
+          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -563,13 +563,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
         }
       ]
     },
     {
-      "Route": "Frontend.vvfjsmkxft.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Route": "Frontend.swwvu5d6wh.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -578,7 +578,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5801"
         },
         {
           "Name": "Content-Type",
@@ -586,11 +586,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:19:40 GMT"
+          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -600,7 +600,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvfjsmkxft"
+          "Value": "swwvu5d6wh"
         },
         {
           "Name": "label",
@@ -608,13 +608,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
         }
       ]
     },
     {
-      "Route": "Frontend.vvfjsmkxft.styles.css",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Route": "Frontend.swwvu5d6wh.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -623,7 +623,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5801"
         },
         {
           "Name": "Content-Type",
@@ -631,11 +631,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:19:40 GMT"
+          "Value": "Wed, 16 Apr 2025 14:55:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -645,7 +645,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvfjsmkxft"
+          "Value": "swwvu5d6wh"
         },
         {
           "Name": "label",
@@ -653,13 +653,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-XBq6SpSIYFA8J2ZA7LRuhL5hgqLCLjHRa1vMy97s6as="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -668,7 +668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "873"
+          "Value": "844"
         },
         {
           "Name": "Content-Type",
@@ -676,11 +676,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=\""
+          "Value": "\"ZamFTL4Vy5ZBbAnHhnzU+R6/dYqtTsZhtTAmoAkINu0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -690,13 +690,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY="
+          "Value": "sha256-ZamFTL4Vy5ZBbAnHhnzU+R6/dYqtTsZhtTAmoAkINu0="
         }
       ]
     },
     {
-      "Route": "index.nnmjaex12q.html",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Route": "index.pvna6vvew8.html",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -705,7 +705,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "873"
+          "Value": "844"
         },
         {
           "Name": "Content-Type",
@@ -713,11 +713,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=\""
+          "Value": "\"ZamFTL4Vy5ZBbAnHhnzU+R6/dYqtTsZhtTAmoAkINu0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:16:26 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -727,7 +727,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nnmjaex12q"
+          "Value": "pvna6vvew8"
         },
         {
           "Name": "label",
@@ -735,7 +735,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY="
+          "Value": "sha256-ZamFTL4Vy5ZBbAnHhnzU+R6/dYqtTsZhtTAmoAkINu0="
         }
       ]
     }

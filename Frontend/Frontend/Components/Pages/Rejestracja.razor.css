@@ -1,0 +1,17 @@
+.ikonka{
+    background-color: white;
+}
+
+.ramka {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input{
+    border: none;
+}
+
+.kalendarz  {
+    margin-bottom: 10px;
+}
