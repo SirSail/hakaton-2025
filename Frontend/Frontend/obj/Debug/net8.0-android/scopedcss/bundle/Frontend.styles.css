@@ -225,12 +225,12 @@ main[b-cj3fj28uav] {
     width: 44px;
     height: 60px;
     font-size: 0.8rem;
+    font-weight: 500;
     border-radius: 12px;
     margin: 2px;
     background-color: #FFFFFF;
     border: 1px solid #D9E8E3;
     color: #333;
-    font-weight: 500;
 }
 
 .kalendarz-dni .btn-aktywny-dzien[b-891k19zvcd] {
@@ -241,6 +241,43 @@ main[b-cj3fj28uav] {
 
 .lista-zadan[b-891k19zvcd] {
     margin-top: 1rem;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 4px;
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
+}
+
+
+    .lista-zadan[b-891k19zvcd]::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .lista-zadan[b-891k19zvcd]::-webkit-scrollbar-thumb {
+        background-color: #D9E8E3;
+        border-radius: 6px;
+    }
+
+.card[b-891k19zvcd] {
+    background-color: #fff;
+    border-left: 6px solid #4FB89F;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.card-body small[b-891k19zvcd] {
+    color: #666;
+}
+
+.card:hover[b-891k19zvcd] {
+    transform: scale(1.01);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.godzina-wpisu[b-891k19zvcd] {
+    color: #32C0EE;
+    font-weight: bold;
+    min-width: 70px;
 }
 
 .karta-zadania[b-891k19zvcd] {
@@ -250,7 +287,7 @@ main[b-cj3fj28uav] {
     border-radius: 12px;
     padding: 0.8rem;
     margin-bottom: 0.6rem;
-    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
     .karta-zadania .godzina[b-891k19zvcd] {
@@ -268,6 +305,15 @@ main[b-cj3fj28uav] {
         color: #666;
     }
 
+.collapse[b-891k19zvcd] {
+    background-color: #F1F8F6;
+    border-left: 4px solid #4FB89F;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
 .przycisk-dodaj[b-891k19zvcd] {
     width: 50px;
     height: 50px;
@@ -278,27 +324,38 @@ main[b-cj3fj28uav] {
     color: white;
     cursor: pointer;
 }
+
 .ikona-wpisu[b-891k19zvcd] {
     width: 24px;
     height: 24px;
     margin: 0 10px;
 }
-.card[b-891k19zvcd] {
-    border-left: 6px solid #4FB89F;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+
+.powiadomienie-btn[b-891k19zvcd] {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
 }
-.godzina-wpisu[b-891k19zvcd] {
-    color: #32C0EE;
-    font-weight: bold;
+
+    
+    .powiadomienie-btn .bi-bell[b-891k19zvcd] {
+        font-size: 1.5rem; 
+        color: white; 
+    }
+        
+        .powiadomienie-btn .bi-bell.text-success[b-891k19zvcd] {
+            color: #28a745; 
+        }
+
+.card-body small.text-success[b-891k19zvcd] {
+    margin-left: 10px;
+    font-size: 0.9rem;
 }
-.card-body small[b-891k19zvcd] {
-    color: #666;
-}
-.card:hover[b-891k19zvcd] {
-    transform: scale(1.01);
-    transition: 0.2s ease;
+.wpis-wazny[b-891k19zvcd] {
+    border-left: 6px solid #FFD700 !important; /* złoto-żółty */
+    background-color: #FFFBEA !important;
 }
 /* /Components/Pages/Logowanie.razor.rz.scp.css */
 .ikonka[b-3gyjxoldwl] {
