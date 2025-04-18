@@ -64,4 +64,12 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\icons\calendar.jpg" />
+      <None Include="wwwroot\icons\games.jpg" />
+      <None Include="wwwroot\icons\home.jpg" />
+      <None Include="wwwroot\icons\profile.jpg" />
+      <None Include="wwwroot\icons\services.jpg" />
+    </ItemGroup>
+
 </Project>

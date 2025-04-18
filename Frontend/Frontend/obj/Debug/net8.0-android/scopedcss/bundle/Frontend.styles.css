@@ -76,6 +76,35 @@ main[b-cj3fj28uav] {
         padding-right: 1.5rem !important;
     }
 }
+.dolna-nawigacja[b-cj3fj28uav] {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+    z-index: 999;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.05);
+}
+
+    .dolna-nawigacja a[b-cj3fj28uav] {
+        text-align: center;
+        font-size: 0.75rem;
+        color: #999;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dolna-nawigacja img[b-cj3fj28uav] {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 2px;
+    }
 /* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-ftcrkoicqg] {
     appearance: none;
@@ -177,6 +206,99 @@ main[b-cj3fj28uav] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Components/Pages/Kalendarz.razor.rz.scp.css */
+.kalendarz-container[b-891k19zvcd] {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #F7FAFC;
+    border-radius: 12px;
+}
+
+.kalendarz-select[b-891k19zvcd] {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.kalendarz-dni button[b-891k19zvcd] {
+    width: 44px;
+    height: 60px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    margin: 2px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9E8E3;
+    color: #333;
+    font-weight: 500;
+}
+
+.kalendarz-dni .btn-aktywny-dzien[b-891k19zvcd] {
+    background-color: #4FB89F;
+    border: none;
+    color: #fff;
+}
+
+.lista-zadan[b-891k19zvcd] {
+    margin-top: 1rem;
+}
+
+.karta-zadania[b-891k19zvcd] {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+    .karta-zadania .godzina[b-891k19zvcd] {
+        font-weight: bold;
+        width: 80px;
+    }
+
+    .karta-zadania .tresc .nazwa[b-891k19zvcd] {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .karta-zadania .tresc .opis[b-891k19zvcd] {
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+.przycisk-dodaj[b-891k19zvcd] {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.ikona-wpisu[b-891k19zvcd] {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+.card[b-891k19zvcd] {
+    border-left: 6px solid #4FB89F;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+.godzina-wpisu[b-891k19zvcd] {
+    color: #32C0EE;
+    font-weight: bold;
+}
+.card-body small[b-891k19zvcd] {
+    color: #666;
+}
+.card:hover[b-891k19zvcd] {
+    transform: scale(1.01);
+    transition: 0.2s ease;
 }
 /* /Components/Pages/Logowanie.razor.rz.scp.css */
 .ikonka[b-3gyjxoldwl] {

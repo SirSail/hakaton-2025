@@ -2,4 +2,9 @@ wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
 wwwroot\favicon.png
+wwwroot\icons\calendar.jpg
+wwwroot\icons\games.jpg
+wwwroot\icons\home.jpg
+wwwroot\icons\profile.jpg
+wwwroot\icons\services.jpg
 wwwroot\index.html

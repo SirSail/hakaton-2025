@@ -76,6 +76,35 @@ main[b-cj3fj28uav] {
         padding-right: 1.5rem !important;
     }
 }
+.dolna-nawigacja[b-cj3fj28uav] {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+    z-index: 999;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.05);
+}
+
+    .dolna-nawigacja a[b-cj3fj28uav] {
+        text-align: center;
+        font-size: 0.75rem;
+        color: #999;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dolna-nawigacja img[b-cj3fj28uav] {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 2px;
+    }
 /* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-ftcrkoicqg] {
     appearance: none;
@@ -178,7 +207,89 @@ main[b-cj3fj28uav] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/Kalendarz.razor.rz.scp.css */
+.kalendarz-container[b-891k19zvcd] {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+}
+
+.kalendarz-select[b-891k19zvcd] {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.kalendarz-dni button[b-891k19zvcd] {
+    width: 40px;
+    height: 60px;
+    font-size: 0.8rem;
+    padding: 0;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.lista-zadan[b-891k19zvcd] {
+    margin-top: 1rem;
+}
+
+.karta-zadania[b-891k19zvcd] {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+    .karta-zadania .godzina[b-891k19zvcd] {
+        font-weight: bold;
+        width: 80px;
+    }
+
+    .karta-zadania .tresc .nazwa[b-891k19zvcd] {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .karta-zadania .tresc .opis[b-891k19zvcd] {
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+.przycisk-dodaj[b-891k19zvcd] {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.ikona-wpisu[b-891k19zvcd] {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
 /* /Components/Pages/Logowanie.razor.rz.scp.css */
+.ikonka[b-3gyjxoldwl] {
+    background-color: white;
+}
+
+.ramka[b-3gyjxoldwl] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input[b-3gyjxoldwl] {
+    border: none;
+}
 /* /Components/Pages/Rejestracja.razor.rz.scp.css */
 .ikonka[b-sn6egdmfgh]{
     background-color: white;

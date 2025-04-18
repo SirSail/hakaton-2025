@@ -1,0 +1,92 @@
+﻿.kalendarz-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #F7FAFC;
+    border-radius: 12px;
+}
+
+.kalendarz-select {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.kalendarz-dni button {
+    width: 44px;
+    height: 60px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    margin: 2px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9E8E3;
+    color: #333;
+    font-weight: 500;
+}
+
+.kalendarz-dni .btn-aktywny-dzien {
+    background-color: #4FB89F;
+    border: none;
+    color: #fff;
+}
+
+.lista-zadan {
+    margin-top: 1rem;
+}
+
+.karta-zadania {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+    .karta-zadania .godzina {
+        font-weight: bold;
+        width: 80px;
+    }
+
+    .karta-zadania .tresc .nazwa {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .karta-zadania .tresc .opis {
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+.przycisk-dodaj {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.ikona-wpisu {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+.card {
+    border-left: 6px solid #4FB89F;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+.godzina-wpisu {
+    color: #32C0EE;
+    font-weight: bold;
+}
+.card-body small {
+    color: #666;
+}
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease;
+}
