@@ -1,0 +1,4 @@
+.vs
+obj
+bin
+Frontend\Frontend\obj
