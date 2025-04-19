@@ -3,6 +3,51 @@
   "ManifestType": "Publish",
   "Endpoints": [
     {
+      "Route": "Frontend.6258cb4f3o.styles.css",
+      "AssetFile": "Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9988"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:33:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6258cb4f3o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
+        },
+        {
+          "Name": "label",
+          "Value": "Frontend.styles.css"
+        }
+      ]
+    },
+    {
       "Route": "Frontend.styles.css",
       "AssetFile": "Frontend.styles.css",
       "Selectors": [],
@@ -17,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8219"
+          "Value": "9988"
         },
         {
           "Name": "Content-Type",
@@ -25,62 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VEFSE6//63cw4Gek1akuMuLhCkzlix7zLvIvAhU2JLY=\""
+          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:51:13 GMT"
+          "Value": "Sat, 19 Apr 2025 17:33:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VEFSE6//63cw4Gek1akuMuLhCkzlix7zLvIvAhU2JLY="
-        }
-      ]
-    },
-    {
-      "Route": "Frontend.wht0ki51w6.styles.css",
-      "AssetFile": "Frontend.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VEFSE6//63cw4Gek1akuMuLhCkzlix7zLvIvAhU2JLY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:51:13 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wht0ki51w6"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VEFSE6//63cw4Gek1akuMuLhCkzlix7zLvIvAhU2JLY="
-        },
-        {
-          "Name": "label",
-          "Value": "Frontend.styles.css"
+          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
         }
       ]
     },
@@ -823,7 +823,171 @@
       ]
     },
     {
-      "Route": "index.b7qeii2yfp.html",
+      "Route": "icons/stethoscope.jpg",
+      "AssetFile": "icons/stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"StemkOjkBcrDLPMIzg5Y/Y/AmQyo0x/Pce84G5hHdKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:50:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-StemkOjkBcrDLPMIzg5Y/Y/AmQyo0x/Pce84G5hHdKA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/stethoscope.yxnmmwz2t6.jpg",
+      "AssetFile": "icons/stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"StemkOjkBcrDLPMIzg5Y/Y/AmQyo0x/Pce84G5hHdKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:50:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yxnmmwz2t6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-StemkOjkBcrDLPMIzg5Y/Y/AmQyo0x/Pce84G5hHdKA="
+        },
+        {
+          "Name": "label",
+          "Value": "icons/stethoscope.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.jpg",
+      "AssetFile": "icons/surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.mv5giozcqa.jpg",
+      "AssetFile": "icons/surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mv5giozcqa"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
+        },
+        {
+          "Name": "label",
+          "Value": "icons/surgery.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "index.35h8si1rcs.html",
       "AssetFile": "index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -837,7 +1001,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "881"
+          "Value": "1006"
         },
         {
           "Name": "Content-Type",
@@ -845,21 +1009,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2QmjBRmkD2br7cryXIGxiosQ1Ug6ymjCRW9PXVuqHDE=\""
+          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 15:59:47 GMT"
+          "Value": "Fri, 18 Apr 2025 19:38:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b7qeii2yfp"
+          "Value": "35h8si1rcs"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2QmjBRmkD2br7cryXIGxiosQ1Ug6ymjCRW9PXVuqHDE="
+          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
         },
         {
           "Name": "label",
@@ -882,7 +1046,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "881"
+          "Value": "1006"
         },
         {
           "Name": "Content-Type",
@@ -890,17 +1054,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2QmjBRmkD2br7cryXIGxiosQ1Ug6ymjCRW9PXVuqHDE=\""
+          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 15:59:47 GMT"
+          "Value": "Fri, 18 Apr 2025 19:38:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2QmjBRmkD2br7cryXIGxiosQ1Ug6ymjCRW9PXVuqHDE="
+          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
         }
       ]
     }

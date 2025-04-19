@@ -41,6 +41,14 @@
       "PackagePath": "staticwebassets\\icons\\services.jpg"
     },
     {
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "PackagePath": "staticwebassets\\icons\\stethoscope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "PackagePath": "staticwebassets\\icons\\surgery.jpg"
+    },
+    {
       "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

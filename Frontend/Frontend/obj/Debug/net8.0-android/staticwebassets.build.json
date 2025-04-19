@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "54OFfX6vGbm6dR7BATmkCq8+OZ7Wx3CLMwp+v8EZA+M=",
+  "Hash": "65C2/nL5Aqe0NIjcq66Jn9EBadpABe+hSGPevy6XVGk=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "6258cb4f3o",
-      "Integrity": "YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=",
+      "Fingerprint": "8e99lu7gas",
+      "Integrity": "0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "6258cb4f3o",
-      "Integrity": "YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=",
+      "Fingerprint": "8e99lu7gas",
+      "Integrity": "0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
@@ -246,6 +246,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\services.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/stethoscope#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "40brbhofc0",
+      "Integrity": "dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\stethoscope.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/surgery#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mv5giozcqa",
+      "Integrity": "wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\surgery.jpg"
     },
     {
       "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
@@ -599,7 +641,7 @@
       ]
     },
     {
-      "Route": "Frontend.6258cb4f3o.bundle.scp.css",
+      "Route": "Frontend.8e99lu7gas.bundle.scp.css",
       "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -609,7 +651,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9988"
+          "Value": "9992"
         },
         {
           "Name": "Content-Type",
@@ -617,11 +659,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
+          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:55:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -631,7 +673,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6258cb4f3o"
+          "Value": "8e99lu7gas"
         },
         {
           "Name": "label",
@@ -639,12 +681,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
+          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
         }
       ]
     },
     {
-      "Route": "Frontend.6258cb4f3o.styles.css",
+      "Route": "Frontend.8e99lu7gas.styles.css",
       "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -654,7 +696,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9988"
+          "Value": "9992"
         },
         {
           "Name": "Content-Type",
@@ -662,11 +704,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
+          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:55:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -676,7 +718,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6258cb4f3o"
+          "Value": "8e99lu7gas"
         },
         {
           "Name": "label",
@@ -684,7 +726,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
+          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
         }
       ]
     },
@@ -699,7 +741,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9988"
+          "Value": "9992"
         },
         {
           "Name": "Content-Type",
@@ -707,11 +749,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
+          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:55:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -721,7 +763,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
+          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
         }
       ]
     },
@@ -736,7 +778,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9988"
+          "Value": "9992"
         },
         {
           "Name": "Content-Type",
@@ -744,11 +786,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=\""
+          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:55:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -758,7 +800,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA="
+          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
         }
       ]
     },
@@ -1169,6 +1211,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc="
+        }
+      ]
+    },
+    {
+      "Route": "icons/stethoscope.40brbhofc0.jpg",
+      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:51:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "40brbhofc0"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/stethoscope.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU="
+        }
+      ]
+    },
+    {
+      "Route": "icons/stethoscope.jpg",
+      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:51:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU="
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.jpg",
+      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.mv5giozcqa.jpg",
+      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mv5giozcqa"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/surgery.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
         }
       ]
     },

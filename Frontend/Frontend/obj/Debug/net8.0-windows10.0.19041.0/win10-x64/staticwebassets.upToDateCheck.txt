@@ -7,4 +7,6 @@ wwwroot\icons\games.jpg
 wwwroot\icons\home.jpg
 wwwroot\icons\profile.jpg
 wwwroot\icons\services.jpg
+wwwroot\icons\stethoscope.jpg
+wwwroot\icons\surgery.jpg
 wwwroot\index.html

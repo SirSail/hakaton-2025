@@ -220,6 +220,13 @@ main[b-cj3fj28uav] {
     max-width: 150px;
     margin-bottom: 1rem;
 }
+.kalendarz-dni[b-891k19zvcd] {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+
 
 .kalendarz-dni button[b-891k19zvcd] {
     width: 44px;
@@ -242,6 +249,9 @@ main[b-cj3fj28uav] {
 .lista-zadan[b-891k19zvcd] {
     margin-top: 1rem;
     max-height: 60vh;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
     overflow-y: auto;
     padding-right: 4px;
     padding-bottom: calc(80px + env(safe-area-inset-bottom));
@@ -259,6 +269,9 @@ main[b-cj3fj28uav] {
 
 .card[b-891k19zvcd] {
     background-color: #fff;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
     border-left: 6px solid #4FB89F;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
