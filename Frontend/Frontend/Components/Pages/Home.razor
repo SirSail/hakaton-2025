@@ -3,3 +3,34 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+@Debug
+
+@code
+{
+
+	private string Debug { get; set; } = string.Empty;
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			using var httpClient = new HttpClient();
+			var response = await httpClient.GetAsync($"http://192.168.43.9:5096/siema");
+
+			if (response.IsSuccessStatusCode)
+			{
+				var content = await response.Content.ReadAsStringAsync();
+				Debug = content;
+			}
+			else
+			{
+				Debug = $"Error {response.StatusCode.ToString()}, {response.Content}";
+			}
+		} catch(Exception e)
+		{
+			Debug = e.ToString();
+		}
+
+	}
+}
