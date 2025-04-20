@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\kalendarz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\kalendarz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -96,20 +96,20 @@
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Kalendarz.razor",
               "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor",
               "RelativeToolTip": "Frontend\\Components\\Pages\\Kalendarz.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T20:02:38.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Kalendarz.razor.css",
               "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor.css",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Kalendarz.razor.css",
               "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor.css",
               "RelativeToolTip": "Frontend\\Components\\Pages\\Kalendarz.razor.css",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAUwJUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-18T16:15:02.962Z",
               "EditorCaption": ""
@@ -181,13 +181,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-15T19:34:33.325Z",
               "EditorCaption": ""
@@ -230,10 +230,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-18T16:41:53.576Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

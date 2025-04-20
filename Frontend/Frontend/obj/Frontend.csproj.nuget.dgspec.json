@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {}
+    "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {
+    "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
-        "packagesPath": "C:\\Users\\zegli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\",
+        "projectPath": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\Frontend.csproj",
+        "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zegli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
