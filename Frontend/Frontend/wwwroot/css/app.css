@@ -1,6 +1,13 @@
 ﻿html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: lightgray;
+    background: linear-gradient(135deg, #29C3EE, #2CB45E);
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 a, .btn-link {
