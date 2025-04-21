@@ -1,0 +1,37 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Authorization
+@using Core.API.Services
+
+@attribute [Authorize]
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+@Debug
+
+@code
+{
+    [Inject]
+    private ApiService _apiService{ get; set; }
+
+	private string Debug { get; set; } = string.Empty;
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			var siema = await _apiService.GetAsync<Siema>("siema");
+
+			Debug = siema.Data?.message ?? _apiService.Debug;
+		} catch(Exception e)
+		{
+			Debug = e.ToString();
+		}
+
+	}
+
+	private class Siema
+	{
+		public string message{ get; set; }
+	}
+}
