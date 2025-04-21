@@ -1,4 +1,5 @@
-﻿using Core.API.Services;
+﻿using Core.API.Requests;
+using Core.API.Services;
 using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
 using System.ComponentModel.DataAnnotations;
@@ -11,24 +12,23 @@ namespace Core.Components.Pages
         private ApiService ApiService { get; set; }
 
         private RegisterFormModel FormModel { get; set; } = new();
-        private string Password { get; set; }
-        private int? BirthDay { get; set; }
-        private int? BirthMonth { get; set; }
-        private int? BirthYear { get; set; }
-        private string[] MonthNames { get; set; } = new[]
-        {
-        "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
-        "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"
-    };
-
         private string Debug { get; set; } = string.Empty;
 
         private async Task HandleRegister()
         {
 
-            var error = await ApiService.PostAsync("/api/v1/register-patient", FormModel);
+            RegisterRequest registerRequest = new()
+            {
+                FirstName = FormModel.FirstName,
+                LastName = FormModel.LastName,
+                Email = FormModel.Email,
+                Password = FormModel.Password,
+                BirthDate = FormModel.BirthDate.Value
+            };
 
-            if(error is not null)
+            var error = await ApiService.PostAsync("api/v1/register-patient", registerRequest);
+
+            if(error is null)
             {
                 NavigationManager.NavigateTo("/login");
             }
@@ -61,7 +61,7 @@ namespace Core.Components.Pages
             public string ConfirmPassword { get; set; }
 
             [Required(ErrorMessage = "Data urodzenia jest wymagana")]
-            public DateTime? BirthDate { get; set; }
+            public DateOnly? BirthDate { get; set; }
         }
     }
 }

@@ -1,8 +1,7 @@
-﻿
-using Core.Components.BaseClassess;
+﻿using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
 
-namespace Core.Pages
+namespace Core.Components.Pages
 {
     public partial class Logout : CustomComponentBase
     {
@@ -13,7 +12,7 @@ namespace Core.Pages
             SecureStorage.Remove("auth_token");
 
             CustomAuthStateProvider.NotifyUserLogout();
-            NavigationManager.NavigateTo("/login");
+            NavigationManager.NavigateTo("/login",true);
         }
     }
 }
