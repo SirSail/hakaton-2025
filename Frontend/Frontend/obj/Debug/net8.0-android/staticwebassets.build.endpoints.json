@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "Frontend.8e99lu7gas.styles.css",
+      "Route": "Frontend.a78g4y0gql.styles.css",
       "AssetFile": "Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9992"
+          "Value": "10288"
         },
         {
           "Name": "Content-Type",
@@ -25,21 +25,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
+          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8e99lu7gas"
+          "Value": "a78g4y0gql"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
+          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
         },
         {
           "Name": "label",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9992"
+          "Value": "10288"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM=\""
+          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:03:13 GMT"
+          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0HS3sHPMKm4/EyyrFTqje2zZmWls4fiLL1aWE0mX+kM="
+          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
         }
       ]
     },

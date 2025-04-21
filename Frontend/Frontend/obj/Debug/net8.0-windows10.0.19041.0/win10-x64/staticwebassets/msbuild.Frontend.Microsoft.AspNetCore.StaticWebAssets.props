@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>6258cb4f3o</Fingerprint>
-      <Integrity>YpyMQ+oqTvbFEnNK55jMzvZ8tfc2bMGE7mn0zdvZyTA=</Integrity>
+      <Fingerprint>a78g4y0gql</Fingerprint>
+      <Integrity>eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Frontend.styles.css'))</OriginalItemSpec>
@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yxnmmwz2t6</Fingerprint>
-      <Integrity>StemkOjkBcrDLPMIzg5Y/Y/AmQyo0x/Pce84G5hHdKA=</Integrity>
+      <Fingerprint>40brbhofc0</Fingerprint>
+      <Integrity>dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\stethoscope.jpg'))</OriginalItemSpec>
