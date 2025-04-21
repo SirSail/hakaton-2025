@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {
+    "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
-        "packagesPath": "C:\\Users\\zegli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zegli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -67,6 +67,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.100, )"
@@ -136,6 +140,10 @@
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.100, )"
@@ -193,6 +201,10 @@
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.100, )"
@@ -251,6 +263,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.100, )"

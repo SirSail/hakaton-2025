@@ -1,0 +1,56 @@
+﻿@page "/rejestracja"
+
+<EditForm Model="FormModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="glass-box">
+        <img src="Images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="mb-0" />
+        <h3 class="text-center my-4 mt-0">Rejestracja</h3>
+
+        <div class="container fix-przycisk">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+
+                    <label>Imię</label>
+                    <div class="input-group ramka mb-1">
+                        <input @bind="FormModel.FirstName" class="form-control" placeholder="Imię" />
+                    </div>
+
+                    <label>Nazwisko</label>
+                    <div class="input-group ramka mb-1">
+                        <input @bind="FormModel.LastName" class="form-control" placeholder="Nazwisko" />
+                    </div>
+
+                    <label>Data urodzenia</label>
+                    <div class="input-group ramka kalendarz align-items-center mb-1">
+                        <InputDate @bind-Value="BirthDate" class="form-control mb-3" />
+                    </div>
+
+                    <label>Adres e-mail</label>
+                    <div class="input-group ramka mb-1">
+                        <input @bind="FormModel.Email" class="form-control" placeholder="Adres e-mail" />
+                    </div>
+
+                    <label>Hasło</label>
+                    <div class="input-group ramka mb-1">
+                        <input @bind="FormModel.Password" type="password" class="form-control" placeholder="Hasło" />
+                    </div>
+
+                    <label>Powtórz hasło</label>
+                    <div class="input-group ramka mb-3">
+                        <input @bind="FormModel.ConfirmPassword" type="password" class="form-control" placeholder="Potwierdź hasło" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Zarejestruj się</button>
+
+                    <div class="text-center mt-3">
+                        <span>Masz już konto? </span>
+                        <a href="/logowanie">Zaloguj się</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</EditForm>

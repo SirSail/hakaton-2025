@@ -52,6 +52,42 @@
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\calendar.jpg">
+      <PackagePath>wwwroot\icons\calendar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\games.jpg">
+      <PackagePath>wwwroot\icons\games.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\home.jpg">
+      <PackagePath>wwwroot\icons\home.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\profile.jpg">
+      <PackagePath>wwwroot\icons\profile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\services.jpg">
+      <PackagePath>wwwroot\icons\services.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\stethoscope.jpg">
+      <PackagePath>wwwroot\icons\stethoscope.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\surgery.jpg">
+      <PackagePath>wwwroot\icons\surgery.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_stetoskop.png">
+      <PackagePath>wwwroot\Images\ikony_stetoskop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_stetoskop2.png">
+      <PackagePath>wwwroot\Images\ikony_stetoskop2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_strzykawka.png">
+      <PackagePath>wwwroot\Images\ikony_strzykawka.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\szpital_brzeziny_logo_podstawowe.png">
+      <PackagePath>wwwroot\Images\szpital_brzeziny_logo_podstawowe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\szpital_brzeziny_logo_uzupelniajace.png">
+      <PackagePath>wwwroot\Images\szpital_brzeziny_logo_uzupelniajace.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
@@ -235,11 +271,14 @@
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.authorization\8.0.10\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.authorization\8.0.15\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components\8.0.10\lib\net8.0\Microsoft.AspNetCore.Components.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components\8.0.15\lib\net8.0\Microsoft.AspNetCore.Components.dll">
       <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components.authorization\8.0.15\lib\net8.0\Microsoft.AspNetCore.Components.Authorization.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.Authorization.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components.forms\8.0.10\lib\net8.0\Microsoft.AspNetCore.Components.Forms.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
@@ -253,7 +292,7 @@
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components.webview.maui\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.dll">
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.metadata\8.0.10\lib\net8.0\Microsoft.AspNetCore.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.metadata\8.0.15\lib\net8.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
@@ -295,7 +334,7 @@
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.3\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.debug\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
@@ -509,13 +548,22 @@
       <PackagePath>wwwroot\Frontend.styles.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Frontend.bundle.scp.css">
-      <PackagePath>wwwroot\Frontend.vvfjsmkxft.bundle.scp.css</PackagePath>
+      <PackagePath>wwwroot\Frontend.nssp47smih.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Kalendarz.razor.css">
+      <PackagePath>Components\Pages\Kalendarz.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Login.razor.css">
+      <PackagePath>Components\Pages\Login.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Rejestracja.razor.css">
+      <PackagePath>Components\Pages\Rejestracja.razor.css</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

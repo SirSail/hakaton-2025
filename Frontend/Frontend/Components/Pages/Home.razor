@@ -1,5 +1,8 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Authorization
+@using Frontend.API.Services
 
+@attribute [Authorize]
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
@@ -8,6 +11,8 @@ Welcome to your new app.
 
 @code
 {
+    [Inject]
+    private ApiService _apiService{ get; set; }
 
 	private string Debug { get; set; } = string.Empty;
 
@@ -15,22 +20,18 @@ Welcome to your new app.
 	{
 		try
 		{
-			using var httpClient = new HttpClient();
-			var response = await httpClient.GetAsync($"http://192.168.43.9:5096/siema");
+			var siema = await _apiService.GetAsync<Siema>("siema");
 
-			if (response.IsSuccessStatusCode)
-			{
-				var content = await response.Content.ReadAsStringAsync();
-				Debug = content;
-			}
-			else
-			{
-				Debug = $"Error {response.StatusCode.ToString()}, {response.Content}";
-			}
+			Debug = siema.Data?.message ?? _apiService.Debug;
 		} catch(Exception e)
 		{
 			Debug = e.ToString();
 		}
 
+	}
+
+	private class Siema
+	{
+		public string message{ get; set; }
 	}
 }

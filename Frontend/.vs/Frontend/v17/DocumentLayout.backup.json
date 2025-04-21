@@ -1,82 +1,130 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\",
+  "WorkspaceRootPath": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\kalendarz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\kalendarz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\kalendarz.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\logowanie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\logowanie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\logowanie.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\logowanie.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\rejestracja.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\rejestracja.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\api\\stateproviders\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\api\\stateproviders\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\pages\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\baseclassess\\customcomponentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\baseclassess\\customcomponentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\main.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\main.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\redirecttologin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\redirecttologin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\frontend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\frontend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\main.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\main.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\rejestracja.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\rejestracja.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\zegli\\source\\repos\\hakaton\\frontend\\frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\api\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\api\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\api\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\api\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\api\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\api\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|c:\\users\\igor\\desktop\\hakaton\\frontend\\frontend\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D956E570-81D6-43EB-AAFD-F4B368820402}|Frontend\\Frontend.csproj|solutionrelative:frontend\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,257 +134,394 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 27,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Kalendarz.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Kalendarz.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Kalendarz.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T20:02:38.364Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Kalendarz.razor.css",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor.css",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Kalendarz.razor.css",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Kalendarz.razor.css",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Kalendarz.razor.css",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAUwJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-18T16:15:02.962Z",
+              "DocumentIndex": 3,
+              "Title": "Logout.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logout.razor.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Logout.razor.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logout.razor.cs",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Logout.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:19:53.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Rejestracja.razor.css",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Rejestracja.razor.css",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Rejestracja.razor.css",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Rejestracja.razor.css",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Rejestracja.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-18T15:51:05.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appiconfg.svg",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Resources\\AppIcon\\appiconfg.svg",
-              "RelativeDocumentMoniker": "Frontend\\Resources\\AppIcon\\appiconfg.svg",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Resources\\AppIcon\\appiconfg.svg",
-              "RelativeToolTip": "Frontend\\Resources\\AppIcon\\appiconfg.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-04-18T16:28:58.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Logowanie.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logowanie.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Logowanie.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logowanie.razor",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Logowanie.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logout.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T20:00:47.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "Frontend\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
-              "RelativeToolTip": "Frontend\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-18T15:58:10.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T20:17:06.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T19:34:33.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Logowanie.razor.css",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logowanie.razor.css",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Logowanie.razor.css",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Logowanie.razor.css",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Logowanie.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-16T20:02:02.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Frontend\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T19:34:35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAUwGkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-18T16:41:53.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "Frontend\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "Frontend\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-16T20:10:50.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Frontend\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\MainPage.xaml",
-              "RelativeToolTip": "Frontend\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T16:32:42.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appicon.svg",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Resources\\AppIcon\\appicon.svg",
-              "RelativeDocumentMoniker": "Frontend\\Resources\\AppIcon\\appicon.svg",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Resources\\AppIcon\\appicon.svg",
-              "RelativeToolTip": "Frontend\\Resources\\AppIcon\\appicon.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-04-18T16:28:55.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Routes.razor",
-              "RelativeToolTip": "Frontend\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T16:01:02.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\_Imports.razor",
-              "RelativeToolTip": "Frontend\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T16:01:00.567Z",
+              "WhenOpened": "2025-04-21T15:19:45.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Rejestracja.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Rejestracja.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Rejestracja.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Rejestracja.razor",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Rejestracja.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwJcAAAABAAAAAAAAAA==",
+              "Title": "Main.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Main.razor.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Main.razor.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Main.razor.cs",
+              "RelativeToolTip": "Frontend\\Components\\Main.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:05:25.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RedirectToLogin.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\RedirectToLogin.razor.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\RedirectToLogin.razor.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\RedirectToLogin.razor.cs",
+              "RelativeToolTip": "Frontend\\Components\\RedirectToLogin.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:00:58.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\RedirectToLogin.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\RedirectToLogin.razor",
+              "RelativeToolTip": "Frontend\\Components\\RedirectToLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T15:50:39.911Z",
+              "WhenOpened": "2025-04-21T13:56:59.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomComponentBase.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\BaseClassess\\CustomComponentBase.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\BaseClassess\\CustomComponentBase.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\BaseClassess\\CustomComponentBase.cs",
+              "RelativeToolTip": "Frontend\\Components\\BaseClassess\\CustomComponentBase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:24:59.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.cs",
+              "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:13:40.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:39:21.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T11:53:36.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MainPage.xaml.cs",
+              "RelativeToolTip": "Frontend\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:14:14.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Frontend.csproj",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+              "RelativeDocumentMoniker": "Frontend\\Frontend.csproj",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+              "RelativeToolTip": "Frontend\\Frontend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T11:01:21.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\ApiError.cs",
+              "RelativeDocumentMoniker": "Frontend\\API\\ApiError.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\ApiError.cs",
+              "RelativeToolTip": "Frontend\\API\\ApiError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:22:38.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Frontend\\API\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\ApiResponse.cs",
+              "RelativeToolTip": "Frontend\\API\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:20:48.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Frontend\\API\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\Services\\ApiService.cs",
+              "RelativeToolTip": "Frontend\\API\\Services\\ApiService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:16:33.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\StateProviders\\CustomAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "Frontend\\API\\StateProviders\\CustomAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\API\\StateProviders\\CustomAuthStateProvider.cs",
+              "RelativeToolTip": "Frontend\\API\\StateProviders\\CustomAuthStateProvider.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:13:30.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-20T22:38:00.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Frontend",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+              "RelativeDocumentMoniker": "Frontend\\Frontend.csproj",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Frontend.csproj",
+              "RelativeToolTip": "Frontend\\Frontend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-20T22:17:46.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Frontend\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MainPage.xaml",
+              "RelativeToolTip": "Frontend\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T21:38:31.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\App.xaml.cs",
+              "RelativeToolTip": "Frontend\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:56:56.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Routes.razor",
+              "RelativeToolTip": "Frontend\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T20:26:28.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Main.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Main.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Main.razor",
+              "RelativeToolTip": "Frontend\\Components\\Main.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T20:25:43.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Frontend\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\MauiProgram.cs",
+              "RelativeToolTip": "Frontend\\MauiProgram.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:21:26.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Frontend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Frontend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T20:20:48.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\App.xaml",
               "RelativeDocumentMoniker": "Frontend\\App.xaml",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\App.xaml",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\App.xaml",
               "RelativeToolTip": "Frontend\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T16:03:15.015Z",
+              "WhenOpened": "2025-04-20T20:20:38.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Frontend\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Frontend\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:20:10.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Frontend\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Frontend\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:20:09.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Frontend\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T20:19:58.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\zegli\\source\\repos\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Frontend\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T16:01:05.253Z",
+              "WhenOpened": "2025-04-20T20:19:48.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-20T20:07:35.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\.gitignore",
+              "RelativeDocumentMoniker": "Frontend\\.gitignore",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\.gitignore",
+              "RelativeToolTip": "Frontend\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-20T18:34:42.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T20:17:06.877Z",
               "EditorCaption": ""
             }
           ]

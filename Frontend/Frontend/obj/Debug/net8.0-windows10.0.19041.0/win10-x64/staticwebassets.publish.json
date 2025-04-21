@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "43QSreY3J22W8Mdn/CWpbXaMc5M/BLvq6H4diaMKAHQ=",
+  "Hash": "ck+YPZJCtojlsxmsaTTjIuO3GIzQvLfsNhKLwUKdT+o=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vvfjsmkxft",
-      "Integrity": "Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=",
+      "Fingerprint": "taze15xo83",
+      "Integrity": "NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vvfjsmkxft",
-      "Integrity": "Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=",
+      "Fingerprint": "taze15xo83",
+      "Integrity": "NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dex3usdpik",
-      "Integrity": "K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=",
+      "Fingerprint": "kgnoo6svn6",
+      "Integrity": "PAMJcsbCEaL6Pq/Wi8tmjqrAhpfRtkG5jUVDJ9rlUhM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -143,6 +143,258 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/calendar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92400os2dl",
+      "Integrity": "b0v9QiwR6/LCsa0OrZymApv7ZiXTGIjegWaNwaPvgh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\calendar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/games#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ajehcwwtj",
+      "Integrity": "30Uf0K6msV2rV25kPah1Lv6fG/hf3ZVQBUn3HLX+HhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\games.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/home#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o98386ou7o",
+      "Integrity": "ZNOkuabzxC+ZFXffwwbur9+yi7o78x+vtrRdUGt9MWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\home.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwgh2ruvqh",
+      "Integrity": "MGLlAnlojHWMmuED0zGFxWuY/A4Ay1kARO8v48nhxxs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/services#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7sfhkkazzm",
+      "Integrity": "Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\services.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/stethoscope#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "40brbhofc0",
+      "Integrity": "dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\stethoscope.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/surgery#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mv5giozcqa",
+      "Integrity": "wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\surgery.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_stetoskop#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e9ocfd4qht",
+      "Integrity": "0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_stetoskop.png"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_stetoskop2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqh48yyrmv",
+      "Integrity": "0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_stetoskop2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_strzykawka#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8lr29md8c5",
+      "Integrity": "1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_strzykawka.png"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/szpital_brzeziny_logo_podstawowe#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzvtxxyjwg",
+      "Integrity": "2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png"
+    },
+    {
+      "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/szpital_brzeziny_logo_uzupelniajace#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmixgxhwt5",
+      "Integrity": "Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png"
+    },
+    {
       "Identity": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
@@ -157,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nnmjaex12q",
-      "Integrity": "c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=",
+      "Fingerprint": "35h8si1rcs",
+      "Integrity": "x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -176,7 +428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3557"
         },
         {
           "Name": "Content-Type",
@@ -184,11 +436,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"PAMJcsbCEaL6Pq/Wi8tmjqrAhpfRtkG5jUVDJ9rlUhM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -198,12 +450,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-PAMJcsbCEaL6Pq/Wi8tmjqrAhpfRtkG5jUVDJ9rlUhM="
         }
       ]
     },
     {
-      "Route": "css/app.dex3usdpik.css",
+      "Route": "css/app.kgnoo6svn6.css",
       "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -213,7 +465,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3557"
         },
         {
           "Name": "Content-Type",
@@ -221,11 +473,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"PAMJcsbCEaL6Pq/Wi8tmjqrAhpfRtkG5jUVDJ9rlUhM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -235,7 +487,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dex3usdpik"
+          "Value": "kgnoo6svn6"
         },
         {
           "Name": "label",
@@ -243,7 +495,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-PAMJcsbCEaL6Pq/Wi8tmjqrAhpfRtkG5jUVDJ9rlUhM="
         }
       ]
     },
@@ -504,7 +756,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "11062"
         },
         {
           "Name": "Content-Type",
@@ -512,11 +764,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Mon, 21 Apr 2025 15:57:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,7 +778,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE="
         }
       ]
     },
@@ -541,7 +793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "11062"
         },
         {
           "Name": "Content-Type",
@@ -549,11 +801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Mon, 21 Apr 2025 15:57:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -563,12 +815,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE="
         }
       ]
     },
     {
-      "Route": "Frontend.vvfjsmkxft.bundle.scp.css",
+      "Route": "Frontend.taze15xo83.bundle.scp.css",
       "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -578,7 +830,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "11062"
         },
         {
           "Name": "Content-Type",
@@ -586,11 +838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Mon, 21 Apr 2025 15:57:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -600,7 +852,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvfjsmkxft"
+          "Value": "taze15xo83"
         },
         {
           "Name": "label",
@@ -608,12 +860,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE="
         }
       ]
     },
     {
-      "Route": "Frontend.vvfjsmkxft.styles.css",
+      "Route": "Frontend.taze15xo83.styles.css",
       "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -623,7 +875,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "11062"
         },
         {
           "Name": "Content-Type",
@@ -631,11 +883,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs=\""
+          "Value": "\"NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Mon, 21 Apr 2025 15:57:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -645,7 +897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvfjsmkxft"
+          "Value": "taze15xo83"
         },
         {
           "Name": "label",
@@ -653,7 +905,1036 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kws8ICm8OnVOzgVY8JeYvShZ4kVVa2YSRWyNlwXOhzs="
+          "Value": "sha256-NY+EtI8l4uxbIrqKPnm2e3rYvIIf9NTad0ErGybokrE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/calendar.92400os2dl.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b0v9QiwR6/LCsa0OrZymApv7ZiXTGIjegWaNwaPvgh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92400os2dl"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/calendar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b0v9QiwR6/LCsa0OrZymApv7ZiXTGIjegWaNwaPvgh0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/calendar.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b0v9QiwR6/LCsa0OrZymApv7ZiXTGIjegWaNwaPvgh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b0v9QiwR6/LCsa0OrZymApv7ZiXTGIjegWaNwaPvgh0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/games.9ajehcwwtj.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30Uf0K6msV2rV25kPah1Lv6fG/hf3ZVQBUn3HLX+HhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ajehcwwtj"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/games.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-30Uf0K6msV2rV25kPah1Lv6fG/hf3ZVQBUn3HLX+HhQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/games.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30Uf0K6msV2rV25kPah1Lv6fG/hf3ZVQBUn3HLX+HhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-30Uf0K6msV2rV25kPah1Lv6fG/hf3ZVQBUn3HLX+HhQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/home.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNOkuabzxC+ZFXffwwbur9+yi7o78x+vtrRdUGt9MWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNOkuabzxC+ZFXffwwbur9+yi7o78x+vtrRdUGt9MWc="
+        }
+      ]
+    },
+    {
+      "Route": "icons/home.o98386ou7o.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNOkuabzxC+ZFXffwwbur9+yi7o78x+vtrRdUGt9MWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o98386ou7o"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/home.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNOkuabzxC+ZFXffwwbur9+yi7o78x+vtrRdUGt9MWc="
+        }
+      ]
+    },
+    {
+      "Route": "icons/profile.gwgh2ruvqh.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MGLlAnlojHWMmuED0zGFxWuY/A4Ay1kARO8v48nhxxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwgh2ruvqh"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MGLlAnlojHWMmuED0zGFxWuY/A4Ay1kARO8v48nhxxs="
+        }
+      ]
+    },
+    {
+      "Route": "icons/profile.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MGLlAnlojHWMmuED0zGFxWuY/A4Ay1kARO8v48nhxxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MGLlAnlojHWMmuED0zGFxWuY/A4Ay1kARO8v48nhxxs="
+        }
+      ]
+    },
+    {
+      "Route": "icons/services.7sfhkkazzm.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7sfhkkazzm"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/services.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc="
+        }
+      ]
+    },
+    {
+      "Route": "icons/services.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jy7WQovdI7QGm8o4YAQSNpKmuOyja4U73K+pyOSBGOc="
+        }
+      ]
+    },
+    {
+      "Route": "icons/stethoscope.40brbhofc0.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "40brbhofc0"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/stethoscope.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU="
+        }
+      ]
+    },
+    {
+      "Route": "icons/stethoscope.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH9N2FiOjv09ybkY7MmAVxHtKF9CSvyxmQaAGwOPvzU="
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/surgery.mv5giozcqa.jpg",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mv5giozcqa"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/surgery.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmNkBth1eVNntHaW0MYQzM7L3CxXv6JxQv68ZOuOfFA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop.e9ocfd4qht.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e9ocfd4qht"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ikony_stetoskop.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop2.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop2.pqh48yyrmv.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqh48yyrmv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ikony_stetoskop2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_strzykawka.8lr29md8c5.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lr29md8c5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ikony_strzykawka.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_strzykawka.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_podstawowe.bzvtxxyjwg.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzvtxxyjwg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/szpital_brzeziny_logo_podstawowe.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_podstawowe.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_uzupelniajace.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_uzupelniajace.xmixgxhwt5.png",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 19:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmixgxhwt5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/szpital_brzeziny_logo_uzupelniajace.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc="
+        }
+      ]
+    },
+    {
+      "Route": "index.35h8si1rcs.html",
+      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35h8si1rcs"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
         }
       ]
     },
@@ -668,7 +1949,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "873"
+          "Value": "1006"
         },
         {
           "Name": "Content-Type",
@@ -676,11 +1957,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=\""
+          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
+          "Value": "Sat, 19 Apr 2025 17:57:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -690,52 +1971,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY="
-        }
-      ]
-    },
-    {
-      "Route": "index.nnmjaex12q.html",
-      "AssetFile": "C:\\Users\\Igor\\Desktop\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "873"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nnmjaex12q"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c4u8duUWyypBNtcj/LxtoBurg/KrsHmH3KgcfRLUhfY="
+          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
         }
       ]
     }

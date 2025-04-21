@@ -15,6 +15,12 @@ namespace API.Controllers
             _authenticateService = authenticateService;
         }
 
+        [HttpGet("siema")]
+        public IResult Siema()
+        {
+            return Results.Ok(new { message = "siema" });
+        }
+
         [HttpPost("api/v1/authorize")]
         public async Task<IResult> Result([FromBody] AuthorizeRequest request)
         {

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-15T19:31:35.242</Modified>
+      <Modified>2025-04-21T15:34:44.686</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-15T19:31:34.759</Modified>
+      <Modified>2025-04-21T14:14:17.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Frontend.runtimeconfig.json">
       <PackagePath>Frontend.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-15T19:31:33.168</Modified>
+      <Modified>2025-04-21T14:14:14.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Frontend.dll">
       <PackagePath>Frontend.dll</PackagePath>
-      <Modified>2025-04-15T19:31:28.894</Modified>
+      <Modified>2025-04-21T15:34:43.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Frontend.exe</PackagePath>
-      <Modified>2025-04-15T19:31:29.111</Modified>
+      <Modified>2025-04-21T15:34:43.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2025-04-15T19:04:14.972</Modified>
+      <Modified>2025-04-20T19:30:53.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -69,241 +69,289 @@
       <PackagePath>wwwroot\favicon.png</PackagePath>
       <Modified>2025-04-15T19:04:14.980</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\calendar.jpg">
+      <PackagePath>wwwroot\icons\calendar.jpg</PackagePath>
+      <Modified>2025-04-19T17:57:06.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\games.jpg">
+      <PackagePath>wwwroot\icons\games.jpg</PackagePath>
+      <Modified>2025-04-19T17:57:06.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\home.jpg">
+      <PackagePath>wwwroot\icons\home.jpg</PackagePath>
+      <Modified>2025-04-19T17:57:06.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\profile.jpg">
+      <PackagePath>wwwroot\icons\profile.jpg</PackagePath>
+      <Modified>2025-04-19T17:57:06.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\services.jpg">
+      <PackagePath>wwwroot\icons\services.jpg</PackagePath>
+      <Modified>2025-04-19T17:57:06.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\stethoscope.jpg">
+      <PackagePath>wwwroot\icons\stethoscope.jpg</PackagePath>
+      <Modified>2025-04-20T19:30:53.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\icons\surgery.jpg">
+      <PackagePath>wwwroot\icons\surgery.jpg</PackagePath>
+      <Modified>2025-04-20T19:30:53.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_stetoskop.png">
+      <PackagePath>wwwroot\Images\ikony_stetoskop.png</PackagePath>
+      <Modified>2025-04-20T19:30:53.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_stetoskop2.png">
+      <PackagePath>wwwroot\Images\ikony_stetoskop2.png</PackagePath>
+      <Modified>2025-04-20T19:30:53.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\ikony_strzykawka.png">
+      <PackagePath>wwwroot\Images\ikony_strzykawka.png</PackagePath>
+      <Modified>2025-04-20T19:30:53.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\szpital_brzeziny_logo_podstawowe.png">
+      <PackagePath>wwwroot\Images\szpital_brzeziny_logo_podstawowe.png</PackagePath>
+      <Modified>2025-04-20T19:30:53.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\Images\szpital_brzeziny_logo_uzupelniajace.png">
+      <PackagePath>wwwroot\Images\szpital_brzeziny_logo_uzupelniajace.png</PackagePath>
+      <Modified>2025-04-20T19:30:53.166</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2025-04-15T19:04:14.981</Modified>
+      <Modified>2025-04-19T17:57:06.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.911</Modified>
+      <Modified>2025-04-21T14:12:04.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.913</Modified>
+      <Modified>2025-04-21T14:12:04.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.914</Modified>
+      <Modified>2025-04-21T14:12:04.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.916</Modified>
+      <Modified>2025-04-21T14:12:04.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.917</Modified>
+      <Modified>2025-04-21T14:12:05.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-04-15T19:04:14.834</Modified>
+      <Modified>2025-04-15T19:04:09.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-15T19:04:14.838</Modified>
+      <Modified>2025-04-21T14:12:11.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.840</Modified>
+      <Modified>2025-04-21T14:12:11.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.841</Modified>
+      <Modified>2025-04-21T14:12:11.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.843</Modified>
+      <Modified>2025-04-21T14:12:11.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.844</Modified>
+      <Modified>2025-04-21T14:12:11.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.845</Modified>
+      <Modified>2025-04-21T14:12:11.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.846</Modified>
+      <Modified>2025-04-21T14:12:11.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.847</Modified>
+      <Modified>2025-04-21T14:12:11.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.848</Modified>
+      <Modified>2025-04-21T14:12:11.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.849</Modified>
+      <Modified>2025-04-21T14:12:11.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.850</Modified>
+      <Modified>2025-04-21T14:12:11.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.851</Modified>
+      <Modified>2025-04-21T14:12:11.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.852</Modified>
+      <Modified>2025-04-21T14:12:11.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.854</Modified>
+      <Modified>2025-04-21T14:12:11.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.855</Modified>
+      <Modified>2025-04-21T14:12:11.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.857</Modified>
+      <Modified>2025-04-21T14:12:11.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.858</Modified>
+      <Modified>2025-04-21T14:12:11.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.859</Modified>
+      <Modified>2025-04-21T14:12:11.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.860</Modified>
+      <Modified>2025-04-21T14:12:11.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.861</Modified>
+      <Modified>2025-04-21T14:12:11.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.863</Modified>
+      <Modified>2025-04-21T14:12:11.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.864</Modified>
+      <Modified>2025-04-21T14:12:11.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.865</Modified>
+      <Modified>2025-04-21T14:12:11.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.866</Modified>
+      <Modified>2025-04-21T14:12:11.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.867</Modified>
+      <Modified>2025-04-21T14:12:11.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.868</Modified>
+      <Modified>2025-04-21T14:12:11.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.871</Modified>
+      <Modified>2025-04-21T14:12:11.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.873</Modified>
+      <Modified>2025-04-21T14:12:11.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.874</Modified>
+      <Modified>2025-04-21T14:12:11.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.876</Modified>
+      <Modified>2025-04-21T14:12:11.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.878</Modified>
+      <Modified>2025-04-21T14:12:11.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.879</Modified>
+      <Modified>2025-04-21T14:12:11.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.880</Modified>
+      <Modified>2025-04-21T14:12:11.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.882</Modified>
+      <Modified>2025-04-21T14:12:11.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.883</Modified>
+      <Modified>2025-04-21T14:12:11.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.884</Modified>
+      <Modified>2025-04-21T14:12:11.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.886</Modified>
+      <Modified>2025-04-21T14:12:11.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.887</Modified>
+      <Modified>2025-04-21T14:12:11.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.889</Modified>
+      <Modified>2025-04-21T14:12:11.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.890</Modified>
+      <Modified>2025-04-21T14:12:11.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.891</Modified>
+      <Modified>2025-04-21T14:12:11.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.892</Modified>
+      <Modified>2025-04-21T14:12:11.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.894</Modified>
+      <Modified>2025-04-21T14:12:11.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.895</Modified>
+      <Modified>2025-04-21T14:12:11.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.897</Modified>
+      <Modified>2025-04-21T14:12:11.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.898</Modified>
+      <Modified>2025-04-21T14:12:11.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.899</Modified>
+      <Modified>2025-04-21T14:12:11.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.901</Modified>
+      <Modified>2025-04-21T14:12:11.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.904</Modified>
+      <Modified>2025-04-21T14:12:11.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.907</Modified>
+      <Modified>2025-04-21T14:12:11.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-15T19:04:14.910</Modified>
+      <Modified>2025-04-21T14:12:11.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Frontend.deps.json">
       <PackagePath>Frontend.deps.json</PackagePath>
-      <Modified>2025-04-15T19:31:32.221</Modified>
+      <Modified>2025-04-21T14:14:12.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -313,13 +361,17 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.authorization\8.0.10\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.authorization\8.0.15\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
-      <Modified>2024-09-18T18:38:38.000</Modified>
+      <Modified>2025-03-16T00:05:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components\8.0.10\lib\net8.0\Microsoft.AspNetCore.Components.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components\8.0.15\lib\net8.0\Microsoft.AspNetCore.Components.dll">
       <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
-      <Modified>2024-09-18T18:38:26.000</Modified>
+      <Modified>2025-03-16T00:05:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components.authorization\8.0.15\lib\net8.0\Microsoft.AspNetCore.Components.Authorization.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.Authorization.dll</PackagePath>
+      <Modified>2025-03-16T00:05:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.components.forms\8.0.10\lib\net8.0\Microsoft.AspNetCore.Components.Forms.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
@@ -337,9 +389,9 @@
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
       <Modified>2024-11-07T17:33:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.metadata\8.0.10\lib\net8.0\Microsoft.AspNetCore.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.aspnetcore.metadata\8.0.15\lib\net8.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
-      <Modified>2024-09-18T18:38:30.000</Modified>
+      <Modified>2025-03-16T00:05:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -393,9 +445,9 @@
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
       <Modified>2024-09-16T23:10:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.3\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2024-09-16T23:09:58.000</Modified>
+      <Modified>2025-01-16T18:55:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.extensions.logging.debug\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
@@ -659,7 +711,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>Frontend.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-04-15T19:31:01.754</Modified>
+      <Modified>2025-04-21T14:11:41.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -675,19 +727,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Frontend.styles.css">
       <PackagePath>wwwroot\Frontend.styles.css</PackagePath>
-      <Modified>2025-04-15T19:04:14.924</Modified>
+      <Modified>2025-04-21T14:11:40.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Frontend.bundle.scp.css">
-      <PackagePath>wwwroot\Frontend.vvfjsmkxft.bundle.scp.css</PackagePath>
-      <Modified>2025-04-15T19:04:14.925</Modified>
+      <PackagePath>wwwroot\Frontend.nssp47smih.bundle.scp.css</PackagePath>
+      <Modified>2025-04-21T14:11:40.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
-      <Modified>2025-04-15T19:04:09.525</Modified>
+      <Modified>2025-04-19T17:57:05.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
       <Modified>2025-04-15T19:04:09.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Kalendarz.razor.css">
+      <PackagePath>Components\Pages\Kalendarz.razor.css</PackagePath>
+      <Modified>2025-04-20T19:30:52.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Login.razor.css">
+      <PackagePath>Components\Pages\Login.razor.css</PackagePath>
+      <Modified>2025-04-20T19:30:52.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Igor\Desktop\hakaton\Frontend\Frontend\Components\Pages\Rejestracja.razor.css">
+      <PackagePath>Components\Pages\Rejestracja.razor.css</PackagePath>
+      <Modified>2025-04-20T19:30:52.373</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
