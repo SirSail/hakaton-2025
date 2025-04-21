@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9chvI9ZGrBR0H3QR22HmNGPn3ZhtN6gy5jDLwHcOesw=",
+  "Hash": "vAf0S1diIoY4n9hvXvQ3FipHVpbQkp35JSMBmWLKw+c=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "Frontend\\wwwroot",
       "Source": "Frontend",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "SourceId": "Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "Frontend#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "a78g4y0gql",
-      "Integrity": "eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=",
+      "Fingerprint": "8ofu37hn63",
+      "Integrity": "2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "SourceId": "Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "Frontend#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -52,17 +52,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "a78g4y0gql",
-      "Integrity": "eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=",
+      "Fingerprint": "8ofu37hn63",
+      "Integrity": "2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zek4u3zi4d",
-      "Integrity": "pUX0DSCgpZKvFN/+ysR5+xIfc/kB1BB9rtzZ1+DqsYA=",
+      "Fingerprint": "v2o34x1bjz",
+      "Integrity": "Wetcdwm6fk++gm2cSDNhoayPSNpgFZeSET+m8Sb8220=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6gzpyzhau4",
-      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/calendar#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\calendar.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/games#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\games.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/home#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\home.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/profile#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\profile.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/services#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\services.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/stethoscope#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\stethoscope.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icons/surgery#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,115 @@
       "OriginalItemSpec": "wwwroot\\icons\\surgery.jpg"
     },
     {
-      "Identity": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
       "SourceId": "Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_stetoskop#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e9ocfd4qht",
+      "Integrity": "0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_stetoskop.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_stetoskop2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqh48yyrmv",
+      "Integrity": "0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_stetoskop2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/ikony_strzykawka#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8lr29md8c5",
+      "Integrity": "1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ikony_strzykawka.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/szpital_brzeziny_logo_podstawowe#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzvtxxyjwg",
+      "Integrity": "2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/szpital_brzeziny_logo_uzupelniajace#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmixgxhwt5",
+      "Integrity": "Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -304,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "35h8si1rcs",
-      "Integrity": "x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=",
+      "Fingerprint": "4xwyoo5ngz",
+      "Integrity": "2JyB8mel21PQcHGfekWWkXNTYvT+AA38AtdMLFPNsdI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -314,7 +419,7 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -323,7 +428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3375"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -331,11 +436,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pUX0DSCgpZKvFN/+ysR5+xIfc/kB1BB9rtzZ1+DqsYA=\""
+          "Value": "\"Wetcdwm6fk++gm2cSDNhoayPSNpgFZeSET+m8Sb8220=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:42:06 GMT"
+          "Value": "Sun, 20 Apr 2025 10:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -345,13 +450,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pUX0DSCgpZKvFN/+ysR5+xIfc/kB1BB9rtzZ1+DqsYA="
+          "Value": "sha256-Wetcdwm6fk++gm2cSDNhoayPSNpgFZeSET+m8Sb8220="
         }
       ]
     },
     {
-      "Route": "css/app.zek4u3zi4d.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Route": "css/app.v2o34x1bjz.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -360,7 +465,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3375"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -368,11 +473,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pUX0DSCgpZKvFN/+ysR5+xIfc/kB1BB9rtzZ1+DqsYA=\""
+          "Value": "\"Wetcdwm6fk++gm2cSDNhoayPSNpgFZeSET+m8Sb8220=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:42:06 GMT"
+          "Value": "Sun, 20 Apr 2025 10:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -382,7 +487,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zek4u3zi4d"
+          "Value": "v2o34x1bjz"
         },
         {
           "Name": "label",
@@ -390,13 +495,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pUX0DSCgpZKvFN/+ysR5+xIfc/kB1BB9rtzZ1+DqsYA="
+          "Value": "sha256-Wetcdwm6fk++gm2cSDNhoayPSNpgFZeSET+m8Sb8220="
         }
       ]
     },
     {
-      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -405,7 +510,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -413,11 +518,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -427,7 +532,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6gzpyzhau4"
+          "Value": "bpk8xqwxhs"
         },
         {
           "Name": "label",
@@ -435,13 +540,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -450,7 +555,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -458,11 +563,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -472,13 +577,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -499,7 +604,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -523,7 +628,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -544,7 +649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -560,7 +665,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -581,7 +686,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -605,7 +710,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -626,7 +731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:27:57 GMT"
+          "Value": "Wed, 16 Apr 2025 12:49:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -641,8 +746,8 @@
       ]
     },
     {
-      "Route": "Frontend.a78g4y0gql.bundle.scp.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "Route": "Frontend.8ofu37hn63.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -651,7 +756,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10288"
+          "Value": "11069"
         },
         {
           "Name": "Content-Type",
@@ -659,11 +764,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
+          "Value": "\"2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
+          "Value": "Sun, 20 Apr 2025 16:47:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -673,7 +778,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a78g4y0gql"
+          "Value": "8ofu37hn63"
         },
         {
           "Name": "label",
@@ -681,13 +786,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
+          "Value": "sha256-2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY="
         }
       ]
     },
     {
-      "Route": "Frontend.a78g4y0gql.styles.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "Route": "Frontend.8ofu37hn63.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -696,7 +801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10288"
+          "Value": "11069"
         },
         {
           "Name": "Content-Type",
@@ -704,11 +809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
+          "Value": "\"2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
+          "Value": "Sun, 20 Apr 2025 16:47:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -718,7 +823,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a78g4y0gql"
+          "Value": "8ofu37hn63"
         },
         {
           "Name": "label",
@@ -726,13 +831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
+          "Value": "sha256-2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY="
         }
       ]
     },
     {
       "Route": "Frontend.bundle.scp.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -741,7 +846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10288"
+          "Value": "11069"
         },
         {
           "Name": "Content-Type",
@@ -749,11 +854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
+          "Value": "\"2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
+          "Value": "Sun, 20 Apr 2025 16:47:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -763,13 +868,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
+          "Value": "sha256-2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY="
         }
       ]
     },
     {
       "Route": "Frontend.styles.css",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -778,7 +883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10288"
+          "Value": "11069"
         },
         {
           "Name": "Content-Type",
@@ -786,11 +891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo=\""
+          "Value": "\"2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:06:16 GMT"
+          "Value": "Sun, 20 Apr 2025 16:47:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -800,13 +905,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eiZCD6kgXTz1Lm6b+8Xbcv6pPQZJV/nxhagcbX+KRxo="
+          "Value": "sha256-2NkGAA7BCiNbeSojMGxXtoDsmLtTSSqk0oXy7zb6RdY="
         }
       ]
     },
     {
       "Route": "icons/calendar.92400os2dl.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -827,7 +932,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:30:51 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -851,7 +956,7 @@
     },
     {
       "Route": "icons/calendar.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -872,7 +977,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:30:51 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -888,7 +993,7 @@
     },
     {
       "Route": "icons/games.9ajehcwwtj.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -909,7 +1014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:33 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -933,7 +1038,7 @@
     },
     {
       "Route": "icons/games.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -954,7 +1059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:33 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -970,7 +1075,7 @@
     },
     {
       "Route": "icons/home.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -991,7 +1096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:26 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1007,7 +1112,7 @@
     },
     {
       "Route": "icons/home.o98386ou7o.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1028,7 +1133,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:26 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1052,7 +1157,7 @@
     },
     {
       "Route": "icons/profile.gwgh2ruvqh.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1073,7 +1178,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:42 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1097,7 +1202,7 @@
     },
     {
       "Route": "icons/profile.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1118,7 +1223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:42 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1134,7 +1239,7 @@
     },
     {
       "Route": "icons/services.7sfhkkazzm.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1155,7 +1260,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:17 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1179,7 +1284,7 @@
     },
     {
       "Route": "icons/services.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1200,7 +1305,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:31:17 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1216,7 +1321,7 @@
     },
     {
       "Route": "icons/stethoscope.40brbhofc0.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1237,7 +1342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 17:51:16 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1261,7 +1366,7 @@
     },
     {
       "Route": "icons/stethoscope.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1282,7 +1387,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 17:51:16 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1298,7 +1403,7 @@
     },
     {
       "Route": "icons/surgery.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1319,7 +1424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1335,7 +1440,7 @@
     },
     {
       "Route": "icons/surgery.mv5giozcqa.jpg",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1356,7 +1461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 17:33:47 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1379,8 +1484,8 @@
       ]
     },
     {
-      "Route": "index.35h8si1rcs.html",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Route": "Images/ikony_stetoskop.e9ocfd4qht.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1389,19 +1494,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1006"
+          "Value": "12544"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
+          "Value": "\"0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:38:10 GMT"
+          "Value": "Fri, 18 Apr 2025 12:52:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1411,21 +1516,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "35h8si1rcs"
+          "Value": "e9ocfd4qht"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "Images/ikony_stetoskop.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
+          "Value": "sha256-0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Route": "Images/ikony_stetoskop.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1434,7 +1539,372 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1006"
+          "Value": "12544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0oi3sLlvLkAKSDmCBhYXjr1P0O28FYqvWEoJ7AVp3NM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop2.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_stetoskop2.pqh48yyrmv.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqh48yyrmv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ikony_stetoskop2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0eJMAtKz4zAGscYPvj+3Ne4rjaN+CnzNm6DtXoahmq4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_strzykawka.8lr29md8c5.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lr29md8c5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ikony_strzykawka.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ikony_strzykawka.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HbnZtiTmRjXr7Qf8uLg1Zb5HQfX3udmBq0OIu7tIgk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_podstawowe.bzvtxxyjwg.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzvtxxyjwg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/szpital_brzeziny_logo_podstawowe.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_podstawowe.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2fOuU44lYb2Syl4rPS9RAm7PgoJLmlGVGD/NFug3L14="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_uzupelniajace.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/szpital_brzeziny_logo_uzupelniajace.xmixgxhwt5.png",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:52:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmixgxhwt5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/szpital_brzeziny_logo_uzupelniajace.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9/lxz/M5wXBtKBkG2aLkhAfrLGOPU2fpNKM7Hci5dc="
+        }
+      ]
+    },
+    {
+      "Route": "index.4xwyoo5ngz.html",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1912,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw=\""
+          "Value": "\"2JyB8mel21PQcHGfekWWkXNTYvT+AA38AtdMLFPNsdI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 19:38:10 GMT"
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xwyoo5ngz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2JyB8mel21PQcHGfekWWkXNTYvT+AA38AtdMLFPNsdI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2JyB8mel21PQcHGfekWWkXNTYvT+AA38AtdMLFPNsdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 09:44:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,7 +1971,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x/y+0dXtwE5Hrf0TWmgrCdCzrDF5vKcpLADEQ0AdBYw="
+          "Value": "sha256-2JyB8mel21PQcHGfekWWkXNTYvT+AA38AtdMLFPNsdI="
         }
       ]
     }

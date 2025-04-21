@@ -371,28 +371,55 @@ main[b-cj3fj28uav] {
     background-color: #FFFBEA !important;
 }
 /* /Components/Pages/Logowanie.razor.rz.scp.css */
+h3[b-3gyjxoldwl] {
+    color: #057E38;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #ffffff70;
+}
+
+label[b-3gyjxoldwl] {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #057E38;
+}
+
 .ikonka[b-3gyjxoldwl] {
     background-color: white;
 }
 
-.ramka[b-3gyjxoldwl] {
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px
+.ramka:hover[b-3gyjxoldwl] {
+    box-shadow: 0 0 0 2px #32C0EE66;
 }
 
 input[b-3gyjxoldwl] {
     border: none;
 }
 /* /Components/Pages/Rejestracja.razor.rz.scp.css */
+h3[b-sn6egdmfgh] {
+    color: #057E38;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #ffffff70;
+}
+
+label[b-sn6egdmfgh] {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #057E38;
+}
+
 .ikonka[b-sn6egdmfgh]{
     background-color: white;
 }
 
 .ramka[b-sn6egdmfgh] {
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 4px 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.ramka:hover[b-sn6egdmfgh] {
+    box-shadow: 0 0 0 2px #32C0EE66;
 }
 
 input[b-sn6egdmfgh]{
@@ -401,4 +428,13 @@ input[b-sn6egdmfgh]{
 
 .kalendarz[b-sn6egdmfgh]  {
     margin-bottom: 10px;
+}
+
+.kalendarz select[b-sn6egdmfgh] {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.fix-przycisk[b-sn6egdmfgh] {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
 }
