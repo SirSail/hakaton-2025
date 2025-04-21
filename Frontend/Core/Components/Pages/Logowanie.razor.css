@@ -1,0 +1,27 @@
+h3 {
+    color: #057E38;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #ffffff70;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #057E38;
+}
+
+img {
+    width: 300px;
+}
+
+.ikonka {
+    background-color: white;
+}
+
+.ramka:hover {
+    box-shadow: 0 0 0 2px #32C0EE66;
+}
+
+input {
+    border: none;
+}
