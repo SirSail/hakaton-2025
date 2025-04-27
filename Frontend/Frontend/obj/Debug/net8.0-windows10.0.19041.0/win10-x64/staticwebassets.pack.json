@@ -1,75 +1,75 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Frontend.styles.css",
       "PackagePath": "staticwebassets\\Frontend.styles.css"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop.png",
       "PackagePath": "staticwebassets\\Images\\ikony_stetoskop.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_stetoskop2.png",
       "PackagePath": "staticwebassets\\Images\\ikony_stetoskop2.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\ikony_strzykawka.png",
       "PackagePath": "staticwebassets\\Images\\ikony_strzykawka.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_podstawowe.png",
       "PackagePath": "staticwebassets\\Images\\szpital_brzeziny_logo_podstawowe.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\Images\\szpital_brzeziny_logo_uzupelniajace.png",
       "PackagePath": "staticwebassets\\Images\\szpital_brzeziny_logo_uzupelniajace.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\calendar.jpg",
       "PackagePath": "staticwebassets\\icons\\calendar.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\games.jpg",
       "PackagePath": "staticwebassets\\icons\\games.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\home.jpg",
       "PackagePath": "staticwebassets\\icons\\home.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\profile.jpg",
       "PackagePath": "staticwebassets\\icons\\profile.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\services.jpg",
       "PackagePath": "staticwebassets\\icons\\services.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\stethoscope.jpg",
       "PackagePath": "staticwebassets\\icons\\stethoscope.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\icons\\surgery.jpg",
       "PackagePath": "staticwebassets\\icons\\surgery.jpg"
     },
     {
-      "Id": "C:\\Users\\Kamil\\Desktop\\hackathon\\hackathon\\Frontend\\Frontend\\wwwroot\\index.html",
+      "Id": "C:\\Users\\zegli\\Source\\Repos\\hakaton\\Frontend\\Frontend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

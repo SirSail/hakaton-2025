@@ -208,7 +208,7 @@ main[b-cj3fj28uav] {
     }
 }
 /* /Components/Pages/Kalendarz.razor.rz.scp.css */
-.kalendarz-container[b-891k19zvcd] {
+.calendar-container[b-891k19zvcd] {
     max-width: 500px;
     margin: auto;
     padding: 1rem;
@@ -216,37 +216,36 @@ main[b-cj3fj28uav] {
     border-radius: 12px;
 }
 
-.kalendarz-select[b-891k19zvcd] {
+.calendar-select[b-891k19zvcd] {
     max-width: 150px;
     margin-bottom: 1rem;
 }
-.kalendarz-dni[b-891k19zvcd] {
+
+.calendar-days[b-891k19zvcd] {
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
 }
 
+    .calendar-days button[b-891k19zvcd] {
+        width: 44px;
+        height: 60px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-radius: 12px;
+        margin: 2px;
+        background-color: #FFFFFF;
+        border: 1px solid #D9E8E3;
+        color: #333;
+    }
 
+    .calendar-days .btn-active-day[b-891k19zvcd] {
+        background-color: #4FB89F;
+        border: none;
+        color: #fff;
+    }
 
-.kalendarz-dni button[b-891k19zvcd] {
-    width: 44px;
-    height: 60px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    border-radius: 12px;
-    margin: 2px;
-    background-color: #FFFFFF;
-    border: 1px solid #D9E8E3;
-    color: #333;
-}
-
-.kalendarz-dni .btn-aktywny-dzien[b-891k19zvcd] {
-    background-color: #4FB89F;
-    border: none;
-    color: #fff;
-}
-
-.lista-zadan[b-891k19zvcd] {
+.task-list[b-891k19zvcd] {
     margin-top: 1rem;
     max-height: 60vh;
     overflow-x: auto;
@@ -257,12 +256,11 @@ main[b-cj3fj28uav] {
     padding-bottom: calc(80px + env(safe-area-inset-bottom));
 }
 
-
-    .lista-zadan[b-891k19zvcd]::-webkit-scrollbar {
+    .task-list[b-891k19zvcd]::-webkit-scrollbar {
         width: 6px;
     }
 
-    .lista-zadan[b-891k19zvcd]::-webkit-scrollbar-thumb {
+    .task-list[b-891k19zvcd]::-webkit-scrollbar-thumb {
         background-color: #D9E8E3;
         border-radius: 6px;
     }
@@ -287,13 +285,13 @@ main[b-cj3fj28uav] {
     cursor: pointer;
 }
 
-.godzina-wpisu[b-891k19zvcd] {
+.entry-time[b-891k19zvcd] {
     color: #32C0EE;
     font-weight: bold;
     min-width: 70px;
 }
 
-.karta-zadania[b-891k19zvcd] {
+.task-card[b-891k19zvcd] {
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -303,17 +301,17 @@ main[b-cj3fj28uav] {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
-    .karta-zadania .godzina[b-891k19zvcd] {
+    .task-card .time[b-891k19zvcd] {
         font-weight: bold;
         width: 80px;
     }
 
-    .karta-zadania .tresc .nazwa[b-891k19zvcd] {
+    .task-card .content .name[b-891k19zvcd] {
         font-size: 1rem;
         font-weight: 500;
     }
 
-    .karta-zadania .tresc .opis[b-891k19zvcd] {
+    .task-card .content .description[b-891k19zvcd] {
         font-size: 0.85rem;
         color: #666;
     }
@@ -327,24 +325,15 @@ main[b-cj3fj28uav] {
     color: #333;
 }
 
-.przycisk-dodaj[b-891k19zvcd] {
-    width: 50px;
-    height: 50px;
-    font-size: 1.2rem;
-    border-radius: 50%;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
 
-.ikona-wpisu[b-891k19zvcd] {
+
+.entry-icon[b-891k19zvcd] {
     width: 24px;
     height: 24px;
     margin: 0 10px;
 }
 
-.powiadomienie-btn[b-891k19zvcd] {
+.notification-btn[b-891k19zvcd] {
     background: none;
     border: none;
     padding: 0;
@@ -352,22 +341,22 @@ main[b-cj3fj28uav] {
     cursor: pointer;
 }
 
-    
-    .powiadomienie-btn .bi-bell[b-891k19zvcd] {
-        font-size: 1.5rem; 
-        color: white; 
+    .notification-btn .bi-bell[b-891k19zvcd] {
+        font-size: 1.5rem;
+        color: white;
     }
-        
-        .powiadomienie-btn .bi-bell.text-success[b-891k19zvcd] {
-            color: #28a745; 
+
+        .notification-btn .bi-bell.text-success[b-891k19zvcd] {
+            color: #28a745;
         }
 
 .card-body small.text-success[b-891k19zvcd] {
     margin-left: 10px;
     font-size: 0.9rem;
 }
-.wpis-wazny[b-891k19zvcd] {
-    border-left: 6px solid #FFD700 !important; /* złoto-żółty */
+
+.important-entry[b-891k19zvcd] {
+    border-left: 6px solid #FFD700 !important; /* golden yellow */
     background-color: #FFFBEA !important;
 }
 /* /Components/Pages/Logowanie.razor.rz.scp.css */
@@ -397,6 +386,114 @@ img[b-3gyjxoldwl] {
 
 input[b-3gyjxoldwl] {
     border: none;
+}
+/* /Components/Pages/NewHome.razor.rz.scp.css */
+.new-home[b-zxgk8q551i] {
+    background-color: #f9fdfd;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.logo-small[b-zxgk8q551i] {
+    height: 45px;
+}
+
+.profile-icon[b-zxgk8q551i] {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #e0e0e0;
+}
+
+.notification-btn[b-zxgk8q551i] {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.greeting h2[b-zxgk8q551i] {
+    font-weight: 700;
+}
+
+.quick-access .tile[b-zxgk8q551i] {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px 15px;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .quick-access .tile:hover[b-zxgk8q551i] {
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.12);
+    }
+
+.tile-icon[b-zxgk8q551i] {
+    font-size: 2.5rem;
+    color: #4fb89f;
+    margin-bottom: 12px;
+}
+
+.next-steps[b-zxgk8q551i] {
+    background: #ffffff;
+}
+
+    .next-steps ul li[b-zxgk8q551i] {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+
+.tracker-card[b-zxgk8q551i] {
+    background: #ffffff;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.progress-circle-wrapper[b-zxgk8q551i] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.progress-circle[b-zxgk8q551i] {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#4fb89f calc(var(--progress) * 1%), #e0e0e0 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.progress-text[b-zxgk8q551i] {
+    position: absolute;
+}
+
+.tracker-card h6[b-zxgk8q551i] {
+    font-weight: 700;
+}
+
+.tracker-card small[b-zxgk8q551i] {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.bi[b-zxgk8q551i] {
+    color: #4fb89f;
 }
 /* /Components/Pages/Rejestracja.razor.rz.scp.css */
 h3[b-sn6egdmfgh] {

@@ -27,5 +27,5 @@ androidpackagenamingpolicy=lowercasecrc64
 _nugetassetsfilehash=24f807fe421f16d405aec011037462509913dcdee3780467821d2291f411f25f
 typemapkind=strings-asm
 androidmanifestplaceholders=
-projectfullpath=c:\users\kamil\desktop\hackathon\hackathon\frontend\frontend\frontend.csproj
+projectfullpath=c:\users\zegli\source\repos\hakaton\frontend\frontend\frontend.csproj
 androidusedesignerassembly=true
