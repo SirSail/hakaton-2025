@@ -1,0 +1,133 @@
+﻿@page "/newhome"
+
+<div class="container new-home my-4">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <img src="Images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="logo-small" />
+        <div class="d-flex align-items-center">
+            <!-- Ustawić działające zdjęcie -->
+            <img src="https://via.placeholder.com/40" alt="Profil" class="profile-icon" />
+        </div>
+    </div>
+
+    <!-- Dynamic Greeting -->
+    <div class="greeting mb-5">
+        <h2>Dzień dobry, [Imię] 👋</h2>
+        <p class="text-muted">Dziś masz zaplanowaną wizytę!</p>
+    </div>
+
+    <!-- Quick Access Tiles -->
+    <div class="row quick-access mb-5 g-4">
+        <div class="col-6 col-md-3">
+            <div class="tile shadow-sm">
+                <i class="bi bi-geo-alt-fill tile-icon"></i>
+                <p>Znajdź Szpital</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="tile shadow-sm">
+                <i class="bi bi-chat-dots-fill tile-icon"></i>
+                <p>Czaty z lekarzami</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="tile shadow-sm">
+                <i class="bi bi-calendar-plus-fill tile-icon"></i>
+                <p>Umów wizytę</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="tile shadow-sm">
+                <i class="bi bi-book-fill tile-icon"></i>
+                <p>Poradnik Pacjenta</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your Next Steps -->
+    <div class="next-steps mb-5 p-4 rounded shadow-sm">
+        <h5 class="mb-4">Twoje najbliższe</h5>
+        <ul class="list-unstyled">
+            <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-calendar-event me-3 text-primary fs-4"></i>
+                <div>
+                    <strong>Wizyta u kardiologa</strong><br />
+                    <small class="text-muted">jutro 12:00</small>
+                </div>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-calendar-event me-3 text-primary fs-4"></i>
+                <div>
+                    <strong>Badanie krwi</strong><br />
+                    <small class="text-muted">za 3 dni</small>
+                </div>
+            </li>
+        </ul>
+        <button class="btn btn-outline-secondary btn-sm mt-3">
+            Zobacz wszystkie
+        </button>
+    </div>
+
+    
+    <!-- Your Health Trackers -->
+    <div class="your-health mb-4">
+        <h5 class="mb-4">Twoje zdrowie</h5>
+        <div class="row g-4">
+
+            <!-- Tracker Dieta / Płyny -->
+            <div class="col-md-6">
+                <div class="tracker-card shadow-sm p-4 rounded">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-cup-straw text-info fs-1 me-3"></i>
+                        <div>
+                            <h6 class="mb-1">Wypite płyny</h6>
+                            <small class="text-muted">1.4L / 2L</small>
+                        </div>
+                    </div>
+                    <div class="progress-circle-wrapper mb-4">
+                        <div class="progress-circle" style="--progress: 70;">
+                            <div class="progress-text">70%</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-egg-fried text-success fs-1 me-3"></i>
+                        <div>
+                            <h6 class="mb-1">Zjedzone posiłki</h6>
+                            <small class="text-muted">3/5 posiłków</small>
+                        </div>
+                    </div>
+                    <div class="progress-circle-wrapper">
+                        <div class="progress-circle" style="--progress: 60;">
+                            <div class="progress-text">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tracker Odchudzania -->
+            <div class="col-md-6">
+                <div class="tracker-card shadow-sm p-4 rounded text-center">
+                    <div class="mb-3">
+                        <i class="bi bi-graph-up text-primary fs-1"></i>
+                    </div>
+                    <h6>Postępy w odchudzaniu</h6>
+                    <div class="mb-2">
+                        <strong>-2,3 kg</strong> w tym miesiącu
+                    </div>
+                    <small class="text-muted">Aktualnie: 68 kg / Cel: 65 kg</small>
+                    <div class="progress-circle-wrapper mt-4">
+                        <div class="progress-circle" style="--progress: 77;">
+                            <div class="progress-text">77%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+</div>
