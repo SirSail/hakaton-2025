@@ -96,3 +96,7 @@ h1:focus {
     }
 }
 
+.dol-fix {
+    margin-bottom: calc(80px + env(safe-area-inset-bottom));
+}
+

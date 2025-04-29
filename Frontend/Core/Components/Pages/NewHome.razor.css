@@ -1,7 +1,7 @@
 ﻿.new-home {
     background-color: #f9fdfd;
     border-radius: 16px;
-    padding: 30px;
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
 }
 
 .logo-small {
