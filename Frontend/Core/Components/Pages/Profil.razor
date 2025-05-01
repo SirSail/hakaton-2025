@@ -1,0 +1,79 @@
+﻿@page "/profil"
+
+<div class="container profile-container dol-fix">
+
+    <!-- Sekcja górna: Avatar + Imię i nazwisko + Grupa krwi -->
+    <div class="row align-items-center mb-3">
+        <div class="col-auto d-flex align-items-center">
+            <img src="path-to-avatar.jpg" class="avatar-img" alt="Avatar">
+        </div>
+        <div class="col">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="profile-name mb-0">
+                    <div class="first-name">Jan</div>
+                    <div class="last-name">Kowalski</div>
+                </div>
+                <div class="blood-group-box">
+                    <span class="blood-label">Grupa krwi</span>
+                    <span class="blood-value">A+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dane zdrowotne -->
+    <div class="row text-center mb-3">
+        <div class="col">
+            <i class="bi bi-heart-pulse health-icon icon-green" style="color: #057E38 !important;"></i>
+            <p class="label">bicie serca</p>
+            <strong class="value-green">210 bpm</strong>
+        </div>
+        <div class="col">
+            <i class="bi bi-fire health-icon icon-light-green" style="color: #057E38 !important;"></i>
+            <p class="label">Spalone kalorie</p>
+            <strong class="value-light-green">32497 cal</strong>
+        </div>
+        <div class="col">
+            <i class="bi bi-person-fill-down health-icon icon-blue" style="color: #057E38 !important;"></i>
+            <p class="label">Waga</p>
+            <strong class="value-dark">87 KG</strong>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Przyciski -->
+    <div class="d-grid gap-2">
+        <button class="btn custom-btn-green btn-outline-secondary btn-gap-fix">Ustawienia profilu</button>
+        <button class="btn custom-btn-green btn-gap-fix">Historia medyczna</button>
+        <button class="btn custom-btn-blue" @onclick="ToggleFaq">FAQ</button>
+        @* Sekcja FAQ (z animacją) *@
+        <div class="faq-wrapper @(isFaqVisible ? "visible" : "")">
+            <FAQ />
+        </div>
+        <button class="btn custom-btn-blue" @onclick="ToggleLegal">Aspekty prawne</button>
+        <div class="faq-wrapper @(isLegalVisible ? "visible" : "")">
+            <AspektyPrawne />
+        </div>
+        <button class="btn btn-danger">Wyloguj</button>
+    </div>
+</div>
+
+@code {
+    private bool isFaqVisible = false;
+
+    private string FaqWrapperStyle =>
+        isFaqVisible ? "max-height: 2000px; opacity: 1;" : "max-height: 0; opacity: 0;";
+
+    private void ToggleFaq()
+    {
+        isFaqVisible = !isFaqVisible;
+    }
+
+    private bool isLegalVisible = false;
+
+    void ToggleLegal()
+    {
+        isLegalVisible = !isLegalVisible;
+    }
+}

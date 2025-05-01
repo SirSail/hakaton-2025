@@ -1,0 +1,143 @@
+/* Kolory g³ówne */
+:root {
+    --blue: #32C0EE;
+    --light-green: #7DDE40;
+    --mid-green: #19A73C;
+    --dark-green: #057E38;
+    --black: #000000;
+}
+
+.profile-container {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.avatar-img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #e0e0e0;
+}
+
+.profile-name {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.first-name {
+    display: block;
+}
+
+.last-name {
+    display: block;
+}
+
+.blood-group-box {
+    background: linear-gradient(135deg, #e05252, #ff7e7e);
+    color: white;
+    width: 120px;
+    height: 80px;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 0.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .blood-group-box:hover {
+        transform: scale(1.05);
+    }
+
+.blood-label {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.blood-value {
+    font-size: 1.5rem;
+}
+
+.health-icon {
+    font-size: 2rem;
+}
+
+.label {
+    margin-bottom: 0;
+    color: var(--black);
+}
+
+.value-green {
+    color: var(--dark-green);
+}
+
+.value-light-green {
+    color: var(--mid-green);
+}
+
+.value-dark {
+    color: var(--black);
+}
+
+.icon-green {
+    color: var(--dark-green);
+}
+
+.icon-light-green {
+    color: var(--mid-green);
+}
+
+.icon-blue {
+    color: var(--blue);
+}
+
+.custom-btn-green {
+    border-color: var(--mid-green);
+    color: var(--dark-green);
+}
+
+.custom-btn-blue {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.faq-wrapper {
+    overflow: hidden;
+    transition: all 0.6s ease;
+    max-height: 0;
+    opacity: 0;
+}
+
+.faq-wrapper.visible {
+    max-height: 9999px;
+    opacity: 1;
+}
+
+.btn-gap-fix {
+    margin-bottom: 10px;
+}
+
+
+.custom-btn-green:hover,
+.custom-btn-blue:hover {
+    color: #fff;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.custom-btn-green:hover {
+    background-color: #057E38;
+    border-color: #057E38;
+}
+.custom-btn-blue:hover {
+    background-color: #32C0EE !important;
+    border-color: #32C0EE;
+}

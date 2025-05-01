@@ -1,4 +1,4 @@
-﻿.kalendarz-container {
+﻿.calendar-container {
     max-width: 500px;
     margin: auto;
     padding: 1rem;
@@ -6,19 +6,40 @@
     border-radius: 12px;
 }
 
-.kalendarz-select {
+.calendar-select {
     max-width: 150px;
     margin-bottom: 1rem;
 }
 
+<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
 .kalendarz-dni {
+========
+.calendar-days {
+>>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
 }
 
+    .calendar-days button {
+        width: 44px;
+        height: 60px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-radius: 12px;
+        margin: 2px;
+        background-color: #FFFFFF;
+        border: 1px solid #D9E8E3;
+        color: #333;
+    }
 
+    .calendar-days .btn-active-day {
+        background-color: #4FB89F;
+        border: none;
+        color: #fff;
+    }
 
+<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
     .kalendarz-dni button {
         width: 44px;
         height: 60px;
@@ -38,6 +59,9 @@
     }
 
 .lista-zadan {
+========
+.task-list {
+>>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     margin-top: 1rem;
     max-height: 60vh;
     overflow-x: auto;
@@ -48,12 +72,11 @@
     padding-bottom: calc(80px + env(safe-area-inset-bottom));
 }
 
-
-    .lista-zadan::-webkit-scrollbar {
+    .task-list::-webkit-scrollbar {
         width: 6px;
     }
 
-    .lista-zadan::-webkit-scrollbar-thumb {
+    .task-list::-webkit-scrollbar-thumb {
         background-color: #D9E8E3;
         border-radius: 6px;
     }
@@ -78,13 +101,13 @@
     cursor: pointer;
 }
 
-.godzina-wpisu {
+.entry-time {
     color: #32C0EE;
     font-weight: bold;
     min-width: 70px;
 }
 
-.karta-zadania {
+.task-card {
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -94,17 +117,17 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
-    .karta-zadania .godzina {
+    .task-card .time {
         font-weight: bold;
         width: 80px;
     }
 
-    .karta-zadania .tresc .nazwa {
+    .task-card .content .name {
         font-size: 1rem;
         font-weight: 500;
     }
 
-    .karta-zadania .tresc .opis {
+    .task-card .content .description {
         font-size: 0.85rem;
         color: #666;
     }
@@ -118,24 +141,15 @@
     color: #333;
 }
 
-.przycisk-dodaj {
-    width: 50px;
-    height: 50px;
-    font-size: 1.2rem;
-    border-radius: 50%;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
 
-.ikona-wpisu {
+
+.entry-icon {
     width: 24px;
     height: 24px;
     margin: 0 10px;
 }
 
-.powiadomienie-btn {
+.notification-btn {
     background: none;
     border: none;
     padding: 0;
@@ -143,13 +157,21 @@
     cursor: pointer;
 }
 
+<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
 
     .powiadomienie-btn .bi-bell {
+========
+    .notification-btn .bi-bell {
+>>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
         font-size: 1.5rem;
         color: white;
     }
 
+<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
         .powiadomienie-btn .bi-bell.text-success {
+========
+        .notification-btn .bi-bell.text-success {
+>>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
             color: #28a745;
         }
 
@@ -158,7 +180,12 @@
     font-size: 0.9rem;
 }
 
+<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
 .wpis-wazny {
     border-left: 6px solid #FFD700 !important; /* złoto-żółty */
+========
+.important-entry {
+    border-left: 6px solid #FFD700 !important; /* golden yellow */
+>>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     background-color: #FFFBEA !important;
 }

@@ -1,6 +1,6 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">Frontend</a>
+        <a class="navbar-brand" href="">Core</a>
     </div>
 </div>
 
@@ -12,36 +12,46 @@
         
         @if(IsLogged)
         {
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="kalendarz">
-                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Kalendarz
-                </NavLink>
-            </div>
-            <div class="nav-item px-3">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="kalendarz">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Kalendarz
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
                 <NavLink class="nav-link" href="logout">
                     <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Wyloguj się
-                </NavLink>
-            </div>
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                    <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-                </NavLink>
-            </div>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="care">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Zabiegi - test
+            </NavLink>
+        </div>
         }
         else
         {
             
-            @*Test rejestracji*@
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="rejestracja">
-                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Rejestracja - test
-                </NavLink>
-            </div>
-            <div class="nav-item px-3">
+        @*Test rejestracji*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="rejestracja">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Rejestracja - test
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
                 <NavLink class="nav-link" href="login">
-                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Logowanie - test
-                </NavLink>
-            </div>
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Logowanie - test
+            </NavLink>
+        </div>
         }
     </nav>
 </div>
