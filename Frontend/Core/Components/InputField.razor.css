@@ -1,0 +1,39 @@
+﻿.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+    .input-field label {
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+    }
+
+    .input-field input {
+        width: 100%;
+        padding: var(--padding-input);
+        font-size: 1rem;
+        text-align: center;
+        border: 1px solid var(--glass-border-color);
+        background: white;
+        border-radius: var(--border-radius-large);
+        box-shadow: var(--shadow-input);
+        color: var(--text-color);
+        transition: box-shadow var(--transition-fast);
+    }
+
+        .input-field input::placeholder {
+            text-align: center;
+            opacity: 0.6;
+            color: var(--text-color);
+        }
+
+        .input-field input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px var(--primary-color);
+        }

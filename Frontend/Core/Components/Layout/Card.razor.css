@@ -1,0 +1,11 @@
+﻿.card {
+    width: calc(100% - 2rem);
+    max-width: 600px;
+    margin: var(--margin-card) auto;
+    padding: var(--padding-card);
+    background: var(--glass-background);
+    border: 1px solid var(--glass-border-color);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-card);
+    box-sizing: border-box;
+}

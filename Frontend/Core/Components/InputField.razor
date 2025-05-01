@@ -1,0 +1,27 @@
+<div class="input-field">
+    @if (!string.IsNullOrEmpty(Label))
+    {
+            <label>@Label</label>
+    }
+    <div class="input-group border-0 ramka mb-1">
+        @if (!string.IsNullOrEmpty(Icon))
+        {
+                <span class="input-group-text border-0 ikonka">
+                    <i class="@Icon"></i>
+                </span>
+        }
+        <input class="form-control border-start"
+               type="@Type"
+               placeholder="@Label"
+               @bind="Value" />
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Label { get; set; }
+    [Parameter] public string Icon { get; set; }
+    [Parameter] public string Type { get; set; } = "text";
+
+    [Parameter] public string Value { get; set; }
+    [Parameter] public EventCallback<string> ValueChanged { get; set; }
+}
