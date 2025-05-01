@@ -23,7 +23,7 @@ namespace Core
 
             builder.Services.AddScoped(sp => new HttpClient
             {
-                BaseAddress = new Uri("http://192.168.43.9:6999/") // Replace with your backend
+                BaseAddress = new Uri("http://localhost:6999/") // Replace with your backend
             });
 
 #if ANDROID

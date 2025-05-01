@@ -11,11 +11,7 @@
     margin-bottom: 1rem;
 }
 
-<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
-.kalendarz-dni {
-========
 .calendar-days {
->>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -39,29 +35,7 @@
         color: #fff;
     }
 
-<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
-    .kalendarz-dni button {
-        width: 44px;
-        height: 60px;
-        font-size: 0.8rem;
-        font-weight: 500;
-        border-radius: 12px;
-        margin: 2px;
-        background-color: #FFFFFF;
-        border: 1px solid #D9E8E3;
-        color: #333;
-    }
-
-    .kalendarz-dni .btn-aktywny-dzien {
-        background-color: #4FB89F;
-        border: none;
-        color: #fff;
-    }
-
-.lista-zadan {
-========
 .task-list {
->>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     margin-top: 1rem;
     max-height: 60vh;
     overflow-x: auto;
@@ -157,21 +131,12 @@
     cursor: pointer;
 }
 
-<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
-
-    .powiadomienie-btn .bi-bell {
-========
     .notification-btn .bi-bell {
->>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
         font-size: 1.5rem;
         color: white;
     }
 
-<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
-        .powiadomienie-btn .bi-bell.text-success {
-========
         .notification-btn .bi-bell.text-success {
->>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
             color: #28a745;
         }
 
@@ -180,12 +145,7 @@
     font-size: 0.9rem;
 }
 
-<<<<<<<< HEAD:Frontend/Core/Components/Pages/Calendar.razor.css
-.wpis-wazny {
-    border-left: 6px solid #FFD700 !important; /* złoto-żółty */
-========
 .important-entry {
     border-left: 6px solid #FFD700 !important; /* golden yellow */
->>>>>>>> Frontend:Frontend/Core/Components/Pages/Kalendarz.razor.css
     background-color: #FFFBEA !important;
 }
