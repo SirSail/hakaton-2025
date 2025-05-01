@@ -1,4 +1,5 @@
-﻿using Core.API.StateProviders;
+﻿using Core.API.Services;
+using Core.API.StateProviders;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
@@ -11,6 +12,7 @@ namespace Core.Components.Layout
         private NavigationManager NavigationManager { get; set; }
         [Inject]
         private AuthenticationStateProvider AuthenticationStateProvider { get; set; }
+        
 
         private CustomAuthStateProvider CustomAuthStateProvider => (CustomAuthStateProvider)AuthenticationStateProvider;
 
@@ -23,7 +25,6 @@ namespace Core.Components.Layout
             ClaimsPrincipal userPrincipial = (await CustomAuthStateProvider.GetAuthenticationStateAsync()).User;
             IsLogged = userPrincipial.Identity?.IsAuthenticated ?? false;
         }
-
 
     }
 }

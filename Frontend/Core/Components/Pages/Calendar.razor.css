@@ -10,6 +10,7 @@
     max-width: 150px;
     margin-bottom: 1rem;
 }
+
 .kalendarz-dni {
     overflow-x: auto;
     flex-wrap: nowrap;
@@ -18,23 +19,23 @@
 
 
 
-.kalendarz-dni button {
-    width: 44px;
-    height: 60px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    border-radius: 12px;
-    margin: 2px;
-    background-color: #FFFFFF;
-    border: 1px solid #D9E8E3;
-    color: #333;
-}
+    .kalendarz-dni button {
+        width: 44px;
+        height: 60px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-radius: 12px;
+        margin: 2px;
+        background-color: #FFFFFF;
+        border: 1px solid #D9E8E3;
+        color: #333;
+    }
 
-.kalendarz-dni .btn-aktywny-dzien {
-    background-color: #4FB89F;
-    border: none;
-    color: #fff;
-}
+    .kalendarz-dni .btn-aktywny-dzien {
+        background-color: #4FB89F;
+        border: none;
+        color: #fff;
+    }
 
 .lista-zadan {
     margin-top: 1rem;
@@ -142,20 +143,21 @@
     cursor: pointer;
 }
 
-    
+
     .powiadomienie-btn .bi-bell {
-        font-size: 1.5rem; 
-        color: white; 
+        font-size: 1.5rem;
+        color: white;
     }
-        
+
         .powiadomienie-btn .bi-bell.text-success {
-            color: #28a745; 
+            color: #28a745;
         }
 
 .card-body small.text-success {
     margin-left: 10px;
     font-size: 0.9rem;
 }
+
 .wpis-wazny {
     border-left: 6px solid #FFD700 !important; /* złoto-żółty */
     background-color: #FFFBEA !important;

@@ -5,6 +5,7 @@ using Core.API.Services;
 using Core.API.StateProviders;
 using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
+using Plugin.Firebase.CloudMessaging;
 
 namespace Core.Components.Pages
 {
@@ -14,6 +15,9 @@ namespace Core.Components.Pages
         private string _passwordFieldType = "password";
 
         [Inject] private ApiService ApiService { get; set; }
+#if ANDROID
+        [Inject] private IFirebaseCloudMessaging CloudMessaging { get; set; }
+#endif
         private string Debug { get; set; } = string.Empty;
 
 
@@ -31,6 +35,11 @@ namespace Core.Components.Pages
         {
             try
             {
+                string fcmtoken = string.Empty;
+#if ANDROID
+                fcmtoken = await CloudMessaging.GetTokenAsync();
+#endif
+
                 ApiResponse<LoginResponse> apiResponse = await ApiService.PostWithResultAsync<LoginRequest, LoginResponse>($"api/v1/authorize", _loginRequest);
                 if (!apiResponse.IsSuccess)
                 {
@@ -50,6 +59,10 @@ namespace Core.Components.Pages
                     await SecureStorage.SetAsync("auth_token", token);
                     CustomAuthStateProvider.NotifyUserAuthentication(token);
 
+                    if(!string.IsNullOrEmpty(fcmtoken))
+                    {
+                        await ApiService.PostAsync("api/v1/set-fcm-token", new { FCMToken = fcmtoken });
+                    }
                     NavigationManager.NavigateTo("/", true);
                 }
                 else
@@ -59,13 +72,13 @@ namespace Core.Components.Pages
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Login error: {ex.Message}");
+                Debug = ex.ToString();
             }
         }
 
         protected void TogglePasswordVisibility()
         {
-            _passwordFieldType = _passwordFieldType == "password" ? "text" : "password";
+            _passwordFieldType = _passwordFieldType ==  "password" ? "text" : "password";
         }
 
         

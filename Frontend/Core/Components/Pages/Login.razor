@@ -1,9 +1,8 @@
 ﻿@page "/login"
-@using Core.Components.BaseClassess
 @using Microsoft.AspNetCore.Components.Authorization
 @inject IJSRuntime JS
 
-@inherits CustomComponentBase
+@inherits Core.Components.BaseClassess.CustomComponentBase
 
 <div class="glass-box">
     <img src="Images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="mb-0" />
@@ -17,7 +16,7 @@
         <div class="input-group ramka mb-1">
             <input @bind="_loginRequest.Email" class="form-control" placeholder="Adres e-mail" />
         </div>
-
+        
         <label>Hasło</label>
         <div class="input-group ramka mb-1">
             <input @bind="_loginRequest.Password" type="@_passwordFieldType" class="form-control" placeholder="Hasło" />

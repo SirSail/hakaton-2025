@@ -1,5 +1,6 @@
 ﻿using Application.Authorize.Services;
 using Application.Calendar.Services;
+using Application.Notifications.Services;
 using Application.Patients.Services;
 using Application.SystemUsers.Services;
 using Infrastructure.DatabaseAbstractions;
@@ -17,6 +18,7 @@ namespace API
             services.AddTransient<UserService>();
             services.AddTransient<PatientService>();
             services.AddTransient<CalendarService>();
+            services.AddTransient<PushNotificationService>();
 
 
             return services;

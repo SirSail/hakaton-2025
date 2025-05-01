@@ -7,8 +7,6 @@ namespace Domain.Models
     [Table("system_users")]
     public class SystemUser
     {
-        public const int MIN_PASSWORD_LENGTH = 8;
-
         [Key]
         [Column("id")]
         public int Id { get; set; }
@@ -19,8 +17,9 @@ namespace Domain.Models
         public string Email { get; set; }
 
         [Column("password_hash")]
-        [MinLength(MIN_PASSWORD_LENGTH)]
         public string PasswordHash { get; set; }
 
+        [Column("current_fcm_token")]
+        public string CurrentFCMToken { get; set; } = string.Empty;
     }
 }

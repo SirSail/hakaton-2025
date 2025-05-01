@@ -11,22 +11,24 @@ Welcome to your new app.
 
 @code
 {
-    [Inject]
-    private ApiService _apiService{ get; set; }
+	[Inject]
+	private ApiService _apiService{ get; set; }
 
 	private string Debug { get; set; } = string.Empty;
 
 	protected override async Task OnInitializedAsync()
 	{
-		try
-		{
-			var siema = await _apiService.GetAsync<Siema>("siema");
+		await base.OnInitializedAsync();
+		NotificationService.OnNotificationReceived += HandleNotification;
+		// try 
+		// {
+		// 	var siema = await _apiService.GetAsync<Siema>("siema");
 
-			Debug = siema.Data?.message ?? _apiService.Debug;
-		} catch(Exception e)
-		{
-			Debug = e.ToString();
-		}
+		// 	Debug = siema.Data?.message ?? _apiService.Debug;
+		// } catch(Exception e)
+		// {
+		// 	Debug = e.ToString();
+		// }
 
 	}
 

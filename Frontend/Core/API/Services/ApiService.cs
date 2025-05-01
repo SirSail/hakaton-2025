@@ -50,6 +50,8 @@ namespace Core.API.Services
             return apiResponse;
         }
 
+        
+
         public async Task<ApiError> PostAsync<T>(string path, T data)
         {
             var response = await _httpClient.PostAsJsonAsync(path, data, options: new JsonSerializerOptions
@@ -62,7 +64,6 @@ namespace Core.API.Services
                 return null;
             }
             Debug = await response.Content.ReadAsStringAsync();
-
             return await response.Content.ReadFromJsonAsync<ApiError>();
         }
 
@@ -76,6 +77,7 @@ namespace Core.API.Services
             ApiResponse<TOutput> apiResponse = new();
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
             {
+                var responseString = await response.Content.ReadAsStringAsync();
                 var responseData = await response.Content.ReadFromJsonAsync<TOutput>();
                 apiResponse.Data = responseData;
                 apiResponse.Error = null;

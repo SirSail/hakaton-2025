@@ -56,13 +56,18 @@
         <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
         <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
     </ItemGroup>
-
+	
+	<ItemGroup>
+		<GoogleServicesJson Include="Platforms\Android\google-services.json" />
+	</ItemGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.15" />
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+        <PackageReference Include="Plugin.Firebase.CloudMessaging" Version="3.1.2" />
+        <PackageReference Include="Plugin.Firebase.Core" Version="3.1.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -72,5 +77,7 @@
       <None Include="wwwroot\icons\profile.jpg" />
       <None Include="wwwroot\icons\services.jpg" />
     </ItemGroup>
-
+	<ItemGroup>
+		<AndroidResource Include="Resources\xml\network_security_config.xml" />
+	</ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 ﻿using Core.API.Services;
 using Core.API.StateProviders;
 using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Plugin.Firebase.CloudMessaging;
 
 namespace Core
 {
@@ -20,21 +20,26 @@ namespace Core
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+
             builder.Services.AddScoped(sp => new HttpClient
             {
-                BaseAddress = new Uri("http://192.168.43.9:5096/") // Replace with your backend
+                BaseAddress = new Uri("http://192.168.43.9:6999/") // Replace with your backend
             });
-            builder.Services.AddMauiBlazorWebView();
 
+#if ANDROID
+            builder.Services.AddSingleton(_ => CrossFirebaseCloudMessaging.Current);
+#endif
+
+            builder.Services.AddMauiBlazorWebView();
             builder.Services.AddScoped<ApiService>();
 
 
             builder.Services.AddAuthorizationCore();
             builder.Services.AddSingleton<AuthenticationStateProvider, CustomAuthStateProvider>();
-
+            builder.Services.AddSingleton<NotificationService>();
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

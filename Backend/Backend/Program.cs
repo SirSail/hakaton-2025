@@ -1,4 +1,7 @@
 using API.Middlewares;
+using Application.Notifications.HostedServices;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
 using Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +24,7 @@ namespace API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddCustomServiceInjections();
+            builder.Services.AddHostedService<PushNotificationHostedService>();
 
             builder.Services.AddControllers().AddJsonOptions(options =>
             {
@@ -29,6 +33,11 @@ namespace API
                 options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
             });
 
+       
+            FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile("firebase-adminsdk.json")
+            });
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

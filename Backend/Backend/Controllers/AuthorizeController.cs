@@ -30,7 +30,6 @@ namespace API.Controllers
             BasicValidations.ValidateTextLength(nameof(request.Password), request.Email, minLength: 8);
             BasicValidations.ValidateEmail(nameof(request.Email), request.Email);
 
-
             var token = await _authenticateService.AuthenticateUser(request.Email, request.Password);
             return Results.Ok(new { Token = token });
         }

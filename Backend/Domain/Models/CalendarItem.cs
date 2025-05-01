@@ -30,5 +30,8 @@ namespace Domain.Models
 
         [Column("description")]
         public string? Description { get; set; }
+
+        [Column("notification_time")]
+        public DateTime? NotificationTime { get; set; }
     }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "55604546785",
+    "project_id": "hakaton101",
+    "storage_bucket": "hakaton101.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55604546785:android:013ab3fbea1d4e54b57ba0",
+        "android_client_info": {
+          "package_name": "com.companyname.core"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQWuuGEdJLKRlG3j-mMx4zYHiEIRpM7HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

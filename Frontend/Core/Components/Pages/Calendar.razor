@@ -1,0 +1,77 @@
+@inherits Core.Components.BaseClassess.CustomComponentBase
+@page "/kalendarz"
+
+<h3 class="text-center my-4">Twój plan dnia</h3>
+
+@if (IsDataLoaded)
+{
+	<div class="container kalendarz-container">
+		<div class="d-flex flex-wrap gap-2 justify-content-center mb-3 kalendarz-dni">
+			<div class="input-group w-50">
+				<span class="input-group-text bg-white border-end-0">
+					DEBUG: @Debug
+				</span>
+				<span class="input-group-text bg-white border-end-0">
+					<i class="bi bi-calendar3"></i>
+				</span>
+
+				<select @onchange="MonthChanged" class="form-select border-start-0" aria-label="Wybierz miesi¹c">
+					@foreach (var month in Months)
+					{
+						<option value="@month.Key.ToString()">@month.Value</option>
+					}
+				</select>
+			</div>
+			<button @onclick=@RefreshData class="btn btn-outline-secondary ms-3" title="Odœwie¿">
+				<i class="bi bi-arrow-repeat"></i>
+			</button>
+		</div>
+
+		<div class="d-flex justify-content-between mb-3 kalendarz-dni">
+			@foreach (DateOnly day in DisplayedDateSpan.GetDaysBeetween())
+			{
+				<button @onclick="() => SetSelectedDay(day)" class="btn @((day == SelectedDay) ? "btn-aktywny-dzien" : "") px-3">
+					<div class="fw-semibold">@GetDayString(day)</div>
+				</button>
+			}
+
+		</div>
+
+		<div class="lista-zadan mt-4">
+			@foreach (var calendarItem in CalendarItems.Where(x => DateOnly.FromDateTime(x.Time) == SelectedDay))
+			{
+				<div class="card shadow-sm mb-3">
+					<div class="card-body d-flex align-items-center justify-content-between"
+						 data-bs-toggle="collapse"
+						 data-bs-target="@($"#{calendarItem.Id}")"
+						 style="cursor: pointer;">
+
+						<div class="d-flex align-items-center">
+							<div class="me-3 godzina-wpisu" style="min-width: 70px;">
+								@calendarItem.Time.ToString("HH:mm")
+							</div>
+							<div>
+								<b class="text-muted">@calendarItem.Title</b><br />
+								<small class="text-muted">@calendarItem.Description</small>
+							</div>
+						</div>
+
+						<div class="d-flex align-items-center">
+							<button class="btn powiadomienie-btn">
+								<i class="bi bi-bell" style="font-size: 1.5rem;"></i>
+							</button>
+							<button class="btn gwiazdka-btn" title="Oznacz jako wa¿ne">
+								<i class="bi bi-star" style="font-size: 1.5rem;"></i>
+							</button>
+						</div>
+
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+}
+else
+{
+	<span>£ADOWANIE DANYCH ...</span>
+}
