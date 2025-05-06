@@ -19,17 +19,6 @@ Welcome to your new app.
 	protected override async Task OnInitializedAsync()
 	{
 		await base.OnInitializedAsync();
-		NotificationService.OnNotificationReceived += HandleNotification;
-		// try 
-		// {
-		// 	var siema = await _apiService.GetAsync<Siema>("siema");
-
-		// 	Debug = siema.Data?.message ?? _apiService.Debug;
-		// } catch(Exception e)
-		// {
-		// 	Debug = e.ToString();
-		// }
-
 	}
 
 	private class Siema

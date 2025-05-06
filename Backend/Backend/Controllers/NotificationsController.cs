@@ -40,6 +40,7 @@ namespace API.Controllers
             loggedUser.CurrentFCMToken = FCMToken;
 
             _unitOfWork.UserRepository.Update(loggedUser);
+            _unitOfWork.Commit();
 
             return Ok();
         }

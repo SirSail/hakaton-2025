@@ -33,10 +33,6 @@ namespace Core.API.StateProviders
         {
             var identity = new ClaimsIdentity(ParseClaimsFromJwt(token), "id");
             var user = new ClaimsPrincipal(identity);
-            foreach (var claim in identity.Claims)
-            {
-                Console.WriteLine($"Claim: {claim.Type} = {claim.Value}");
-            }
             NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
         }
 

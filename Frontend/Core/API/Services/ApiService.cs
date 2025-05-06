@@ -14,24 +14,15 @@ namespace Core.API.Services
         private readonly ILogger<ApiService> _logger;
 
         public string Debug { get; set; }
-
         public ApiService(HttpClient httpClient, ILogger<ApiService> logger, IConfiguration config)
         {
             _httpClient = httpClient;
             _logger = logger;
-
-            SecureStorage.GetAsync(AUTH_TOKEN_KEY).ContinueWith(task =>
-            {
-                if (!string.IsNullOrEmpty(task.Result))
-                {
-                    _httpClient.DefaultRequestHeaders.Authorization =
-                        new AuthenticationHeaderValue("Bearer", task.Result);
-                }
-            });
         }
 
         public async Task<ApiResponse<T>> GetAsync<T>(string path) where T : class
         {
+            await ConfigBearerToken();
             var response = await _httpClient.GetAsync(path);
 
             ApiResponse<T> apiResponse = new();
@@ -43,7 +34,6 @@ namespace Core.API.Services
             }
             else
             {
-                Debug = await response.Content.ReadAsStringAsync();
                 apiResponse.Error = await response.Content.ReadFromJsonAsync<ApiError>();
             }
 
@@ -54,6 +44,8 @@ namespace Core.API.Services
 
         public async Task<ApiError> PostAsync<T>(string path, T data)
         {
+            await ConfigBearerToken();
+
             var response = await _httpClient.PostAsJsonAsync(path, data, options: new JsonSerializerOptions
             {
                 PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
@@ -63,12 +55,13 @@ namespace Core.API.Services
             {
                 return null;
             }
-            Debug = await response.Content.ReadAsStringAsync();
             return await response.Content.ReadFromJsonAsync<ApiError>();
         }
 
         public async Task<ApiResponse<TOutput>> PostWithResultAsync<TInput, TOutput>(string path, TInput data) where TInput: class where TOutput : class
         {
+            await ConfigBearerToken();
+
             var response = await _httpClient.PostAsJsonAsync(path, data, options: new JsonSerializerOptions
             {
                 PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
@@ -84,7 +77,6 @@ namespace Core.API.Services
             }
             else
             {
-                Debug = await response.Content.ReadAsStringAsync();
                 apiResponse.Error = await response.Content.ReadFromJsonAsync<ApiError>();
             }
 
@@ -93,6 +85,7 @@ namespace Core.API.Services
 
         public async Task<ApiError> PutAsync<T>(string path, T data)
         {
+            await ConfigBearerToken();
 
             var response = await _httpClient.PutAsJsonAsync(path, data, options: new JsonSerializerOptions
             {
@@ -103,23 +96,35 @@ namespace Core.API.Services
             {
                 return null;
             }
-            Debug = await response.Content.ReadAsStringAsync();
-
             return await response.Content.ReadFromJsonAsync<ApiError>();
 
         }
 
         public async Task<ApiError> DeleteAsync(string path)
         {
+            await ConfigBearerToken();
+
             var response = await _httpClient.DeleteAsync(path);
 
             if (response.StatusCode is System.Net.HttpStatusCode.OK)
             {
                 return null;
             }
-            Debug = await response.Content.ReadAsStringAsync();
-
             return await response.Content.ReadFromJsonAsync<ApiError>();
+        }
+
+        private async Task ConfigBearerToken()
+        {
+            string authToken = await SecureStorage.GetAsync(AUTH_TOKEN_KEY);
+            if (!string.IsNullOrEmpty(authToken))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", authToken);
+            }
+            else
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = null;
+            }
         }
     }
 }

@@ -19,7 +19,7 @@ namespace Application.Notifications.Services
 
         public async Task<bool> SendPushNotificationAsync(Notification notification, SystemUser receiver,string redirectRoute,CancellationToken cancellationToken)
         {
-            if(string.IsNullOrEmpty(receiver.CurrentFCMToken))
+            if(!string.IsNullOrEmpty(receiver.CurrentFCMToken))
             {
                 var message = new Message()
                 {
@@ -37,12 +37,12 @@ namespace Application.Notifications.Services
 
                 var result = await FirebaseMessaging.DefaultInstance.SendAsync(message, cancellationToken);
 
-                _logger.LogInformation($"Próba przesłania powiadomienia push: {result}\n\n Token: {receiver.CurrentFCMToken}");
+                Console.WriteLine($"Próba przesłania powiadomienia push: {result}\n\n Token: {receiver.CurrentFCMToken}");
                 return true;
             }
             else
             {
-                _logger.LogInformation($"Próba przesłania powiadomienia push: użytkownik z emailem {receiver.Email} nie ma podanego FCMtoken");
+                Console.WriteLine($"Próba przesłania powiadomienia push: użytkownik z emailem {receiver.Email} nie ma podanego FCMtoken");
                 return false;
             }
         }

@@ -71,7 +71,7 @@ namespace Application.Calendar.Services
         /// <returns></returns>
         private DateTime NormalizedDateTime(DateTime dt)
         {
-            return new DateTime(dt.Year, dt.Month, dt.Year);
+            return new DateTime(dt.Year, dt.Month, dt.Day);
         }
     }
 }

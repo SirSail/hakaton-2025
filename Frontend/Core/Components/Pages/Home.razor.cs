@@ -1,4 +1,4 @@
-﻿using Core.API.Services;
+﻿using Core.PushNotifications.Services;
 using Microsoft.AspNetCore.Components;
 
 namespace Core.Components.Pages
@@ -6,7 +6,7 @@ namespace Core.Components.Pages
     public partial class Home
     {
         [Inject]
-        private NotificationService NotificationService { get; set; }
+        private PushNotificationsService NotificationService { get; set; }
 
         private void HandleNotification(string message)
         {

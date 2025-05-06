@@ -29,7 +29,7 @@ namespace Application.Notifications.HostedServices
                     var calendarService = scope.ServiceProvider.GetService<CalendarService>();
                     var pushNotificationService = scope.ServiceProvider.GetService<PushNotificationService>();
 
-                    IEnumerable<CalendarItem> currentCalendarItems = await calendarService.GetCalendarItemWithNotificationTimeNow();
+                    List<CalendarItem> currentCalendarItems = (await calendarService.GetCalendarItemWithNotificationTimeNow()).ToList();
 
                     foreach (CalendarItem calendarItem in currentCalendarItems)
                     {
@@ -45,6 +45,8 @@ namespace Application.Notifications.HostedServices
                             Title = title,
                             Body = body
                         };
+
+                        Console.WriteLine($"Wysyłanie powiadomienia push...: {notification.Title} do {calendarItem.UserId}");
                         await pushNotificationService.SendPushNotificationAsync(notification, calendarItem.UserId, $"/calendar-item/{calendarItem.Id}", stoppingToken);
                     }
                 }

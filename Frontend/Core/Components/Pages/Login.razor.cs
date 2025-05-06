@@ -3,6 +3,7 @@ using Core.API.Requests;
 using Core.API.Responses;
 using Core.API.Services;
 using Core.API.StateProviders;
+using Core.Authorize.Services;
 using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
 using Plugin.Firebase.CloudMessaging;
@@ -11,13 +12,12 @@ namespace Core.Components.Pages
 {
     public partial class Login : CustomComponentBase
     {
+        [Inject]
+        private AuthService AuthService { get; set; }
+
         private LoginRequest _loginRequest = new();
         private string _passwordFieldType = "password";
 
-        [Inject] private ApiService ApiService { get; set; }
-#if ANDROID
-        [Inject] private IFirebaseCloudMessaging CloudMessaging { get; set; }
-#endif
         private string Debug { get; set; } = string.Empty;
 
 
@@ -35,40 +35,14 @@ namespace Core.Components.Pages
         {
             try
             {
-                string fcmtoken = string.Empty;
-#if ANDROID
-                fcmtoken = await CloudMessaging.GetTokenAsync();
-#endif
-
-                ApiResponse<LoginResponse> apiResponse = await ApiService.PostWithResultAsync<LoginRequest, LoginResponse>($"api/v1/authorize", _loginRequest);
-                if (!apiResponse.IsSuccess)
+                ApiError apiError = await AuthService.LoginAsync(_loginRequest);
+                if (apiError is not null)
                 {
-                    Debug = apiResponse.Error.Message;
-
-                    if (string.IsNullOrEmpty(Debug))
-                    {
-                        Debug = $"BEZ WIADOMOSCI: {ApiService.Debug}";
-                    }
+                    Debug = apiError.Message;
                     return;
                 }
-                LoginResponse response = apiResponse.Data;
+                NavigationManager.NavigateTo("/", true);
 
-                string token = response.Token;
-                if (!string.IsNullOrEmpty(token))
-                {
-                    await SecureStorage.SetAsync("auth_token", token);
-                    CustomAuthStateProvider.NotifyUserAuthentication(token);
-
-                    if(!string.IsNullOrEmpty(fcmtoken))
-                    {
-                        await ApiService.PostAsync("api/v1/set-fcm-token", new { FCMToken = fcmtoken });
-                    }
-                    NavigationManager.NavigateTo("/", true);
-                }
-                else
-                {
-                    Debug = ApiService.Debug;
-                }
             }
             catch (Exception ex)
             {

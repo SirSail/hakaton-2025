@@ -12,7 +12,7 @@ namespace Core
         {
             var builder = MauiApp.CreateBuilder();
 
-
+                
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
@@ -20,23 +20,19 @@ namespace Core
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
-
+            
             builder.Services.AddScoped(sp => new HttpClient
             {
-                BaseAddress = new Uri("http://54.38.143.31:6999/") // Replace with your backend
+                BaseAddress = new Uri("http://192.168.43.9:6999/") // Replace with your backend
             });
 
-#if ANDROID
-            builder.Services.AddSingleton(_ => CrossFirebaseCloudMessaging.Current);
-#endif
 
             builder.Services.AddMauiBlazorWebView();
-            builder.Services.AddScoped<ApiService>();
-
 
             builder.Services.AddAuthorizationCore();
-            builder.Services.AddSingleton<AuthenticationStateProvider, CustomAuthStateProvider>();
-            builder.Services.AddSingleton<NotificationService>();
+            builder.Services.AddCustomServices();
+            builder.Services.AddAndroidServices();
+
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
             builder.Logging.AddDebug();
