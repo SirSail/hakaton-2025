@@ -1,0 +1,127 @@
+/* T³o i uk³ad strony */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f8f9fa;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Tytu³ */
+.game-title {
+    color: #32C0EE;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* <-- cieñ */
+}
+
+/* Karta z gr¹ */
+.game-card {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.memory-anim {
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* Emotikony w tle */
+.emoji-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    animation: cyclePairs 6s infinite;
+    white-space: nowrap;
+    z-index: 0;
+}
+
+/* Kolejne pary owoców */
+.pair {
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.5);
+    transform: rotateY(180deg);
+    background-color: #007bff;
+    border-radius: 2px;
+    animation-name: showPair;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+    .pair:nth-child(1) {
+        animation-delay: 0s;
+        left: 5px;
+    }
+
+    .pair:nth-child(2) {
+        animation-delay: 0s;
+        right: 5px;
+    }
+
+    .pair:nth-child(3) {
+        animation-delay: 3s;
+        left: 5px;
+    }
+
+    .pair:nth-child(4) {
+        animation-delay: 3s;
+        right: 5px;
+    }
+
+    .pair:nth-child(5) {
+        animation-delay: 6s;
+        left: 5px;
+    }
+
+    .pair:nth-child(6) {
+        animation-delay: 6s;
+        right: 5px;
+    }
+
+/* Tekst "Zagraj" zawsze na wierzchu */
+.btn-label {
+    z-index: 1;
+}
+
+/* Kluczowe animacje dla ka¿dej pary */
+@keyframes showPair {
+    0%, 20% {
+        opacity: 0;
+        transform: scale(0.5) rotateY(0deg);
+    }
+
+    25%, 40% {
+        opacity: 1;
+        transform: scale(1) rotateY(180deg);
+        background-color: #007bff;
+    }
+
+    45%, 100% {
+        opacity: 0;
+        transform: scale(0.5) rotateY(360deg);
+        background-color: gray;
+    }
+}

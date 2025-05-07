@@ -1,9 +1,74 @@
 ﻿﻿<div class="top-row ps-3 navbar navbar-dark">
+<<<<<<< Updated upstream
     <div class="container-fluid">
         <a class="navbar-brand" href="">Core</a>
     </div>
 </div>
 
+=======
+	<div class="container-fluid">
+		<a class="navbar-brand" href="">Core</a>
+	</div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+	<nav class="flex-column">
+
+
+		@if (IsLogged)
+		{
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="home">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> HOME
+				</NavLink>
+			</div>
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="kalendarz">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Kalendarz
+				</NavLink>
+			</div>
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="logout">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Wyloguj się
+				</NavLink>
+			</div>
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="care">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Zabiegi - test
+				</NavLink>
+			</div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="newhome">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Nowy panel glowny
+                </NavLink>
+            </div>
+		}
+		else
+		{
+
+			@*Test rejestracji*@
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="rejestracja">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Rejestracja - test
+				</NavLink>
+			</div>
+			<div class="nav-item px-3">
+				<NavLink class="nav-link" href="login">
+					<span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Logowanie - test
+				</NavLink>
+			</div>
+		}
+	</nav>
+</div>
+
+@code {
+	[Parameter]
+	public bool IsLogged { get; set; }
+}
+
+>>>>>>> Stashed changes
 <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">

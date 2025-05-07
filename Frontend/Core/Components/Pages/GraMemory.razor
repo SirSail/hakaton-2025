@@ -1,0 +1,118 @@
+﻿@page "/memory"
+
+<!-- Strzałka powrotu -->
+<div class="back-arrow">
+    <a href="/gry">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+        </svg>
+        <span>Powrót</span>
+    </a>
+</div>
+
+<div class="memory-wrapper dol-fix">
+    <!-- Przycisk startowy -->
+    @if (!gameStarted)
+    {
+        <button class="btn btn-primary start-button" @onclick="StartGame">Nowa gra</button>
+    }
+
+    <!-- Plansza gry -->
+    @if (gameStarted)
+    {
+        <div class="memory-grid">
+            @foreach (var card in Cards)
+            {
+                <div class="card-container @(card.Matched ? "matched" : "")" @onclick="() => FlipCard(card)">
+                    <div class="card-inner @(card.Flipped || showAllTemporarily ? "flipped" : "")">
+                        <div class="card-front">🧠</div>
+                        <div class="card-back">@card.Emoji</div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (GameOver)
+        {
+            <div class="game-end">
+                <button class="btn btn-success" @onclick="StartGame">🔄 Jeszcze raz!</button>
+            </div>
+        }
+    }
+</div>
+
+@code {
+    private bool isProcessing = false;
+    private bool gameStarted = false;
+    private bool showAllTemporarily = false;
+    private bool GameOver => Cards.All(c => c.Matched);
+
+    private List<MemoryCard> Cards = new();
+    private MemoryCard? firstCard;
+
+    private readonly List<string> emojis = new()
+    {
+        "🩺", "💊", "💉", "🩹", "🩻",
+        "🧪", "🧬", "🧫", "🧯", "🧑‍⚕️",
+        "🧑‍🔬", "🧼", "🛏️", "🚑", "🏥"
+    };
+
+    private async void StartGame()
+    {
+        gameStarted = true;
+        firstCard = null;
+
+        var pairs = emojis.SelectMany(e => new[] { new MemoryCard(e), new MemoryCard(e) }).ToList();
+        var rnd = new Random();
+        Cards = pairs.OrderBy(_ => rnd.Next()).ToList();
+
+        showAllTemporarily = true;
+        StateHasChanged();
+        await Task.Delay(5000);
+        showAllTemporarily = false;
+        foreach (var card in Cards) card.Flipped = false;
+        StateHasChanged();
+    }
+
+    private async Task FlipCard(MemoryCard card)
+    {
+        if (isProcessing || card.Matched || card.Flipped || (firstCard != null && firstCard == card))
+            return;
+
+        card.Flipped = true;
+        StateHasChanged();
+
+        if (firstCard == null)
+        {
+            firstCard = card;
+        }
+        else
+        {
+            isProcessing = true;
+
+            if (firstCard.Emoji == card.Emoji)
+            {
+                await Task.Delay(500); // Mały cooldown nawet przy poprawnym dopasowaniu
+                firstCard.Matched = card.Matched = true;
+            }
+            else
+            {
+                await Task.Delay(1000);
+                firstCard.Flipped = card.Flipped = false;
+            }
+
+            firstCard = null;
+            isProcessing = false;
+            StateHasChanged();
+        }
+    }
+
+    public class MemoryCard
+    {
+        public string Emoji { get; set; }
+        public bool Flipped { get; set; }
+        public bool Matched { get; set; }
+
+        public MemoryCard(string emoji) => Emoji = emoji;
+    }
+}
