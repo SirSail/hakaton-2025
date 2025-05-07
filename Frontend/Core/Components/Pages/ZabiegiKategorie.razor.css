@@ -1,0 +1,238 @@
+﻿.container {
+    background-color: #f9fdfd;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.12);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    color: #4fb89f;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+    input.form-control:focus {
+        border-color: #4fb89f;
+    }
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul li, ol li {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+button.btn-link {
+    background: none;
+    border: none;
+    color: #4fb89f;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+    button.btn-link:hover {
+        background-color: #e0f5f0;
+        color: #2b8e5f;
+        transform: scale(1.05);
+        text-decoration: none;
+    }
+
+.mb-2.text-muted {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+    .card h5 {
+        font-weight: 700;
+        font-size: 1.6rem;
+        color: #4fb89f;
+        margin-bottom: 20px;
+    }
+
+    .card ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .card ul li {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+            .card ul li:before {
+                content: '✔';
+                margin-right: 10px;
+                color: #4fb89f;
+                font-size: 1.2rem;
+            }
+
+ul li button {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 1rem;
+    border: none;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    ul li button:hover {
+        background-color: #d8f5ee;
+    }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .mb-2.text-muted {
+        font-size: 1rem;
+    }
+
+    input.form-control {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+/* Prosta animacja fadeIn */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.dietetyka-cards {
+    animation: fadeIn 0.6s ease;
+}
+
+.dietetyka-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #f6fffc, #ffffff);
+    border: 1px solid #e0f5f0;
+}
+
+    .dietetyka-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3b9d8c;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+}
+.dietetyka-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #f6fffc, #ffffff);
+    border: 1px solid #e0f5f0;
+}
+
+    .dietetyka-card:hover {
+        transform: translateY(-8px) scale(1.02); 
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+.dokumenty-cards {
+    animation: fadeIn 0.6s ease;
+}
+
+.btn-outline-success {
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px 16px;
+    border: 1px solid #4fb89f;
+    background-color: white;
+    color: #4fb89f;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .btn-outline-success:hover {
+        background-color: #4fb89f;
+        color: white;
+    }

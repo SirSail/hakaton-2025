@@ -58,6 +58,14 @@
     </ItemGroup>
 
     <ItemGroup>
+      <AndroidResource Remove="wwwroot\Images\Nowy folder\**" />
+      <Compile Remove="wwwroot\Images\Nowy folder\**" />
+      <Content Remove="wwwroot\Images\Nowy folder\**" />
+      <EmbeddedResource Remove="wwwroot\Images\Nowy folder\**" />
+      <None Remove="wwwroot\Images\Nowy folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
@@ -70,6 +78,19 @@
       <None Include="wwwroot\icons\home.jpg" />
       <None Include="wwwroot\icons\profile.jpg" />
       <None Include="wwwroot\icons\services.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\Images\Nowy folder1\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\docs\dokumenty_pacjent.pdf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\docs\zalecenia_prof_Sibinskiego.pdf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

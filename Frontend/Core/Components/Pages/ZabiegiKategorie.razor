@@ -1,0 +1,430 @@
+﻿@page "/zabiegi/{categoryName}"
+@using Microsoft.AspNetCore.Components
+
+<div class="container my-4">
+    <h2>Świadczenia dla: @categoryName</h2>
+
+    <input class="form-control my-3" placeholder="Wyszukaj świadczenia" @bind="searchText" />
+
+    @if (SelectedCategory == null)
+    {
+        <!-- Kategoria główna -->
+        <ul>
+            @foreach (var cat in Categories)
+            {
+                @if (cat.Name.ToLower() == categoryName.ToLower())
+                {
+                    <li>
+                        <button class="btn btn-link p-0" @onclick="() => SelectCategory(cat)">
+                            @cat.Name
+                        </button>
+                    </li>
+                }
+            }
+        </ul>
+    }
+    else if (SelectedSubcategory == null)
+    {
+        <!-- Podkategoria -->
+        <div class="mb-2 text-muted">@SelectedCategory.Name</div>
+        <ol>
+            @foreach (var sub in SelectedCategory.Subcategories)
+            {
+                <li>
+                    <button class="btn btn-link p-0" @onclick="() => SelectSubcategory(sub)">
+                        @sub.Name
+                    </button>
+                </li>
+            }
+        </ol>
+    }
+
+    else if (SelectedTopic == null)
+    {
+        <!-- Szczegóły zabiegu -->
+        <div class="mb-2 text-muted">@SelectedCategory.Name > @SelectedSubcategory.Name</div>
+        <ul>
+            @foreach (var topic in SelectedSubcategory.Topics)
+            {
+                <li>
+                    <button class="btn btn-link p-0" @onclick="() => SelectTopic(topic)">
+                        @topic
+                    </button>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <!-- Zakładki dla konkretnego zabiegu -->
+        <div class="mb-2 text-muted">@SelectedCategory.Name > @SelectedSubcategory.Name > @SelectedTopic</div>
+        <ul>
+            @foreach (var tab in Tabs)
+            {
+                <li>
+                    <button class="btn btn-link p-0"
+                            @onclick="() => SelectTab(tab)"
+                            @ondblclick="@(tab == "dietetyka" ? EventCallback.Factory.Create(this, ToggleDietetykaCards) : EventCallback.Empty)">
+                        @tab
+                    </button>
+
+                </li>
+            }
+
+        </ul>
+
+        @if (SelectedTab == "checklista")
+        {
+            <div class="card p-3 mt-3">
+                <h5>CHECKLISTA</h5>
+                <p><strong>6–8 tyg. przed</strong></p>
+                <ul>
+                    <li>✔ Dokumenty</li>
+                    <li>✔ Badania</li>
+                </ul>
+
+                <p><strong>1–2 tyg. przed</strong></p>
+                <ul>
+                    <li>☐ Pakowanie rzeczy</li>
+                </ul>
+
+                <p><strong>1 dzień przed</strong></p>
+                <ul>
+                    <li>☐ Przyjazd do szpitala</li>
+                </ul>
+            </div>
+        }
+        else if (SelectedTab == "dietetyka" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            @if (ShowDietetykaCards)
+            {
+            <!-- Tutaj renderujemy karty -->
+                <div class="row g-4 mt-4 dietetyka-cards">
+                @foreach (var card in DietetykaCards)
+                {
+                    <div class="col-12 col-md-6">
+                        <div class="card h-100 shadow-sm rounded">
+                            <img src="@card.ImagePath" class="card-img-top" alt="@card.Title">
+                            <div class="card-body">
+                                <h5 class="card-title">@card.Title</h5>
+                                <div class="card-text">@card.Description</div>
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            </div>
+            }
+        }
+        else if (SelectedTab == "rehabilitacja" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            <div class="row g-4 mt-4 rehabilitacja-cards">
+                @foreach (var card in RehabilitacjaCards)
+                {
+                    <div class="col-12 col-md-6">
+                        <div class="card h-100 shadow-sm rounded">
+                            <img src="@card.ImagePath" class="card-img-top" alt="@card.Title">
+                            <div class="card-body">
+                                <h5 class="card-title">@card.Title</h5>
+                                <div class="card-text">@card.Description</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else if (SelectedTab == "dokumenty" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            <div class="row g-4 mt-4 dokumenty-cards">
+                @foreach (var doc in Dokumenty)
+                {
+                    <div class="col-12 col-md-6">
+                        <div class="card h-100 shadow-sm rounded">
+                            <div class="card-body">
+                                <h5 class="card-title">@doc.Title</h5>
+                                <p class="card-text">@doc.Description</p>
+                                <a class="btn btn-outline-success mt-2" href="@doc.FilePath" target="_blank" download>
+                                    <i class="bi bi-download"></i> Pobierz (@doc.FileType)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+    }
+</div>
+
+@code {
+    private string searchText = "";
+    private string? SelectedTopic = null;
+    private string? SelectedTab = null;
+    private bool ShowDietetykaCards = true;
+    private Category? SelectedCategory = null;
+    private Subcategory? SelectedSubcategory = null;
+
+    private List<string> Tabs = new() { "dokumenty", "procedury", "rehabilitacja", "dietetyka", "checklista", "terapia zajęciowa", "strategie relaksacyjne" };
+
+    [Parameter] public string categoryName { get; set; } = string.Empty;
+
+    private void SelectCategory(Category cat)
+    {
+        SelectedCategory = cat;
+        SelectedSubcategory = null;
+        SelectedTopic = null;
+        SelectedTab = null;
+    }
+    private void ToggleDietetykaCards()
+    {
+        ShowDietetykaCards = !ShowDietetykaCards;
+    }
+    private void SelectSubcategory(Subcategory sub)
+    {
+        SelectedSubcategory = sub;
+        SelectedTopic = null;
+        SelectedTab = null;
+    }
+
+    private void SelectTopic(string topic)
+    {
+        SelectedTopic = topic;
+        SelectedTab = null;
+    }
+
+    private void SelectTab(string tab)
+    {
+        SelectedTab = tab;
+    }
+
+    // Dane kategorii
+    private List<Category> Categories = new()
+    {
+        new Category
+        {
+            Name = "ortopedia",
+            Subcategories = new List<Subcategory>
+            {
+                new()
+                {
+                    Name = "st. biodrowy",
+                    Topics = new List<string>
+                    {
+                        "endoproteza",
+                        "zwyrodnienia",
+                        "pachwina piłkarska",
+                        "biodro trzaskające",
+                        "artroskopia"
+                    }
+                }
+            }
+        },
+        new Category
+        {
+            Name = "kardiologia",
+            Subcategories = new List<Subcategory>
+            {
+                new()
+                {
+                    Name = "st. serca",
+                    Topics = new List<string>
+                    {
+                        "zawał",
+                        "niewydolność serca",
+                        "kardiowersja"
+                    }
+                }
+            }
+        }
+    };
+    private List<CardItem> RehabilitacjaCards = new()
+{
+    new CardItem
+    {
+        Title = "Klęk podparty z nogą w przód",
+        Description = (MarkupString)@"
+            <p>W klęku podpartym przesuń jedną nogę między dłonie, drugą wyprostuj. Plecy wyprostowane, dłonie na podłodze lub kolanie.</p>
+            <p>Z każdym wydechem schodź biodrem niżej. Pozycję utrzymuj 30–60 sek. Zmień stronę. Ćwicz codziennie 2× na każdą stronę.</p>",
+        ImagePath = "/Images/rehabilitacja/wyprost.jpg"
+    },
+    new CardItem
+    {
+        Title = "Ptak-pies",
+        Description = (MarkupString)@"
+            <p>W klęku podpartym unieś jednocześnie prawą nogę i lewą rękę (lub osobno). Brzuch napięty, kręgosłup i głowa w linii.</p>
+            <p>Uwaga: odcinek lędźwiowy nie powinien się wyginać. Ćwiczenie wykonuj w 3 seriach po 6–8 powtórzeń na stronę.</p>",
+        ImagePath = "/Images/rehabilitacja/zuraw.jpg"
+    },
+    new CardItem
+    {
+        Title = "Unoszenie nogi bokiem w podporze bocznym",
+        Description = (MarkupString)@"
+            <p>Leżenie bokiem, podparcie na przedramieniu. Brzuch napięty, ciało w linii. Unieś nogę do góry, przytrzymaj 3–5 sek., opuść kontrolowanie.</p>
+            <p>3 serie po 6–8 powtórzeń na stronę.</p>",
+        ImagePath = "/Images/rehabilitacja/miednica.jpg"
+    },
+    new CardItem
+    {
+        Title = "Most biodrowy",
+        Description = (MarkupString)@"
+            <p>Leżenie na plecach, nogi zgięte. Napnij brzuch i wypchnij biodra w górę – ciało w jednej linii. Pośladki napięte.</p>
+            <p>Utrzymaj 5–10 sek. i powoli wróć. Wykonuj 3 serie po 6–8 powtórzeń.</p>",
+        ImagePath = "/Images/rehabilitacja/pupa.jpg"
+    },
+    new CardItem
+    {
+        Title = "Wznosy nóg w leżeniu",
+        Description = (MarkupString)@"
+            <p>Leżenie tyłem, nogi wyprostowane. Palce stóp na siebie. Powolny wznos i opust nogi 6–8×, następnie unieś i przytrzymaj 30 sek.</p>
+            <p>Zmień stronę. Wykonuj w 3 seriach.</p>",
+        ImagePath = "/Images/rehabilitacja/swieca.jpg"
+    },
+    new CardItem
+    {
+        Title = "Przyciąganie kolana do klatki piersiowej",
+        Description = (MarkupString)@"
+            <p>Leżenie na plecach. Zegnij nogę w kolanie i przyciągnij do klatki piersiowej. Kręgosłup przylega do podłoża.</p>
+            <p>Utrzymaj 30 sek., zmień stronę. Ćwicz w 4 seriach.</p>",
+        ImagePath = "/Images/rehabilitacja/zgiecie.jpg"
+    }
+};
+
+    // 📄 Karty dla ortopedia > biodro > endoproteza > dietetyka
+    private List<CardItem> DietetykaCards = new()
+{
+    new CardItem
+    {
+        Title = "Przed zabiegiem",
+        Description = (MarkupString)@"
+            <p>Zadbaj o to, by codzienne posiłki były pełnowartościowe. Jedz regularnie i nie pomijaj posiłków. W Twoim menu powinno się znaleźć:</p>
+            <ul>
+                <li><strong>Białko</strong> – mięso, ryby, jajka, nabiał, rośliny strączkowe</li>
+                <li><strong>Warzywa i owoce</strong> – szpinak, jarmuż, pietruszka, rukola, buraczki, ciecierzyca, fasola, cukinia, dynia, pomidory, marchew, jabłka</li>
+                <li><strong>Zdrowe tłuszcze</strong> – oliwa z oliwek, orzechy, awokado</li>
+                <li><strong>Produkty pełnoziarniste</strong> – kasza gryczana, kasza jaglana, płatki owsiane, pieczywo pełnoziarniste, makaron razowy</li>
+            </ul>",
+        ImagePath = "/Images/dietetyka/awokado.jpg"
+    },
+    new CardItem
+    {
+        Title = "Unikaj",
+        Description = (MarkupString)@"
+            <p>Unikaj:</p>
+            <ul>
+                <li>przetworzonej żywności</li>
+                <li>dużych ilości cukru</li>
+                <li>alkoholu</li>
+                <li>tłuszczów trans (margaryny, fast-foody, chipsy, krakersy, pizza)</li>
+            </ul>",
+        ImagePath = "/Images/dietetyka/oleje.jpg"
+    },
+    new CardItem
+    {
+        Title = "💊 Suplementacja przed zabiegiem",
+        Description = (MarkupString)@"
+            <p>Przed zabiegiem wykonaj badania krwi. Możliwe niedobory:</p>
+            <ul>
+                <li>Żelazo</li>
+                <li>Witamina D</li>
+                <li>Witamina B12</li>
+                <li>Kwas foliowy</li>
+            </ul>
+            <p>Zapytaj o suplementację odpornościową. Nie przyjmuj leków bez konsultacji z lekarzem.</p>
+            <p>Warto również zadbać o:
+            <ul>
+                <li>Witaminę D3 (jesień/zima)</li>
+                <li>Probiotyki</li>
+                <li>Kolagen, cynk, witaminę C</li>
+            </ul></p>",
+        ImagePath = "/Images/dietetyka/lyzeczki.jpg"
+    },
+    new CardItem
+    {
+        Title = "🥣 Po operacji – regeneracja",
+        Description = (MarkupString)@"
+            <p>Po operacji jedzenie to Twoje paliwo do regeneracji:</p>
+            <ul>
+                <li>Woda, lekkie zupy, herbaty ziołowe</li>
+                <li>Musy owocowe, suszone owoce (figi, morele)</li>
+                <li>Orzechy (np. nerkowce), pasty warzywne</li>
+                <li>Biszkopty, wafle ryżowe, batony owocowe bez cukru</li>
+                <li>Małe pomidorki, kabanosy</li>
+            </ul>",
+        ImagePath = "/Images/dietetyka/orzech.jpg"
+    }
+};
+    private List<Dokument> Dokumenty = new()
+{
+    new Dokument
+    {
+        Title = "Zgoda na zabieg endoprotezy",
+        Description = "Dokument do podpisu przed operacją. Prosimy o dokładne zapoznanie się.",
+        FilePath = "/docs/zgoda_na_zabieg_oraz_ocena_anestezjologa.pdf",
+        FileType = "PDF"
+    },
+    new Dokument
+    {
+        Title = "Instrukcja przedoperacyjna stara",
+        Description = "Zalecenia jak przygotować się do zabiegu.",
+        FilePath = "/docs/zalecenia_stare.docx",
+        FileType = "PDF"
+    },
+    new Dokument
+    {
+        Title = "Instrukcja przedoperacyjna nowa",
+        Description = "Zalecenia jak przygotować się do zabiegu.",
+        FilePath = "/docs/zalecenia_nowe.docx",
+        FileType = "PDF"
+    },
+    new Dokument
+    {
+        Title = "Prospekt 1 Endoproteza",
+        Description = "Dokument do zapoznania się przed operacją. Prosimy o dokładne przeczytanie.",
+        FilePath = "/docs/Prospekt1_Endoproteza_stawu_biodrowego.pdf",
+        FileType = "PDF"
+    },
+    new Dokument
+    {
+        Title = "Prospekt 2 Endoproteza",
+        Description = "Dokument do zapoznania się przed operacją. Prosimy o dokładne przeczytanie.",
+        FilePath = "/docs/Prospekt_Nr_2_Endoproteza_st_kolanowego.pdf",
+        FileType = "PDF"
+    },
+        new Dokument
+    {
+        Title = "Zalecenia profesora Sibińskiego",
+        Description = "Dokument zawierający zalecenia lekarskie przygotowane przez prof. Sibinskiego",
+        FilePath = "/docs/zalecenia_prof_Sibinskiego.pdf",
+        FileType = "PDF"
+    }
+};
+
+    private class Dokument
+    {
+        public string Title { get; set; } = "";
+        public string Description { get; set; } = "";
+        public string FilePath { get; set; } = "";
+        public string FileType { get; set; } = "";
+    }
+
+
+    private class Category
+    {
+        public string Name { get; set; } = "";
+        public List<Subcategory> Subcategories { get; set; } = new();
+    }
+
+    private class Subcategory
+    {
+        public string Name { get; set; } = "";
+        public List<string> Topics { get; set; } = new();
+    }
+
+    private class CardItem
+    {
+        public string Title { get; set; } = "";
+        public MarkupString Description { get; set; }
+        public string ImagePath { get; set; } = "";
+    }
+
+}
