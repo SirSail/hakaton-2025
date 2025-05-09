@@ -1,46 +1,49 @@
-﻿.calendar-container {
-    max-width: 500px;
-    margin: auto;
+﻿.calendar-wrapper {
+    background-color: #f7fafc;
+    border-radius: 16px;
     padding: 1rem;
-    background-color: #F7FAFC;
-    border-radius: 12px;
+    max-width: 540px;
+    margin: auto;
 }
 
-.calendar-select {
-    max-width: 150px;
-    margin-bottom: 1rem;
+.calendar-month-select {
+    max-width: 220px;
 }
 
-.calendar-days {
+.calendar-scroll-days {
+    display: flex;
+    gap: 0.5rem;
     overflow-x: auto;
-    flex-wrap: nowrap;
+    padding: 0.5rem 0;
+    scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    user-select: none;
+    cursor: grab;
 }
 
-    .calendar-days button {
-        width: 44px;
-        height: 60px;
-        font-size: 0.8rem;
-        font-weight: 500;
-        border-radius: 12px;
-        margin: 2px;
-        background-color: #FFFFFF;
-        border: 1px solid #D9E8E3;
-        color: #333;
-    }
+.day-button {
+    flex: 0 0 auto;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 1px solid #cfe8dc;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    transition: 0.2s;
+}
 
-    .calendar-days .btn-active-day {
-        background-color: #4FB89F;
-        border: none;
+    .day-button.active {
+        background-color: #4fb89f;
         color: #fff;
+        border: none;
     }
 
 .task-list {
     margin-top: 1rem;
     max-height: 60vh;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
     overflow-y: auto;
     padding-right: 4px;
     padding-bottom: calc(80px + env(safe-area-inset-bottom));
@@ -55,32 +58,6 @@
         border-radius: 6px;
     }
 
-.card {
-    background-color: #fff;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
-    border-left: 6px solid #4FB89F;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-}
-
-.card-body small {
-    color: #666;
-}
-
-.card:hover {
-    transform: scale(1.01);
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-
-.entry-time {
-    color: #32C0EE;
-    font-weight: bold;
-    min-width: 70px;
-}
-
 .task-card {
     display: flex;
     align-items: center;
@@ -88,64 +65,30 @@
     border-radius: 12px;
     padding: 0.8rem;
     margin-bottom: 0.6rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
     .task-card .time {
         font-weight: bold;
-        width: 80px;
+        color: #32c0ee;
+        width: 70px;
     }
 
-    .task-card .content .name {
+    .task-card .name {
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 600;
     }
 
-    .task-card .content .description {
+    .task-card .description {
         font-size: 0.85rem;
         color: #666;
     }
 
-.collapse {
-    background-color: #F1F8F6;
-    border-left: 4px solid #4FB89F;
-    border-radius: 8px;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #333;
-}
-
-
-
-.entry-icon {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-}
-
-.notification-btn {
+.notification-btn, .star-btn {
     background: none;
     border: none;
+    font-size: 1.4rem;
+    color: #4caf50;
     padding: 0;
     margin-left: 10px;
-    cursor: pointer;
-}
-
-    .notification-btn .bi-bell {
-        font-size: 1.5rem;
-        color: white;
-    }
-
-        .notification-btn .bi-bell.text-success {
-            color: #28a745;
-        }
-
-.card-body small.text-success {
-    margin-left: 10px;
-    font-size: 0.9rem;
-}
-
-.important-entry {
-    border-left: 6px solid #FFD700 !important; /* golden yellow */
-    background-color: #FFFBEA !important;
 }

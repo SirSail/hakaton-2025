@@ -1,47 +1,109 @@
-h3 {
-    color: #057E38;
-    font-weight: 600;
-    text-shadow: 1px 1px 0 #ffffff70;
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background: linear-gradient(to bottom right, #e0f7fa, #e8f5e9);
 }
 
-label {
-    font-weight: 600;
-    margin-bottom: 4px;
-    color: #057E38;
+.glass-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 1.5rem;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
 }
 
-img {
-    width: 300px;
+.register-logo {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 150px;
+    height: auto;
 }
 
-.ikonka{
-    background-color: white;
+.register-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #2d6a4f;
 }
 
-.ramka {
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    padding: 4px 8px;
-    transition: box-shadow 0.3s ease;
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    display: block;
 }
 
-.ramka:hover {
-    box-shadow: 0 0 0 2px #32C0EE66;
+.input-frame {
+    border: 1px solid #cfe8dc;
+    border-radius: 0.5rem;
+    margin-bottom: 0.8rem;
+    overflow: hidden;
 }
 
-input{
+.input-text {
+    border: none !important;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+    .input-text:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+.submit-btn {
+    width: 100%;
+    background-color: #81c784;
     border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
 }
 
-.kalendarz  {
-    margin-bottom: 10px;
-}
+    .submit-btn:hover {
+        background-color: #66bb6a;
+    }
 
-.kalendarz select {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.9rem;
+.debug-box {
+    font-size: 0.85rem;
+    color: #6c757d;
+    word-break: break-word;
 }
+.validation-message {
+        font-size: 0.8rem;
+        color: #d32f2f;
+        margin-top: 0.2rem;
+        margin-bottom: 0.4rem;
+        padding-left: 0.4rem;
+        line-height: 1.2;
+    }
 
-.fix-przycisk {
-    padding-bottom: calc(80px + env(safe-area-inset-bottom));
+    /* Ensure nested spans don’t ruin spacing */
+    .validation-message > div,
+    .validation-message > span,
+    .validation-message span {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block;
+    }
+
+    /* Tighten input + message spacing */
+    .input-frame + .validation-message {
+        margin-top: -0.3rem;
+    }
+
+@media (max-width: 400px) {
+    .glass-box {
+        padding: 1.5rem 1rem;
+    }
+
+    .register-title {
+        font-size: 1.25rem;
+    }
 }

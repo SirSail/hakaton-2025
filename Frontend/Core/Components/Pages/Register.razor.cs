@@ -12,33 +12,53 @@ namespace Core.Components.Pages
         private ApiService ApiService { get; set; }
 
         private RegisterFormModel FormModel { get; set; } = new();
-        private string Debug { get; set; } = string.Empty;
+        private string ErrorMessage { get; set; } = string.Empty;
 
+        private bool IsLoading { get; set; } = false;
+        private bool IsHiddenErrorDialog { get; set; } = true;
         private async Task HandleRegister()
         {
+            IsLoading = true;
 
-            RegisterRequest registerRequest = new()
+            try
             {
-                FirstName = FormModel.FirstName,
-                LastName = FormModel.LastName,
-                Email = FormModel.Email,
-                Password = FormModel.Password,
-                BirthDate = FormModel.BirthDate.Value
-            };
+                RegisterRequest registerRequest = new()
+                {
+                    FirstName = FormModel.FirstName,
+                    LastName = FormModel.LastName,
+                    Email = FormModel.Email.Trim(),
+                    Password = FormModel.Password,
+                    BirthDate = FormModel.BirthDate.Value
+                };
 
-            var error = await ApiService.PostAsync("api/v1/register-patient", registerRequest);
+                var error = await ApiService.PostAsync("api/v1/register-patient", registerRequest);
 
-            if(error is null)
-            {
-                NavigationManager.NavigateTo("/login");
+                if (error is null)
+                {
+                    NavigationManager.NavigateTo("/login");
+                }
+                else
+                {
+                    ErrorMessage = error?.Message ?? "Wystąpił nieznany błąd.";
+                    IsHiddenErrorDialog = false;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Debug = error?.Message;
+                ErrorMessage = ex.Message;
+                IsHiddenErrorDialog = false;
             }
-
+            finally
+            {
+                IsLoading = false;
+            }
         }
-
+        private Task CloseDialog()
+        {
+            IsHiddenErrorDialog = true;
+            ErrorMessage = string.Empty;
+            return Task.CompletedTask;
+        }
 
         private class RegisterFormModel
         {

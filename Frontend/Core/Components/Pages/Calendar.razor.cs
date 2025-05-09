@@ -5,6 +5,8 @@ using Core.API.Services;
 using Core.Components.BaseClassess;
 using Core.Helpers;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.JSInterop;
 using System.Globalization;
 
 namespace Core.Components.Pages
@@ -12,29 +14,25 @@ namespace Core.Components.Pages
     public partial class Calendar : CustomComponentBase
     {
         [Inject] private ApiService ApiService { get; set; }
-        private List<CalendarItemResponse> CalendarItems = [];
+        [Inject] private IJSRuntime JS { get; set; }
 
-        private DateOnly SelectedDay { get; set; } = DateOnly.FromDateTime(DateTime.Now);
-
+        private List<CalendarItemResponse> CalendarItems { get; set; } = [];
+        private DateOnly SelectedDay { get; set; }
         private DateSpan DisplayedDateSpan { get; set; }
+        private ElementReference DayScrollRef { get; set; }
+        private bool IsDragging { get; set; } = false;
+        private double DragStartX { get; set; }
+        private double ScrollStartX { get; set; }
 
+        private int SelectedMonth { get; set; } = DateTime.Now.Month;
         private Dictionary<int, string> Months { get; set; } = new Dictionary<int, string>
         {
-            { 1, "Styczeń" },
-            { 2, "Luty" },
-            { 3, "Marzec" },
-            { 4, "Kwiecień" },
-            { 5, "Maj" },
-            { 6, "Czerwiec" },
-            { 7, "Lipiec" },
-            { 8, "Sierpień" },
-            { 9, "Wrzesień" },
-            { 10, "Październik" },
-            { 11, "Listopad" },
-            { 12, "Grudzień" }
+            { 1, "Styczeń" }, { 2, "Luty" }, { 3, "Marzec" }, { 4, "Kwiecień" },
+            { 5, "Maj" }, { 6, "Czerwiec" }, { 7, "Lipiec" }, { 8, "Sierpień" },
+            { 9, "Wrzesień" }, { 10, "Październik" }, { 11, "Listopad" }, { 12, "Grudzień" }
         };
 
-        private string Debug { get; set; } = string.Empty;
+        private bool ShouldScrollToSelectedDay { get; set; } = false;
         private bool IsDataLoaded { get; set; } = false;
 
         protected override async Task OnInitializedAsync()
@@ -44,6 +42,7 @@ namespace Core.Components.Pages
             {
                 await PrepareCalendar();
                 await LoadData();
+                ShouldScrollToSelectedDay = true;
                 IsDataLoaded = true;
             }
             else
@@ -52,28 +51,44 @@ namespace Core.Components.Pages
             }
         }
 
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender)
+            {
+                await JS.InvokeVoidAsync("scrollDayIntoView", $"day-{SelectedDay:yyyy-MM-dd}");
+            }
+
+            if (ShouldScrollToSelectedDay)
+            {
+                ShouldScrollToSelectedDay = false;
+                await JS.InvokeVoidAsync("scrollDayIntoView", $"day-{SelectedDay:yyyy-MM-dd}");
+            }
+        }
+
+        private Task PrepareCalendar()
+        {
+            var now = DateTime.Now;
+            var start = new DateOnly(now.Year, now.Month, 1);
+            var end = new DateOnly(now.Year, now.Month, DateTime.DaysInMonth(now.Year, now.Month));
+            SelectedDay = DateOnly.FromDateTime(now);
+            DisplayedDateSpan = new DateSpan(start, end);
+            return Task.CompletedTask;
+        }
+
         private async Task LoadData()
         {
-
             CalendarItemRequest request = new CalendarItemRequest
             {
                 StartDate = DisplayedDateSpan.Start,
                 EndDate = DisplayedDateSpan.End
             };
-            var apiResponse =
-                await ApiService.PostWithResultAsync<CalendarItemRequest, List<CalendarItemResponse>>($"api/v1/calendar-items", request);
 
+            var apiResponse = await ApiService.PostWithResultAsync<CalendarItemRequest, List<CalendarItemResponse>>("api/v1/calendar-items", request);
 
-            if (!apiResponse.IsSuccess)
+            if (apiResponse.IsSuccess)
             {
-                Debug = apiResponse.Error.Message;
-                if (string.IsNullOrEmpty(Debug))
-                {
-                    Debug = $"BEZ WIADOMOSCI: {ApiService.Debug}";
-                }
-                return;
+                CalendarItems = apiResponse.Data;
             }
-            CalendarItems = apiResponse.Data;
         }
 
         private async Task RefreshData()
@@ -83,44 +98,49 @@ namespace Core.Components.Pages
             IsDataLoaded = true;
         }
 
-        private Task PrepareCalendar()
+        
+
+        private string GetDayString(DateOnly date) => $"{date.Day} {date.GetShortDayWeekName()}";
+
+        private Task SetSelectedDay(DateOnly date)
         {
-            DateOnly today = DateOnly.FromDateTime(DateTime.Now);
-            var start = DateOnly.FromDateTime(DateHelper.GetStartOfWeek(DateTime.Now));
-            var end = DateOnly.FromDateTime(DateHelper.GetEndOfWeek(DateTime.Now));
-            DisplayedDateSpan = new DateSpan(start, end);
+            SelectedDay = date;
 
             return Task.CompletedTask;
         }
 
-        private string GetDayString(DateOnly date)
+        private async Task MonthChanged(int newMonth)
         {
-            return $"{date.Day} {date.GetShortDayWeekName()}";
+            SelectedMonth = newMonth;
+
+            int year = DateTime.Now.Year;
+            int daysInSelectedMonth = DateTime.DaysInMonth(year, SelectedMonth);
+
+            var start = new DateOnly(year, SelectedMonth, 1);
+            var end = new DateOnly(year, SelectedMonth, daysInSelectedMonth);
+
+            DisplayedDateSpan = new DateSpan(start, end);
+            SelectedDay = new DateOnly(year, SelectedMonth, Math.Min(daysInSelectedMonth, DateTime.Now.Day));
+
+            await RefreshData();
+            ShouldScrollToSelectedDay = true;
         }
 
-        private async Task SetSelectedDay(DateOnly date)
+        private async void StartDrag(MouseEventArgs e)
         {
-            var lastDate = SelectedDay;
-            SelectedDay = date;
-            if (!DisplayedDateSpan.GetDaysBeetween().Contains(lastDate))
-            {
-                await RefreshData();
-            }
-
-            StateHasChanged();
+            IsDragging = true;
+            DragStartX = e.ClientX;
+            ScrollStartX = await JS.InvokeAsync<double>("getScrollLeft", "calendar-scroll-days");
         }
 
-        private async Task MonthChanged(ChangeEventArgs e)
+        private async void DragDays(MouseEventArgs e)
         {
-            string selectedMonthString = e.Value.ToString();
-            if (int.TryParse(selectedMonthString, out int selectedMonth))
-            {
-                DisplayedDateSpan.ChangeMonth(selectedMonth);
-                await SetSelectedDay(DisplayedDateSpan.Start.AddDays(2));
-            }
-
-            StateHasChanged();
+            if (!IsDragging) return;
+            var diff = DragStartX - e.ClientX;
+            await JS.InvokeVoidAsync("setScrollLeft", "calendar-scroll-days", ScrollStartX + diff);
         }
+
+        private void EndDrag(MouseEventArgs e) => IsDragging = false;
 
         private class DateSpan
         {
@@ -135,26 +155,8 @@ namespace Core.Components.Pages
 
             public IEnumerable<DateOnly> GetDaysBeetween()
             {
-                if (End < Start)
-                    yield break;
-
                 for (var date = Start; date <= End; date = date.AddDays(1))
-                {
                     yield return date;
-                }
-            }
-            public void ChangeMonth(int monthNumber)
-            {
-                Start = AdjustDate(Start, monthNumber);
-                End = AdjustDate(End, monthNumber);
-            }
-            private static DateOnly AdjustDate(DateOnly original, int newMonth)
-            {
-                int year = original.Year;
-
-
-                int day = Math.Min(original.Day, DateTime.DaysInMonth(year, newMonth));
-                return new DateOnly(year, newMonth, day);
             }
         }
     }

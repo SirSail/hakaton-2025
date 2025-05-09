@@ -1,0 +1,23 @@
+<NavLink class="drawer-link" href="@Href" Match="NavLinkMatch.Prefix">
+    <i class="@Icon"></i>
+    <span>@Label</span>
+</NavLink>
+
+<style>
+    .drawer-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+    font-size: 1rem;
+}
+</style>
+@code {
+    [Parameter] public string Icon { get; set; }
+    [Parameter] public string Label { get; set; }
+    [Parameter] public string Href { get; set; }
+}

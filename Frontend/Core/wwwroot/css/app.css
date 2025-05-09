@@ -12,7 +12,33 @@
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
 
+.modal-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 90%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    color: #d32f2f;
+    margin-bottom: 1rem;
+}
 a, .btn-link {
     color: #006bb7;
 }

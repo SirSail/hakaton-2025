@@ -1,71 +1,64 @@
 @inherits Core.Components.BaseClassess.CustomComponentBase
 @page "/kalendarz"
-@page "/calendar-item/{id:int}"
+@using Microsoft.AspNetCore.Components.Web
+@using Core.Components.Spinners
 
-<h3 class="text-center my-4">Twój plan daysa</h3>
+<h3 class="text-center my-4">Twój plan dnia</h3>
 
 @if (IsDataLoaded)
 {
-	<div class="container calendar-container">
-		<div class="d-flex flex-wrap gap-2 justify-content-center mb-3 calendar-days">
-			<div class="input-group w-50">
-				<span class="input-group-text bg-white border-end-0">
-					DEBUG: @Debug
-				</span>
-				<span class="input-group-text bg-white border-end-0">
+	<div class="calendar-wrapper container">
+		<div class="d-flex gap-2 justify-content-center align-items-center mb-3">
+			<div class="input-group calendar-month-select">
+				<span class="input-group-text">
 					<i class="bi bi-calendar3"></i>
 				</span>
-
-				<select @onchange="MonthChanged" class="form-select border-start-0" aria-label="Wybierz miesi¹c">
+				<InputSelect TValue="int"
+							 Value="SelectedMonth"
+							 ValueChanged="MonthChanged"
+							 ValueExpression="@(() => SelectedMonth)"
+							 class="form-select">
 					@foreach (var month in Months)
 					{
-						<option value="@month.Key.ToString()">@month.Value</option>
+						<option value="@month.Key">@month.Value</option>
 					}
-				</select>
+				</InputSelect>
 			</div>
-			<button @onclick=@RefreshData class="btn btn-outline-secondary ms-3" title="Odœwie¿">
+			<button class="btn btn-outline-secondary" title="Odœwie¿" @onclick="RefreshData">
 				<i class="bi bi-arrow-repeat"></i>
 			</button>
 		</div>
 
-		<div class="d-flex justify-content-between mb-3 calendar-days">
+		<div id="calendar-scroll-days"
+			 class="calendar-scroll-days"
+			 @onmousedown="StartDrag"
+			 @onmouseup="EndDrag"
+			 @onmousemove="DragDays">
 			@foreach (DateOnly day in DisplayedDateSpan.GetDaysBeetween())
 			{
-				<button @onclick="() => SetSelectedDay(day)" class="btn @((day == SelectedDay) ? "btn-active-day" : "") px-3">
-					<div class="fw-semibold">@GetDayString(day)</div>
+				<button id="day-@day.ToString("yyyy-MM-dd")" class="day-button @(day == SelectedDay ? "active" : "")"
+						@onclick="() => SetSelectedDay(day)">
+					<div>@GetDayString(day)</div>
 				</button>
 			}
-
 		</div>
 
 		<div class="task-list mt-4">
 			@foreach (var calendarItem in CalendarItems.Where(x => DateOnly.FromDateTime(x.Time) == SelectedDay))
 			{
-				<div class="card shadow-sm mb-3">
-					<div class="card-body d-flex align-items-center justify-content-between"
-						 data-bs-toggle="collapse"
-						 data-bs-target="@($"#{calendarItem.Id}")"
-						 style="cursor: pointer;">
-
-						<div class="d-flex align-items-center">
-							<div class="me-3 godzina-wpisu" style="min-width: 70px;">
-								@calendarItem.Time.ToString("HH:mm")
-							</div>
-							<div>
-								<b class="text-muted">@calendarItem.Title</b><br />
-								<small class="text-muted">@calendarItem.Description</small>
-							</div>
-						</div>
-
-						<div class="d-flex align-items-center">
-							<button class="btn notification-btn">
-								<i class="bi bi-bell" style="font-size: 1.5rem;"></i>
-							</button>
-							<button class="btn star-btn" title="Oznacz jako wa¿ne">
-								<i class="bi bi-star" style="font-size: 1.5rem;"></i>
-							</button>
-						</div>
-
+				<div class="task-card">
+					<div class="time">@calendarItem.Time.ToString("HH:mm")</div>
+					<div class="content">
+						<div class="name">@calendarItem.Title</div>
+						<div class="description">@calendarItem.Description</div>
+					</div>
+					<div class="ms-auto d-flex align-items-center">
+						<button class="btn notification-btn" title="Przypomnienie">
+							<i class="bi bi-bell"></i>
+						</button>
+						<button class="btn star-btn ms-2" title="Oznacz jako wa¿ne">
+							<i class="bi bi-star"></i>
+						</button>
 					</div>
 				</div>
 			}
@@ -74,5 +67,5 @@
 }
 else
 {
-	<span>£ADOWANIE DANYCH ...</span>
+	<Spinner />
 }

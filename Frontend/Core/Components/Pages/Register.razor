@@ -1,61 +1,77 @@
 ﻿@inherits Core.Components.BaseClassess.CustomComponentBase
-
 @page "/rejestracja"
+@using Core.Components.Spinners
+@using Core.Components.Dialogs
 
-<EditForm Model="FormModel" OnValidSubmit="HandleRegister">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+@if (IsLoading)
+{
+    <Spinner />
+}
+else
+{
+    <EditForm Model="FormModel" OnValidSubmit="HandleRegister">
+        <DataAnnotationsValidator />
 
-    <div class="glass-box">
-        <img src="Images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="mb-0" />
-        <h3 class="text-center my-4 mt-0">Rejestracja</h3>
+        <div class="register-container">
+            <div class="glass-box">
+                <img src="Images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="register-logo" />
 
-        <div class="container fix-przycisk">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
+                <h3 class="text-center register-title">Rejestracja</h3>
 
-                    <label>Imię</label>
-                    <div class="input-group ramka mb-1">
-                        <input @bind="FormModel.FirstName" class="form-control" placeholder="Imię" />
-                    </div>
+                <!-- Imię -->
+                <label class="form-label">Imię</label>
+                <div class="input-frame">
+                    <InputText @bind-Value="FormModel.FirstName" class="form-control input-text" placeholder="Imię" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.FirstName)" style="font-size:0.8rem;color:red;" />
 
-                    <label>Nazwisko</label>
-                    <div class="input-group ramka mb-1">
-                        <input @bind="FormModel.LastName" class="form-control" placeholder="Nazwisko" />
-                    </div>
 
-                    <label>Data urodzenia</label>
-                    <div class="input-group ramka kalendarz align-items-center mb-1">
-                        <InputDate @bind-Value="FormModel.BirthDate" class="form-control mb-3" />
-                    </div>
+                <!-- Nazwisko -->
+                <label class="form-label">Nazwisko</label>
+                <div class="input-frame">
+                    <InputText @bind-Value="FormModel.LastName" class="form-control input-text" placeholder="Nazwisko" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.LastName)" style="font-size:0.8rem;color:red;" />
 
-                    <label>Adres e-mail</label>
-                    <div class="input-group ramka mb-1">
-                        <input @bind="FormModel.Email" class="form-control" placeholder="Adres e-mail" />
-                    </div>
+                <!-- Data urodzenia -->
+                <label class="form-label">Data urodzenia</label>
+                <div class="input-frame">
+                    <InputDate @bind-Value="FormModel.BirthDate"
+                               TValue="DateOnly?"
+                               AdditionalAttributes="@(new Dictionary<string, object> { { "placeholder", "DD-MM-RRRR" },{"class","form-control input-text"} })" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.BirthDate)" style="font-size:0.8rem;color:red;" />
 
-                    <label>Hasło</label>
-                    <div class="input-group ramka mb-1">
-                        <input @bind="FormModel.Password" type="password" class="form-control" placeholder="Hasło" />
-                    </div>
+                <!-- Email -->
+                <label class="form-label">Adres e-mail</label>
+                <div class="input-frame">
+                    <InputText @bind-Value="FormModel.Email" class="form-control input-text" placeholder="Adres e-mail" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.Email)" style="font-size:0.8rem;color:red;" />
 
-                    <label>Powtórz hasło</label>
-                    <div class="input-group ramka mb-3">
-                        <input @bind="FormModel.ConfirmPassword" type="password" class="form-control" placeholder="Potwierdź hasło" />
-                    </div>
+                <!-- Hasło -->
+                <label class="form-label">Hasło</label>
+                <div class="input-frame">
+                    <InputText @bind-Value="FormModel.Password" type="password" class="form-control input-text" placeholder="Hasło" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.Password)" style="font-size:0.8rem;color:red;" />
 
-                    <button type="submit" class="btn btn-primary w-100">Zarejestruj się</button>
+                <!-- Potwierdź hasło -->
+                <label class="form-label">Powtórz hasło</label>
+                <div class="input-frame mb-3">
+                    <InputText @bind-Value="FormModel.ConfirmPassword" type="password" class="form-control input-text" placeholder="Potwierdź hasło" />
+                </div>
+                <ValidationMessage For="@(() => FormModel.ConfirmPassword)" style="font-size:0.8rem;color:red;" />
 
-                    <div class="text-center mt-3">
-                        <span>Masz już konto? </span>
-                        <a href="/logowanie">Zaloguj się</a>
-                    </div>
-                    <div class="text-center mt-3">
-                        <span>DEBUG:  </span>
-                        <div>@Debug</div>
-                    </div>
+                <button type="submit" class="btn btn-primary submit-btn">Zarejestruj się</button>
+
+                <div class="text-center mt-3">
+                    <span>Masz już konto? </span>
+                    <a href="/logowanie">Zaloguj się</a>
                 </div>
             </div>
         </div>
-    </div>
-</EditForm>
+    </EditForm>
+}
+
+<ErrorDialog Message="@ErrorMessage" IsHidden="@IsHiddenErrorDialog" OnClose="CloseDialog" />

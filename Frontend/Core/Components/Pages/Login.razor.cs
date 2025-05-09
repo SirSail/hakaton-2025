@@ -1,12 +1,8 @@
 ﻿using Core.API;
 using Core.API.Requests;
-using Core.API.Responses;
-using Core.API.Services;
-using Core.API.StateProviders;
 using Core.Authorize.Services;
 using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
-using Plugin.Firebase.CloudMessaging;
 
 namespace Core.Components.Pages
 {
@@ -15,11 +11,10 @@ namespace Core.Components.Pages
         [Inject]
         private AuthService AuthService { get; set; }
 
-        private LoginRequest _loginRequest = new();
-        private string _passwordFieldType = "password";
-
-        private string Debug { get; set; } = string.Empty;
-
+        private LoginRequest LoginRequest { get; set; } = new();
+        private string PasswordFieldType { get; set; } = "password";
+        private bool IsHiddenErrorDialog { get; set; } = true;
+        private string ErrorMessage { get; set; } = string.Empty;
 
         protected override async Task OnInitializedAsync()
         {
@@ -31,14 +26,18 @@ namespace Core.Components.Pages
             }
         }
 
+
         private async Task HandleLogin()
         {
             try
             {
-                ApiError apiError = await AuthService.LoginAsync(_loginRequest);
+                LoginRequest.Email = LoginRequest.Email.Trim();    
+                ApiError apiError = await AuthService.LoginAsync(LoginRequest);
                 if (apiError is not null)
                 {
-                    Debug = apiError.Message;
+                    ErrorMessage = apiError.Message;
+                    IsHiddenErrorDialog = false;
+                    await InvokeAsync(StateHasChanged);
                     return;
                 }
                 NavigationManager.NavigateTo("/", true);
@@ -46,15 +45,23 @@ namespace Core.Components.Pages
             }
             catch (Exception ex)
             {
-                Debug = ex.ToString();
+                ErrorMessage = ex.Message;
+                IsHiddenErrorDialog = false;
             }
         }
 
         protected void TogglePasswordVisibility()
         {
-            _passwordFieldType = _passwordFieldType ==  "password" ? "text" : "password";
+            PasswordFieldType = PasswordFieldType ==  "password" ? "text" : "password";
         }
 
-        
+        private Task CloseDialog()
+        {
+            IsHiddenErrorDialog = false;
+            ErrorMessage = string.Empty;
+
+            return Task.CompletedTask;
+        }
+
     }
 }
