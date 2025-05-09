@@ -7,5 +7,4 @@
 
         public string RedirectRoute { get; set; } = string.Empty;
     }
-
 }

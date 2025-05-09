@@ -1,34 +1,35 @@
 ﻿<input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
 <label for="nav-toggle" class="hamburger-clean">
-    <span></span>
-    <span></span>
-    <span></span>
+	<span></span>
+	<span></span>
+	<span></span>
 </label>
 
 <aside class="drawer-menu" onclick="document.getElementById('nav-toggle').checked = false">
-    <nav>
-        @if (IsLogged)
-        {
-                <NavItem Icon="bi bi-house-door" Label="Home" Href="" />
-                <NavItem Icon="bi bi-calendar3" Label="Kalendarz" Href="kalendarz" />
-                <NavItem Icon="bi bi-heart-pulse" Label="Zabiegi" Href="care" />
-                <NavItem Icon="bi bi-columns-gap" Label="Nowy panel" Href="newhome" />
-                <NavItem Icon="bi bi-box-arrow-right" Label="Wyloguj się" Href="logout" />
+	<nav>
+		@if (IsLogged)
+		{
+				<NavItem Icon="bi bi-house-door" Label="Home" Href="" />
+				<NavItem Icon="bi bi-calendar3" Label="Kalendarz" Href="kalendarz" />
+				<NavItem Icon="bi bi-heart-pulse" Label="Zabiegi" Href="care" />
+				<NavItem Icon="bi bi-columns-gap" Label="Nowy panel" Href="newhome" />
+				<NavItem Icon="bi bi-box-arrow-right" Label="Wyloguj się" Href="logout" />
 
-                <hr />
+				<hr />
 
-                <NavItem Icon="bi bi-person-plus" Label="Profil" Href="profil" />
-                <NavItem Icon="bi bi-gear" Label="Ustawienia" Href="settings" />
-        }
-        else
-        {
-                <NavItem Icon="bi bi-person-plus" Label="Rejestracja" Href="rejestracja" />
-                <NavItem Icon="bi bi-box-arrow-in-right" Label="Logowanie" Href="login" />
-        }
-    </nav>
+				<NavItem Icon="bi bi-person-plus" Label="Profil" Href="profil" />
+				<NavItem Icon="bi bi-gear" Label="Ustawienia" Href="settings" />
+		}
+		else
+		{
+				<NavItem Icon="bi bi-person-plus" Label="Rejestracja" Href="rejestracja" />
+				<NavItem Icon="bi bi-box-arrow-in-right" Label="Logowanie" Href="login" />
+				<NavItem Icon="bi bi-list-nested-nav-menu" Href="map" Label="Mapa" />
+		}
+	</nav>
 </aside>
 
 @code {
-    [Parameter] public bool IsLogged { get; set; }
+	[Parameter] public bool IsLogged { get; set; }
 }

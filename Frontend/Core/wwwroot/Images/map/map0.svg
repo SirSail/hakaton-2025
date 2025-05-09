@@ -6492,7 +6492,7 @@
        cx="1591.8743"
        cy="139.05728"
        r="5.9439325"
-       inkscape:label="8. klatka schodowa" />
+       inkscape:label="8.jpg" />
     <g
        id="g109"
        inkscape:label="dodatkowe pkt"
@@ -6503,7 +6503,7 @@
          cx="117.94393"
          cy="197.94392"
          r="5.9439325"
-         inkscape:label="automat i miejsce dowozu jedzenia" />
+         inkscape:label="Katering_i_automaty.jpg" />
       <circle
          style="clip-rule:evenodd;fill:#007a33;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-dasharray:none;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
          id="path109-2-9-3-8-5-1"
@@ -6522,49 +6522,49 @@
          cx="502.56519"
          cy="241.40675"
          r="5.9439325"
-         inkscape:label="7. korytarz - izba przyjęć" />
+         inkscape:label="7.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109-2-9-97"
          cx="483.94394"
          cy="326.94394"
          r="5.9439325"
-         inkscape:label="6" />
+         inkscape:label="6.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109-2-9-3"
          cx="291.59027"
          cy="333.26276"
          r="5.9439325"
-         inkscape:label="5" />
+         inkscape:label="5.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109-2-9-9"
          cx="290.61642"
          cy="280.59027"
          r="5.9439325"
-         inkscape:label="4" />
+         inkscape:label="4.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109-2-9-6"
          cx="189.52924"
          cy="279.92651"
          r="5.9439325"
-         inkscape:label="3" />
+         inkscape:label="3.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109-2-9"
          cx="109.1757"
          cy="341.87009"
          r="5.9439325"
-         inkscape:label="2. wejście A" />
+         inkscape:label="2.jpg" />
       <circle
          style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
          id="path109"
          cx="97.79702"
          cy="471.79703"
          r="8.79702"
-         inkscape:label="1. Start - ul. Wojska Polskiego" />
+         inkscape:label="1.jpg" />
     </g>
   </g>
 </svg>

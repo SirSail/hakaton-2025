@@ -1,8 +1,4 @@
-﻿using Core.API.Services;
-using Core.API.StateProviders;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.Extensions.Logging;
-using Plugin.Firebase.CloudMessaging;
+﻿using Microsoft.Extensions.Logging;
 
 namespace Core
 {
@@ -21,9 +17,16 @@ namespace Core
                 });
 
             
+            //builder.Services.AddScoped(sp => new HttpClient
+            //{
+            //    BaseAddress = new Uri("http://192.168.43.9:6999/")
+            //});
+
+
+
             builder.Services.AddScoped(sp => new HttpClient
             {
-                BaseAddress = new Uri("http://192.168.43.9:6999/") // Replace with your backend
+                BaseAddress = new Uri("http://158.75.95.16:6999/") 
             });
 
 

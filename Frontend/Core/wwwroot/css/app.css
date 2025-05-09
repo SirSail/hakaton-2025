@@ -30,6 +30,8 @@
     padding: 1.5rem;
     border-radius: 12px;
     max-width: 90%;
+    width: 90%;
+    height: 90%;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     text-align: center;
 }

@@ -5,78 +5,83 @@
 
 <!-- SVG -->
 <div style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc;">
-    <object id="svgObject"
-            type="image/svg+xml"
-            data="/Images/map/map0.svg"
-            style="min-width: 1000px; min-height: 800px;">
-    </object>
+	<object id="svgObject"
+			type="image/svg+xml"
+			data="/Images/map/map0.svg"
+			style="min-width: 1000px; min-height: 800px;">
+	</object>
 </div>
 
 <!-- Debug: ścieżka -->
 <div id="labelOutput"
-     style="margin-top: 20px; padding: 10px; border: 1px solid #aaa; background-color: #f9f9f9;">
-    <strong>Ścieżka do pliku:</strong> <span id="labelText">Brak</span>
+	 style="margin-top: 20px; padding: 10px; border: 1px solid #aaa; background-color: #f9f9f9;">
+	<strong>Ścieżka do pliku:</strong> <span>@ImagePath</span>
 </div>
+
+<Core.Components.Dialogs.TemplatedDialog IsHidden="string.IsNullOrEmpty(ImagePath)" OnClose="CloseDialog">
+	<div style="width: 100%;height: 100%; overflow: auto">
+		<a-scene embedded style="width: 100%; height: 100%;">
+			<a-sky src="@ImagePath"></a-sky>
+		</a-scene>
+	</div>
+
+</Core.Components.Dialogs.TemplatedDialog>
 
 <div id="view360">
-
 </div>
 @code {
-    [JSInvokable]
-    public Task UstawSciezkeIZaladuj(string path)
-    {
-        ImagePath = path;
-        StateHasChanged();
-        return Task.CompletedTask;
-    }
+	private string ImagePath { get; set; } = string.Empty;
+	private DotNetObjectReference<Map>? ObjRef;
 
-    private string? ImagePath;
+	[JSInvokable]
+	public Task OnSvgCircleClicked(string path)
+	{
+		ImagePath = $"Images/map/spheres/{path}";
+		StateHasChanged();
+		return Task.CompletedTask;
+	}
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JS.InvokeVoidAsync("mapSetupWithPathAndImage", "svgObject", "circle", "labelText");
-        }
-    }
+
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			ObjRef = DotNetObjectReference.Create(this);
+			await JS.InvokeVoidAsync("attachSvgClickHandlers", ObjRef);
+		}
+	}
+
+	private Task CloseDialog()
+	{
+		ImagePath = string.Empty;
+		return Task.CompletedTask;
+	}
 }
 <script>
-        window.mapSetupWithPathAndImage = function (objectId, elementSelector, labelTargetId) {
-        const svgObject = document.getElementById(objectId);
-        if (!svgObject) {
-            console.warn(`Brak elementu <object id="${objectId}">`);
-            return;
-        }
+			window.attachSvgClickHandlers = (dotnetHelper) => {
+		const obj = document.getElementById("svgObject");
+		if (!obj) return;
 
-        svgObject.addEventListener("load", () => {
-            const svgDoc = svgObject.contentDocument;
-            if (!svgDoc) {
-                console.warn("Nie można odczytać dokumentu SVG.");
-                return;
-            }
+		obj.addEventListener("load", () => {
+			const svgDoc = svgObject.contentDocument;
+			if (!svgDoc) {
+				console.warn("Nie można odczytać dokumentu SVG.");
+				return;
+			}
 
-            const elements = svgDoc.querySelectorAll(elementSelector);
-            elements.forEach(el => {
-                el.style.cursor = "pointer";
-                el.addEventListener("click", () => {
-                    const label = el.getAttribute("inkscape:label");
-                    const match = label && label.match(/^(\d+)/);
-                    const number = match ? match[1] : null;
-                    const output = document.getElementById(labelTargetId);
+			const elements = svgDoc.querySelectorAll("circle");
+			elements.forEach(el => {
+				el.style.cursor = "pointer";
+				el.addEventListener("click", () => {
+					const label = el.getAttribute("inkscape:label");
 
-                    if (number) {
-                        const path = `/Images/map/spheres/${number}.jpg`;
-                        if (output) output.innerText = path;
+					dotnetHelper.invokeMethodAsync("OnSvgCircleClicked", label);
+				});
+			});
+		});
+	};
 
-                        // Wywołanie Blazora by załadować <img>
-                        DotNet.invokeMethodAsync("Frontend", "UstawSciezkeIZaladuj", path);
-                    } else if (output) {
-                        output.innerText = "(brak numeru w labelce)";
-                        DotNet.invokeMethodAsync("Frontend", "UstawSciezkeIZaladuj", "");
-                    }
-                });
-            });
-        });
-    };
+
+
 
 </script>
