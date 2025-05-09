@@ -152,6 +152,58 @@
                 }
             </div>
         }
+        else if (SelectedTab == "terapia zajęciowa" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            <div class="row g-4 mt-4 terapia-zajeciowa-cards">
+                @foreach (var card in TerapiaZajeciowaCards)
+                {
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100 shadow-sm rounded">
+                                <img src="@card.ImagePath" class="card-img-top" alt="@card.Title">
+                                <div class="card-body">
+                                    <h5 class="card-title">@card.Title</h5>
+                                    <div class="card-text">@card.Description</div>
+                                </div>
+                            </div>
+                        </div>
+                }
+            </div>
+        }
+        else if (SelectedTab == "procedury" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            <div class="row g-4 mt-4 procedury-cards">
+                @foreach (var card in ProceduryCards)
+                {
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100 shadow-sm rounded">
+                                <img src="@card.ImagePath" class="card-img-top" alt="@card.Title">
+                                <div class="card-body">
+                                    <h5 class="card-title">@card.Title</h5>
+                                    <div class="card-text">@card.Description</div>
+                                </div>
+                            </div>
+                        </div>
+                }
+            </div>
+        }
+        else if (SelectedTab == "strategie relaksacyjne" && SelectedCategory?.Name == "ortopedia" && SelectedSubcategory?.Name == "st. biodrowy" && SelectedTopic == "endoproteza")
+        {
+            <div class="row g-4 mt-4 strategie-relaksacyjne-cards">
+                @foreach (var card in StrategieRelaksacyjneCards)
+                {
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100 shadow-sm rounded">
+                                <img src="@card.ImagePath" class="card-img-top" alt="@card.Title">
+                                <div class="card-body">
+                                    <h5 class="card-title">@card.Title</h5>
+                                    <div class="card-text">@card.Description</div>
+                                </div>
+                            </div>
+                        </div>
+                }
+            </div>
+        }
+
 
     }
 </div>
@@ -288,6 +340,65 @@
         ImagePath = "/Images/rehabilitacja/zgiecie.jpg"
     }
 };
+    private CardItem ProceduryCard = new()
+        {
+            Title = "Wszystko o zabiegu – endoprotezoplastyka stawu biodrowego",
+            Description = (MarkupString)@"
+        <p><strong>🦴 Co to jest endoprotezoplastyka?</strong><br/>
+        To operacja polegająca na zastąpieniu chorego stawu biodrowego jego sztucznym odpowiednikiem – endoprotezą. Pomaga osobom z bólem, sztywnością i ograniczonym ruchem. Dla wielu to <em>„druga młodość” biodra</em> – znów mogą chodzić, spać i żyć bez bólu.</p>
+
+        <ul>
+            <li>✅ Najczęściej wykonywana przy złamaniach szyjki kości udowej i zaawansowanej chorobie zwyrodnieniowej</li>
+            <li>✅ Rutynowy zabieg – codziennie przeprowadza się ich setki</li>
+            <li>✅ Nowoczesne, trwałe materiały – biokompatybilne i bezpieczne</li>
+            <li>✅ Dobre przygotowanie = szybszy powrót do sprawności</li>
+        </ul>
+
+        <p>Proteza składa się z trzech części: <strong>panewki, głowy i trzpienia</strong>.</p>
+
+        <p><strong>💉 Znieczulenie</strong><br/>
+        Najczęściej stosuje się znieczulenie podpajęczynówkowe – pacjent jest przytomny, ale nie odczuwa bólu od pasa w dół. W razie potrzeby można podać leki uspokajające lub nasenne. Warto omówić to wcześniej z anestezjologiem.</p>
+
+        <p><strong>🔧 Przebieg operacji</strong><br/>
+        Cięcie wykonywane jest z przodu, boku lub tyłu – w zależności od potrzeb pacjenta. Operacja trwa zwykle 1–3 godziny. Przed zabiegiem konieczne jest przygotowanie: mycie ciała, golenie operowanego miejsca, znieczulenie.</p>
+
+        <p>Endoproteza może być osadzona:</p>
+        <ul>
+            <li>🔹 z użyciem cementu kostnego (działa jak klej)</li>
+            <li>🔹 bez cementu (kość naturalnie zrasta się z protezą)</li>
+        </ul>
+
+        <p><strong>📝 Co trzeba zrobić przed operacją?</strong></p>
+        <ul>
+            <li>🩸 Badania krwi i moczu</li>
+            <li>🩻 RTG klatki piersiowej</li>
+            <li>📃 Zaświadczenia od lekarza rodzinnego i specjalistów</li>
+            <li>🦷 Wizyta u dentysty – wykluczenie infekcji</li>
+            <li>👩‍⚕️ Inne konsultacje w razie potrzeby (laryngolog, ginekolog, urolog)</li>
+        </ul>
+
+        <p><strong>💊 Co z lekami?</strong><br/>
+        Możliwa tymczasowa zmiana leków (np. na nadciśnienie, cukrzycę, przeciwzakrzepowe) – decyzję podejmuje lekarz prowadzący wraz z anestezjologiem.</p>
+
+        <p><strong>🏥 Co Cię czeka po operacji?</strong></p>
+        <ol>
+            <li><strong>Dzień po zabiegu:</strong><br/> 🔹 Pomoc fizjoterapeuty w wstawaniu<br/> 🔹 Nauka chodzenia z balkonikiem lub kulami</li>
+            <li><strong>Pobyt w szpitalu (3–7 dni):</strong><br/> 🔹 Ćwiczenia<br/> 🔹 Nauka bezpiecznego poruszania się</li>
+            <li><strong>Po wypisie:</strong><br/> 🔹 Kontynuacja rehabilitacji domowej lub ambulatoryjnej</li>
+        </ol>
+
+        <p><strong>🩹 Co robić po wyjściu ze szpitala?</strong></p>
+        <ul>
+            <li><strong>Opatrunek:</strong> zmieniaj co 2–3 dni w czystych warunkach</li>
+            <li><strong>Uwaga na ranę:</strong> jeśli sączy się wydzielina – natychmiast skontaktuj się z lekarzem</li>
+            <li><strong>Szwy:</strong> zdejmowane zwykle między 10. a 14. dniem po zabiegu</li>
+        </ul>
+
+        <p><em>Jesteś dobrze przygotowany? To połowa sukcesu! Pamiętaj – zespół medyczny jest po to, by Ci pomóc.</em></p>
+    ",
+            ImagePath = "/Images/procedury/wszystko_o_zabiegu.jpg"
+        };
+
 
     // 📄 Karty dla ortopedia > biodro > endoproteza > dietetyka
     private List<CardItem> DietetykaCards = new()
@@ -398,6 +509,150 @@
         FileType = "PDF"
     }
 };
+    private List<CardItem> TerapiaZajeciowaCards = new()
+{
+    new CardItem
+    {
+        Title = "Mandale – twórcza równowaga",
+        Description = (MarkupString)@"
+            <p>Mandale to symetryczne wzory tworzone intuicyjnie. Nie musisz mieć zdolności artystycznych – liczy się proces, nie efekt!</p>
+            <p>Kolorowanie mandali pomaga się wyciszyć, zrelaksować i odzyskać równowagę emocjonalną. To forma medytacji w działaniu.</p>",
+        ImagePath = "/Images/terapia/mandala1.jpg"
+    },
+    new CardItem
+    {
+        Title = "Jak zacząć?",
+        Description = (MarkupString)@"
+            <p>Wybierz mandalę z naszego zbioru lub narysuj własną. Nie przejmuj się, jeśli rysunek nie będzie idealny – chodzi o twórczy proces.</p>
+            <p>Użyj kredek, flamastrów lub farb. Poczuj barwy, oddychaj spokojnie. To czas tylko dla Ciebie.</p>",
+        ImagePath = "/Images/terapia/mandala2.jpg"
+    },
+    new CardItem
+    {
+        Title = "Dlaczego to działa?",
+        Description = (MarkupString)@"
+            <p>Mandala działa jak lustro – odzwierciedla Twój nastrój, a jej symetria wprowadza harmonię do myśli i emocji.</p>
+            <p>To narzędzie wspierające koncentrację, redukcję stresu i autorefleksję – idealne dla osób w trakcie rekonwalescencji.</p>",
+        ImagePath = "/Images/terapia/mandala3.jpg"
+    },
+    new CardItem
+    {
+        Title = "Twoja codzienna mandala",
+        Description = (MarkupString)@"
+            <p>Zarezerwuj codziennie 10–15 minut na kolorowanie. Możesz wybrać różne wzory w zależności od nastroju lub pory dnia.</p>
+            <p>Obserwuj, jak zmienia się Twój nastrój. Prowadź dziennik kolorów lub zapisz, co czułeś podczas rysowania.</p>",
+        ImagePath = "/Images/terapia/mandala4.jpg"
+    },
+    new CardItem
+    {
+    Title = "Znaczenie kolorów w mandali",
+    Description = (MarkupString)@"
+        <p><strong>Interpretacja niektórych kolorów:</strong></p>
+        <ul>
+            <li><strong>Biały:</strong> Symbolizuje czystość, niewinność, doskonałość, szczerość oraz, w niektórych przypadkach, początek i nowe możliwości.</li>
+            <li><strong>Czarny:</strong> Może oznaczać tajemniczość, smutek, ale także siłę, honor, odradzanie czy powrót na właściwą ścieżkę.</li>
+            <li><strong>Czerwony:</strong> Reprezentuje energię, pasję, miłość, ale również gniew i intensywność uczuć.</li>
+            <li><strong>Pomarańczowy:</strong> Symbolizuje radość, optymizm, energię, ale także odwagę i ambicję.</li>
+            <li><strong>Żółty:</strong> Oznacza radość, światło, intelekt, mądrość oraz pogodę ducha.</li>
+            <li><strong>Zielony:</strong> Symbolizuje nadzieję, życie, równowagę, uzdrowienie i nową perspektywę.</li>
+            <li><strong>Niebieski:</strong> Oznacza spokój, rozluźnienie, opanowanie, ale także intuicję i duchowość.</li>
+            <li><strong>Fioletowy:</strong> Może symbolizować uduchowienie, inspirację, uczciwość, a także duchową głębię.</li>
+            <li><strong>Różowy:</strong> Reprezentuje kobiecość, delikatność, romantyzm i miłość.</li>
+        </ul>",
+    ImagePath = "/Images/terapia/mandala5.jpg"
+    }
+
+};private List<CardItem> StrategieRelaksacyjneCards = new()
+{
+    new CardItem
+    {
+        Title = "Wszystko zaczyna się od oddechu",
+        Description = (MarkupString)@"
+            <p>W codziennym stresie zapominamy o tym, co mamy zawsze przy sobie – o oddechu. Świadome oddychanie to nie magia, to biologia: aktywuje układ nerwowy odpowiedzialny za relaks, regenerację i koncentrację.</p>
+            <p><strong>Techniki takie jak Box Breathing i Triangle Breathing</strong> pomagają:</p>
+            <ul>
+                <li>Uspokoić ciało i myśli</li>
+                <li>Poprawić sen i koncentrację</li>
+                <li>Zwiększyć wytrzymałość i odporność psychiczną</li>
+            </ul>
+            <p>Najlepsze? Możesz ćwiczyć je wszędzie – siedząc, leżąc, nawet w kolejce do lekarza.</p>",
+        ImagePath = "/Images/relaks/oddech.jpg"
+    },
+    new CardItem
+    {
+        Title = "Oddychanie Trójkątne (Triangle Breathing)",
+        Description = (MarkupString)@"
+            <p>Proste ćwiczenie oddechowe pomagające się wyciszyć i skoncentrować:</p>
+            <ol>
+                <li>Wdech nosem – 3 sekundy</li>
+                <li>Wstrzymanie – 3 sekundy</li>
+                <li>Wydech nosem – 3 sekundy</li>
+            </ol>
+            <p>Powtarzaj przez 2 minuty. Możesz liczyć w myślach lub wyobrażać sobie trójkąt – każda jego krawędź to jedna faza oddechu.</p>",
+        ImagePath = "/Images/relaks/trojkat.jpg"
+    },
+    new CardItem
+    {
+        Title = "Wizualizacja i efekty Triangle Breathing",
+        Description = (MarkupString)@"
+            <p>Wyobraź sobie 🔺 – każda krawędź to 5 sekund. Rysuj go w wyobraźni lub palcem w powietrzu. Gdy pojawią się myśli – zauważ je i wróć do liczenia.</p>
+            <p><strong>Co zyskasz?</strong></p>
+            <ul>
+                <li>Uspokojenie nerwów</li>
+                <li>Poprawę koncentracji i jakości snu</li>
+                <li>Redukcję napięcia mięśni</li>
+                <li>Lepszą wydolność oddechową</li>
+            </ul>",
+        ImagePath = "/Images/relaks/wizualizacja_trojkat.jpg"
+    },
+    new CardItem
+    {
+        Title = "Box Breathing (Oddychanie Pudełkowe)",
+        Description = (MarkupString)@"
+            <p>Technika stosowana przez sportowców i żołnierzy Navy SEAL. Pomaga w sytuacjach stresowych – daje spokój, kontrolę i jasność myślenia.</p>
+            <p><strong>Instrukcja:</strong></p>
+            <ol>
+                <li>Wdech – 3 sekundy</li>
+                <li>Wstrzymanie – 3 sekundy</li>
+                <li>Wydech – 3 sekundy</li>
+                <li>Wstrzymanie po wydechu – 3 sekundy</li>
+            </ol>
+            <p>Powtórz cykl 5–10 razy. Jeśli nie dasz rady – zacznij od 2–3 powtórzeń i stopniowo zwiększaj czas.</p>",
+        ImagePath = "/Images/relaks/box.jpg"
+    },
+    new CardItem
+    {
+        Title = "Korzyści z Box Breathing",
+        Description = (MarkupString)@"
+            <p><strong>Dlaczego warto?</strong> Box Breathing to szybkie i skuteczne narzędzie do odzyskania spokoju. Idealne w stresujących momentach – wystarczy kilka oddechów, by odzyskać równowagę.</p>
+            <p><strong>✅ Co zyskujesz?</strong></p>
+            <ul>
+                <li>⏱️ Redukcja stresu i napięcia niemal natychmiast</li>
+                <li>🔁 Lepsza kontrola nad oddechem i ciałem</li>
+                <li>🛡️ Wzrost odporności psychicznej</li>
+                <li>🎯 Większe skupienie i klarowność myślenia</li>
+                <li>📌 Sprawdza się w pracy, przed egzaminem, wystąpieniem lub treningiem</li>
+            </ul>
+            <p>To jedno z najprostszych i najpotężniejszych ćwiczeń mentalnych, jakie możesz mieć zawsze przy sobie.</p>",
+        ImagePath = "/Images/relaks/box_korzysci.jpg"
+    },
+
+    new CardItem
+    {
+        Title = "Dlaczego warto oddychać świadomie?",
+        Description = (MarkupString)@"
+            <p>Twój oddech to narzędzie, które masz zawsze przy sobie. Nie wymaga aplikacji ani sprzętu.</p>
+            <p>🔁 <strong>Przykładowy protokół:</strong></p>
+            <ul>
+                <li>🕗 Rano – przed śniadaniem</li>
+                <li>💼 W pracy – gdy pojawi się napięcie</li>
+                <li>🌙 Wieczorem – by się wyciszyć i lepiej zasnąć</li>
+            </ul>
+            <p><strong>Ćwicz regularnie</strong>, a zauważysz: więcej spokoju, mniej napięcia, lepsze skupienie i lżejsze życie.</p>",
+        ImagePath = "/Images/relaks/podsumowanie.jpg"
+    }
+};
+
 
     private class Dokument
     {
