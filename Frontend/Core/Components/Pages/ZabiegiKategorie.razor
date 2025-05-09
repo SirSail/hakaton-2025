@@ -340,8 +340,10 @@
         ImagePath = "/Images/rehabilitacja/zgiecie.jpg"
     }
 };
-    private CardItem ProceduryCard = new()
-        {
+    private List<CardItem> ProceduryCards = new()
+{
+    new CardItem
+    {
             Title = "Wszystko o zabiegu – endoprotezoplastyka stawu biodrowego",
             Description = (MarkupString)@"
         <p><strong>🦴 Co to jest endoprotezoplastyka?</strong><br/>
@@ -397,7 +399,8 @@
         <p><em>Jesteś dobrze przygotowany? To połowa sukcesu! Pamiętaj – zespół medyczny jest po to, by Ci pomóc.</em></p>
     ",
             ImagePath = "/Images/procedury/wszystko_o_zabiegu.jpg"
-        };
+    }
+};
 
 
     // 📄 Karty dla ortopedia > biodro > endoproteza > dietetyka
