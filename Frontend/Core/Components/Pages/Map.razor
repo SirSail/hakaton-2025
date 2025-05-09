@@ -1,0 +1,82 @@
+﻿@page "/map"
+@inject IJSRuntime JS
+
+<h3>Mapa piętra (SVG)</h3>
+
+<!-- SVG -->
+<div style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc;">
+    <object id="svgObject"
+            type="image/svg+xml"
+            data="/Images/map/map0.svg"
+            style="min-width: 1000px; min-height: 800px;">
+    </object>
+</div>
+
+<!-- Debug: ścieżka -->
+<div id="labelOutput"
+     style="margin-top: 20px; padding: 10px; border: 1px solid #aaa; background-color: #f9f9f9;">
+    <strong>Ścieżka do pliku:</strong> <span id="labelText">Brak</span>
+</div>
+
+<div id="view360">
+
+</div>
+@code {
+    [JSInvokable]
+    public Task UstawSciezkeIZaladuj(string path)
+    {
+        ImagePath = path;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+
+    private string? ImagePath;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("mapSetupWithPathAndImage", "svgObject", "circle", "labelText");
+        }
+    }
+}
+<script>
+        window.mapSetupWithPathAndImage = function (objectId, elementSelector, labelTargetId) {
+        const svgObject = document.getElementById(objectId);
+        if (!svgObject) {
+            console.warn(`Brak elementu <object id="${objectId}">`);
+            return;
+        }
+
+        svgObject.addEventListener("load", () => {
+            const svgDoc = svgObject.contentDocument;
+            if (!svgDoc) {
+                console.warn("Nie można odczytać dokumentu SVG.");
+                return;
+            }
+
+            const elements = svgDoc.querySelectorAll(elementSelector);
+            elements.forEach(el => {
+                el.style.cursor = "pointer";
+                el.addEventListener("click", () => {
+                    const label = el.getAttribute("inkscape:label");
+                    const match = label && label.match(/^(\d+)/);
+                    const number = match ? match[1] : null;
+                    const output = document.getElementById(labelTargetId);
+
+                    if (number) {
+                        const path = `/Images/map/spheres/${number}.jpg`;
+                        if (output) output.innerText = path;
+
+                        // Wywołanie Blazora by załadować <img>
+                        DotNet.invokeMethodAsync("Frontend", "UstawSciezkeIZaladuj", path);
+                    } else if (output) {
+                        output.innerText = "(brak numeru w labelce)";
+                        DotNet.invokeMethodAsync("Frontend", "UstawSciezkeIZaladuj", "");
+                    }
+                });
+            });
+        });
+    };
+
+</script>
