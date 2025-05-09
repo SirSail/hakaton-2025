@@ -77,7 +77,18 @@
       <None Include="wwwroot\icons\profile.jpg" />
       <None Include="wwwroot\icons\services.jpg" />
     </ItemGroup>
-	<ItemGroup>
-		<AndroidResource Include="Resources\xml\network_security_config.xml" />
-	</ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\Images\Nowy folder1\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\docs\dokumenty_pacjent.pdf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\docs\zalecenia_prof_Sibinskiego.pdf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

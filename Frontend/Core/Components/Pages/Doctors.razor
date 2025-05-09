@@ -1,0 +1,57 @@
+﻿@page "/doctors"
+
+@using System.Collections.Generic
+
+<div class="container doctors-list my-4">
+    <h3 class="text-center mb-4">Nasi lekarze</h3>
+
+    <div class="row">
+        @foreach (var doctor in doctors)
+        {
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="doctor-card">
+                    <div class="doctor-card-header">
+                        <h5>@doctor.Name</h5>
+                        <small class="text-muted">@doctor.Specialty</small>
+                    </div>
+                    <div class="doctor-card-body">
+                        <p>@doctor.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    // Lista lekarzy
+    private List<Doctor> doctors = new List<Doctor>
+    {
+        new Doctor("Lek. med. Osiński Paweł", "Ordynator, Specjalista ortopedii i traumatologii narządu ruchu", "Osiński Paweł jest doświadczonym specjalistą w dziedzinie ortopedii, specjalizującym się w chirurgii urazowej."),
+        new Doctor("Prof. dr hab. n. med. Synder Marek", "Specjalista ortopedii i traumatologii", "Prof. Synder Marek to ekspert w ortopedii, oferujący kompleksową opiekę nad pacjentami po urazach."),
+        new Doctor("Prof. dr hab. n. med. Sibiński Marcin", "Specjalista ortopedii i traumatologii narządu ruchu", "Prof. Sibiński Marcin ma wieloletnie doświadczenie w diagnostyce i leczeniu chorób narządu ruchu."),
+        new Doctor("Lek. med. Gensler Krzysztof", "Specjalista ortopedii i traumatologii narządu ruchu", "Lek. med. Krzysztof Gensler specjalizuje się w leczeniu chorób stawów oraz urazów kości."),
+        new Doctor("Lek. med. Gawkowski Andrzej", "Ortopeda, traumatolog", "Dr Gawkowski Andrzej to ortopeda z doświadczeniem w rehabilitacji i chirurgii ortopedycznej."),
+        new Doctor("Lek. med. Sobieraj Grzegorz", "Specjalista ortopedii i traumatologii narządu ruchu", "Dr Sobieraj Grzegorz oferuje szeroki zakres usług w dziedzinie ortopedii, ze szczególnym uwzględnieniem operacji stawów."),
+        new Doctor("Lek. med. Styk Mateusz", "Specjalista ortopedii i traumatologii narządu ruchu", "Dr Styk Mateusz jest młodym specjalistą w ortopedii, koncentrującym się na leczeniu urazów sportowych."),
+        new Doctor("Lek. med. Łupiński Jakub", "Ortopeda", "Dr Łupiński Jakub to specjalista w dziedzinie leczenia schorzeń kręgosłupa."),
+        new Doctor("Lek. med. Borowski Jan", "Ortopeda", "Dr Borowski Jan specjalizuje się w chirurgii kręgosłupa i leczeniu wad postawy."),
+        new Doctor("Lek. med. Jóźwik Mateusz", "Ortopeda, traumatolog", "Dr Jóźwik Mateusz jest specjalistą w leczeniu urazów sportowych oraz operacjach ortopedycznych."),
+        new Doctor("Lek. med. Tomecki Andrzej", "Ortopeda, traumatolog", "Dr Tomecki Andrzej to ekspert w ortopedii, szczególnie w leczeniu złamań kości."),
+    };
+
+    public class Doctor
+    {
+        public string Name { get; set; }
+        public string Specialty { get; set; }
+        public string Description { get; set; }
+
+        public Doctor(string name, string specialty, string description)
+        {
+            Name = name;
+            Specialty = specialty;
+            Description = description;
+        }
+    }
+}
+

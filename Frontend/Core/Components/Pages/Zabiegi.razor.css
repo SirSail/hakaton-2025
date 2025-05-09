@@ -1,10 +1,97 @@
-﻿.tile-icon {
-    font-size: 2rem;
-    color: #0d6efd;
+﻿:root {
+    --primary: #4FB89F;
+    --on-primary: #ffffff;
+    --surface: #ffffff;
+    --on-surface: #212529;
+    --border-color: #D9E8E3;
+    --hover-bg: #f1f8f6;
+    --icon-bg: #e6f4f0;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    --hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
-.tile:hover {
-    background-color: #f0f4ff;
-    transform: scale(1.03);
-    transition: all 0.2s ease-in-out;
+.tile {
+    background-color: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--on-surface);
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .tile:hover {
+        background-color: var(--hover-bg);
+        box-shadow: var(--hover-shadow);
+        transform: scale(1.03);
+    }
+}
+
+.tile:active {
+    transform: scale(0.98);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tile-icon-wrapper {
+    background-color: var(--icon-bg);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 0.75rem;
+    margin-top: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.tile:hover .tile-icon-wrapper {
+    background-color: var(--primary);
+}
+
+.tile-icon {
+    font-size: 1.75rem;
+    color: var(--primary);
+    transition: color 0.3s;
+}
+
+.tile:hover .tile-icon {
+    color: var(--on-primary);
+}
+
+.tile p {
+    margin: 0;
+    font-size: clamp(0.95rem, 1vw + 0.5rem, 1.1rem);
+    font-weight: 500;
+}
+
+/* Responsywne poprawki na mobile */
+@media (max-width: 576px) {
+    .tile {
+        padding: 1rem;
+    }
+
+    .tile-icon-wrapper {
+        width: 44px;
+        height: 44px;
+    }
+
+    .tile-icon {
+        font-size: 1.4rem;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -3,6 +3,7 @@ using Core.API.Requests;
 using Core.Authorize.Services;
 using Core.Components.BaseClassess;
 using Microsoft.AspNetCore.Components;
+using System.Text.Json.Serialization;
 
 namespace Core.Components.Pages
 {
@@ -15,6 +16,7 @@ namespace Core.Components.Pages
         private string PasswordFieldType { get; set; } = "password";
         private bool IsHiddenErrorDialog { get; set; } = true;
         private string ErrorMessage { get; set; } = string.Empty;
+        private bool IsLoading { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
@@ -29,6 +31,7 @@ namespace Core.Components.Pages
 
         private async Task HandleLogin()
         {
+            IsLoading = true;
             try
             {
                 LoginRequest.Email = LoginRequest.Email.Trim();    
@@ -38,15 +41,19 @@ namespace Core.Components.Pages
                     ErrorMessage = apiError.Message;
                     IsHiddenErrorDialog = false;
                     await InvokeAsync(StateHasChanged);
+                    IsLoading = false;
                     return;
                 }
                 NavigationManager.NavigateTo("/", true);
+                IsLoading = false;
+
 
             }
             catch (Exception ex)
             {
                 ErrorMessage = ex.Message;
                 IsHiddenErrorDialog = false;
+                IsLoading = false;
             }
         }
 
@@ -57,7 +64,7 @@ namespace Core.Components.Pages
 
         private Task CloseDialog()
         {
-            IsHiddenErrorDialog = false;
+            IsHiddenErrorDialog = true;
             ErrorMessage = string.Empty;
 
             return Task.CompletedTask;

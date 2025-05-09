@@ -1,51 +1,62 @@
 ﻿@page "/login"
 @using Core.Components.Dialogs
 @using Microsoft.AspNetCore.Components.Authorization
+@using Core.Components.Spinners
 @inject IJSRuntime JS
 
 @inherits Core.Components.BaseClassess.CustomComponentBase
 
-<div class="login-container">
-    <div class="glass-box">
-        <h3 class="text-center login-title">Logowanie</h3>
+@if (IsLoading)
+{
+	<Spinner />
+}
+else
+{
+	<div class="login-container">
+		<div class="glass-box">
+			<h3 class="text-center login-title">Logowanie</h3>
 
-        <EditForm Model="LoginRequest" OnValidSubmit="HandleLogin">
-            <DataAnnotationsValidator />
+			<EditForm Model="LoginRequest" OnValidSubmit="HandleLogin">
+				<DataAnnotationsValidator />
 
-            <!-- Email -->
-            <label class="form-label">Adres e-mail</label>
-            <div class="input-group input-frame">
-                <InputText @bind-Value="LoginRequest.Email"  class="form-control input-text" placeholder="Adres e-mail" />
-            </div>
-            <ValidationMessage For="@(() => LoginRequest.Email)" style="font-size:0.8rem;color:red;" />
+				<!-- Email -->
+				<label class="form-label">Adres e-mail</label>
+				<div class="input-group input-frame">
+					<InputText @bind-Value="LoginRequest.Email" class="form-control input-text" placeholder="Adres e-mail" />
+				</div>
+				<ValidationMessage For="@(() => LoginRequest.Email)" style="font-size:0.8rem;color:red;" />
 
-            <!-- Password -->
-            <label class="form-label">Hasło</label>
-            <div class="input-group input-frame">
-                <InputText @bind-Value="LoginRequest.Password" type="@PasswordFieldType" class="form-control input-text" placeholder="Hasło" />
-                <span class="input-group-text eye-icon" @onclick="TogglePasswordVisibility">
-                    @if (PasswordFieldType == "password")
-                    {
-                        <i class="bi bi-eye-slash"></i>
-                    }
-                    else
-                    {
-                        <i class="bi bi-eye"></i>
-                    }
-                </span>
-            </div>
-            <ValidationMessage For="@(() => LoginRequest.Password)" style="font-size:0.8rem;color:red;" />
-
-            <button type="submit" class="btn btn-primary submit-btn">Zaloguj się</button>
-
-            <div class="text-center link-box">
-                <span>Nie masz konta? </span>
-                <a href="/rejestracja">Zarejestruj się</a>
-            </div>
-        </EditForm>
-    </div>
-</div>
+				<!-- Password -->
+				<label class="form-label">Hasło</label>
+				<div class="input-group input-frame">
+					<InputText @bind-Value="LoginRequest.Password" type="@PasswordFieldType" class="form-control input-text" placeholder="Hasło" />
+					<span class="input-group-text eye-icon" @onclick="TogglePasswordVisibility">
+						@if (PasswordFieldType == "password")
+						{
+							<i class="bi bi-eye-slash"></i>
+						}
+						else
+						{
+							<i class="bi bi-eye"></i>
+						}
+					</span>
+				</div>
+				<ValidationMessage For="@(() => LoginRequest.Password)" style="font-size:0.8rem;color:red;" />
 
 
+				<button type="submit" class="btn btn-primary submit-btn">Zaloguj się</button>
 
-<ErrorDialog Message="@ErrorMessage" IsHidden="IsHiddenErrorDialog" OnClose="CloseDialog" />
+
+				<div class="text-center link-box">
+					<span>Nie masz konta? </span>
+					<a href="/rejestracja">Zarejestruj się</a>
+				</div>
+			</EditForm>
+		</div>
+	</div>
+
+
+
+	<ErrorDialog Message="@ErrorMessage" IsHidden="IsHiddenErrorDialog" OnClose="CloseDialog" />
+}
+
