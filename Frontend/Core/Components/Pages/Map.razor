@@ -3,85 +3,172 @@
 
 <h3>Mapa piętra (SVG)</h3>
 
-<!-- SVG -->
 <div style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc;">
-	<object id="svgObject"
-			type="image/svg+xml"
-			data="/Images/map/map0.svg"
-			style="min-width: 1000px; min-height: 800px;">
-	</object>
+    <object id="svgObject"
+            type="image/svg+xml"
+            data="/Images/map/map0.svg"
+            style="min-width: 1000px; min-height: 800px;">
+    </object>
 </div>
 
-<!-- Debug: ścieżka -->
 <div id="labelOutput"
-	 style="margin-top: 20px; padding: 10px; border: 1px solid #aaa; background-color: #f9f9f9;">
-	<strong>Ścieżka do pliku:</strong> <span>@ImagePath</span>
+     style="margin-top: 20px; padding: 10px; border: 1px solid #aaa; background-color: #f9f9f9;">
+    <strong>Ścieżka do pliku:</strong> <span>@ImagePath</span>
 </div>
 
 <Core.Components.Dialogs.TemplatedDialog IsHidden="string.IsNullOrEmpty(ImagePath)" OnClose="CloseDialog">
-	<div style="width: 100%;height: 100%; overflow: auto">
-		<a-scene embedded style="width: 100%; height: 100%;">
-			<a-sky src="@ImagePath"></a-sky>
-		</a-scene>
-	</div>
+    <div style="position: relative; width: 100%; height: 100%;">
+        <a-scene embedded style="width: 100%; height: 100%;">
+            <a-sky src="@ImagePath"></a-sky>
+        </a-scene>
 
+        <div class="button-overlay">
+            @if (PreviousImage is not null)
+            {
+                    <button @onclick="() => SwitchDialog(false)" class="nav-button btn-back">←</button>
+            }
+            @if (NextImage is not null)
+            {
+                    <button @onclick="() => SwitchDialog(true)" class="nav-button btn-next">→</button>
+            }
+        </div>
+    </div>
 </Core.Components.Dialogs.TemplatedDialog>
 
-<div id="view360">
-</div>
+<style>
+    :root {
+        --btn-size: 60px;
+        --btn-bg-color: rgba(255, 255, 255, 0.7);
+        --btn-bg-hover: rgba(255, 255, 255, 1);
+        --btn-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+        --btn-font-size: 24px;
+        --btn-font-weight: 700;
+        --btn-radius: 50%;
+        --btn-color: #000;
+        --btn-transition: all 0.3s ease;
+        --overlay-padding: 1rem;
+        --overlay-align: center;
+        --overlay-justify: space-between;
+    }
+
+    .button-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: var(--overlay-align);
+        justify-content: var(--overlay-justify);
+        pointer-events: none;
+        padding: var(--overlay-padding);
+        box-sizing: border-box;
+    }
+
+    .nav-button {
+        width: var(--btn-size);
+        height: var(--btn-size);
+        border-radius: var(--btn-radius);
+        border: none;
+        background-color: var(--btn-bg-color);
+        color: var(--btn-color);
+        font-size: var(--btn-font-size);
+        font-weight: var(--btn-font-weight);
+        box-shadow: var(--btn-shadow);
+        cursor: pointer;
+        transition: var(--btn-transition);
+        pointer-events: auto;
+    }
+
+    .nav-button:hover {
+        background-color: var(--btn-bg-hover);
+        transform: scale(1.1);
+    }
+
+    .btn-back {
+        margin-left: var(--overlay-padding);
+    }
+
+    .btn-next {
+        margin-right: var(--overlay-padding);
+    }
+</style>
+
 @code {
-	private string ImagePath { get; set; } = string.Empty;
-	private DotNetObjectReference<Map>? ObjRef;
+    private string ImageName { get; set; } = string.Empty;
+    private string ImagePath { get; set; } = string.Empty;
+    private DotNetObjectReference<Map>? ObjRef;
+    private string? PreviousImage { get; set; } = string.Empty;
+    private string? NextImage { get; set; } = string.Empty;
 
-	[JSInvokable]
-	public Task OnSvgCircleClicked(string path)
-	{
-		ImagePath = $"Images/map/spheres/{path}";
-		StateHasChanged();
-		return Task.CompletedTask;
-	}
+    [JSInvokable]
+    public Task OnSvgCircleClicked(string path)
+    {
+        ImageName = path;
+        ImagePath = $"Images/map/spheres/{path}";
+        PreviousImage = GetRelativeImage(-1);
+        NextImage = GetRelativeImage(1);
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
 
+    private string? GetRelativeImage(int offset)
+    {
+        var currentName = Path.GetFileNameWithoutExtension(ImageName);
+        if (int.TryParse(currentName, out int currentNumber))
+        {
+            int target = currentNumber + offset;
+            if (target >= 1 && target <= 8) return target + ".jpg";
+            return null;
+        }
+        return null;
+    }
 
-	protected override async Task OnAfterRenderAsync(bool firstRender)
-	{
-		if (firstRender)
-		{
-			ObjRef = DotNetObjectReference.Create(this);
-			await JS.InvokeVoidAsync("attachSvgClickHandlers", ObjRef);
-		}
-	}
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            ObjRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("attachSvgClickHandlers", ObjRef);
+        }
+    }
 
-	private Task CloseDialog()
-	{
-		ImagePath = string.Empty;
-		return Task.CompletedTask;
-	}
+    public Task SwitchDialog(bool right)
+    {
+        if (right && NextImage is not null) return OnSvgCircleClicked(NextImage);
+        if (!right && PreviousImage is not null) return OnSvgCircleClicked(PreviousImage);
+        return Task.CompletedTask;
+    }
+
+    private Task CloseDialog()
+    {
+        ImagePath = string.Empty;
+        return Task.CompletedTask;
+    }
 }
+
 <script>
-			window.attachSvgClickHandlers = (dotnetHelper) => {
-		const obj = document.getElementById("svgObject");
-		if (!obj) return;
+    window.attachSvgClickHandlers = (dotnetHelper) => {
+        const obj = document.getElementById("svgObject");
+        if (!obj) return;
 
-		obj.addEventListener("load", () => {
-			const svgDoc = svgObject.contentDocument;
-			if (!svgDoc) {
-				console.warn("Nie można odczytać dokumentu SVG.");
-				return;
-			}
+        obj.addEventListener("load", () => {
+            const svgDoc = obj.contentDocument;
+            if (!svgDoc) {
+                console.warn("Nie można odczytać dokumentu SVG.");
+                return;
+            }
 
-			const elements = svgDoc.querySelectorAll("circle");
-			elements.forEach(el => {
-				el.style.cursor = "pointer";
-				el.addEventListener("click", () => {
-					const label = el.getAttribute("inkscape:label");
-
-					dotnetHelper.invokeMethodAsync("OnSvgCircleClicked", label);
-				});
-			});
-		});
-	};
-
-
-
-
+            const elements = svgDoc.querySelectorAll("circle");
+            elements.forEach(el => {
+                el.style.cursor = "pointer";
+                el.addEventListener("click", () => {
+                    const label = el.getAttribute("inkscape:label");
+                    if (label) {
+                        dotnetHelper.invokeMethodAsync("OnSvgCircleClicked", label);
+                    }
+                });
+            });
+        });
+    };
 </script>

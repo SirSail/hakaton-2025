@@ -1,12 +1,74 @@
-@if (!IsHidden)
+﻿@if (!IsHidden)
 {
 	<div class="modal-backdrop" @onclick="Close">
 		<div class="modal-content" @onclick:stopPropagation="true">
+
+			<!-- Przycisk zamykający w prawym górnym rogu -->
+			<button class="close-btn" @onclick="Close" title="Zamknij">
+				✖
+			</button>
+
 			@if (ChildContent is not null)
 			{
-					@ChildContent
+				@ChildContent
 			}
-			<button class="btn btn-outline-danger w-100 mt-3" @onclick="Close">Zamknij</button>
 		</div>
 	</div>
 }
+
+<style>
+	:root {
+		--close-size: 40px;
+		--close-color: rgba(255, 255, 255, 0.8);
+		--close-hover: rgba(255, 255, 255, 1);
+		--close-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+		--close-font: 22px;
+	}
+
+	.modal-backdrop {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.4);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 9999;
+	}
+
+	.modal-content {
+		position: relative;
+		background: white;
+		border-radius: 10px;
+		padding: 0;
+		width: 90%;
+		height: 90%;
+		overflow: hidden;
+		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+	}
+
+	.close-btn {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: var(--close-size);
+		height: var(--close-size);
+		background-color: var(--close-color);
+		border: none;
+		border-radius: 50%;
+		box-shadow: var(--close-shadow);
+		cursor: pointer;
+		font-size: var(--close-font);
+		line-height: var(--close-size);
+		text-align: center;
+		color: #000;
+		transition: background-color 0.2s ease;
+		z-index: 10000;
+	}
+
+		.close-btn:hover {
+			background-color: var(--close-hover);
+		}
+</style>
