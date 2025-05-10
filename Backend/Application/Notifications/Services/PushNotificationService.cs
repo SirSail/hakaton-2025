@@ -19,30 +19,38 @@ namespace Application.Notifications.Services
 
         public async Task<bool> SendPushNotificationAsync(Notification notification, SystemUser receiver,string redirectRoute,CancellationToken cancellationToken)
         {
-            if(!string.IsNullOrEmpty(receiver.CurrentFCMToken))
+            try
             {
-                var message = new Message()
+                if (!string.IsNullOrEmpty(receiver.CurrentFCMToken))
                 {
-                    Token = receiver.CurrentFCMToken,
-                    Notification = notification,
-                    Android = new AndroidConfig()
+                    var message = new Message()
                     {
-                        Priority = Priority.High
-                    },
-                };
-                if (!string.IsNullOrEmpty(redirectRoute))
-                {
-                    message.Data = new Dictionary<string, string>() { { "redirect_route", redirectRoute } };
+                        Token = receiver.CurrentFCMToken,
+                        Notification = notification,
+                        Android = new AndroidConfig()
+                        {
+                            Priority = Priority.High
+                        },
+                    };
+                    if (!string.IsNullOrEmpty(redirectRoute))
+                    {
+                        message.Data = new Dictionary<string, string>() { { "redirect_route", redirectRoute } };
+                    }
+
+                    var result = await FirebaseMessaging.DefaultInstance.SendAsync(message, cancellationToken);
+
+                    Console.WriteLine($"Próba przesłania powiadomienia push: {result}\n\n Token: {receiver.CurrentFCMToken}");
+                    return true;
                 }
-
-                var result = await FirebaseMessaging.DefaultInstance.SendAsync(message, cancellationToken);
-
-                Console.WriteLine($"Próba przesłania powiadomienia push: {result}\n\n Token: {receiver.CurrentFCMToken}");
-                return true;
+                else
+                {
+                    Console.WriteLine($"Próba przesłania powiadomienia push: użytkownik z emailem {receiver.Email} nie ma podanego FCMtoken");
+                    return false;
+                }
             }
-            else
+            catch(Exception ex)
             {
-                Console.WriteLine($"Próba przesłania powiadomienia push: użytkownik z emailem {receiver.Email} nie ma podanego FCMtoken");
+                Console.WriteLine($"Błąd podczas wysyłania powiadomienia push: {ex.Message}");
                 return false;
             }
         }
