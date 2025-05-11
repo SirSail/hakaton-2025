@@ -37,6 +37,16 @@ namespace Application.Calendar.Services
             return Task.FromResult(calendarItems);
         }
 
+        public Task<IEnumerable<CalendarItem>> GetClosestItemsForUser(int userId, int numberOfItems)
+        {
+            IEnumerable<CalendarItem> calendarItems = _unitOfWork.CalendarItemRepository
+                .FindAll(x => x.UserId == userId && x.Time > DateTime.Now)
+                .OrderBy(x => x.Time)
+                .Take(numberOfItems);
+
+            return Task.FromResult(calendarItems);
+        }
+
         public Task RemoveCalendarItemNotification(CalendarItem item)
         {
             item.NotificationTime = null;

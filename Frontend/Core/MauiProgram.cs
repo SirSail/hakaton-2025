@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using System.Globalization;
 
 namespace Core
 {
@@ -8,7 +9,10 @@ namespace Core
         {
             var builder = MauiApp.CreateBuilder();
 
-                
+            var culture = new CultureInfo("pl-PL"); 
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
@@ -23,14 +27,14 @@ namespace Core
             //    BaseAddress = new Uri("http://192.168.43.9:6999/")
             //}); // huwawei
 
-            builder.Services.AddScoped(sp => new HttpClient
-            {
-                BaseAddress = new Uri("http://54.38.143.31:6999/")
-            });
             //builder.Services.AddScoped(sp => new HttpClient
             //{
-            //    BaseAddress = new Uri("http://158.75.43.72:6999/") 
-            //}); //eduoram
+            //    BaseAddress = new Uri("http://54.38.143.31:6999/")
+            //});
+            builder.Services.AddScoped(sp => new HttpClient
+            {
+                BaseAddress = new Uri("http://158.75.43.72:6999/")
+            }); //eduoram
 
 
             builder.Services.AddMauiBlazorWebView();

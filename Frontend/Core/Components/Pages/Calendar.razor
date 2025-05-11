@@ -1,7 +1,8 @@
 @inherits Core.Components.BaseClassess.CustomComponentBase
-@page "/kalendarz"
+@page "/calendar"
 @using Microsoft.AspNetCore.Components.Web
 @using Core.Components.Spinners
+@using Core.Components.Dialogs
 
 <h3 class="text-center my-4">Twój plan dnia</h3>
 
@@ -53,17 +54,44 @@
 						<div class="description">@calendarItem.Description</div>
 					</div>
 					<div class="ms-auto d-flex align-items-center">
-						<button class="btn notification-btn" title="Przypomnienie">
-							<i class="bi bi-bell"></i>
-						</button>
-						<button class="btn star-btn ms-2" title="Oznacz jako wa¿ne">
-							<i class="bi bi-star"></i>
+						<button class="btn notification-btn" title="Szczegó³y" @onclick="() => ShowItemDialog(calendarItem)">
+							<i class="bi bi-three-dots"></i>
 						</button>
 					</div>
 				</div>
 			}
 		</div>
 	</div>
+
+	<TemplatedDialog IsHidden="@IsItemDialogHidden" OnClose="CloseItemDialog">
+		@if (SelectedItem != null)
+		{
+			<div class="text-center">
+				<h5>@SelectedItem.Title</h5>
+				<p>@SelectedItem.Description</p>
+				<p class="text-muted">@SelectedItem.Time.ToString()</p>
+
+				@if (SelectedItem.NotificationTime.HasValue)
+				{
+					<p>Przypomnienie o @SelectedItem.NotificationTime.Value.ToString()</p>
+					<button class="btn btn-outline-danger mt-2" @onclick="() => RemoveNotification(SelectedItem.Id)">
+						Usuñ przypomnienie
+					</button>
+				}
+				else
+				{
+					<div class="mt-3">
+						<label for="notificationTime">Ustaw przypomnienie:</label>
+						<InputDate TValue="DateTime?" Type="InputDateType.DateTimeLocal" @bind-Value="NewNotificationTime" class="form-control mt-1 mb-2"  />
+						<button class="btn btn-outline-primary" @onclick="() => SetNotification(SelectedItem.Id)">
+							Ustaw przypomnienie
+						</button>
+					</div>
+				}
+			</div>
+		}
+	</TemplatedDialog>
+
 }
 else
 {

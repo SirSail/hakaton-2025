@@ -37,6 +37,14 @@ namespace API.Controllers
             return Results.Ok(calendarItems);
         }
 
+        [Authorize]
+        [HttpPost("api/v1/calendar-items/closest")]
+        public async Task<IResult> GetClosestUserCalendarItems([FromBody] GetClosestUserCalendarItemsRequest request)
+        {
+            var calendarItems = await _calendarService.GetClosestItemsForUser(LoggedUser.Id, request.NumberOfItems);
+            return Results.Ok(calendarItems);
+        }
+
 
 
         [HttpPost("api/v1/calendar-item/{id}/remove-notification")]

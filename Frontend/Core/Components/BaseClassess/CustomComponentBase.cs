@@ -1,4 +1,5 @@
-﻿using Core.API.StateProviders;
+﻿using Core.API.Services;
+using Core.API.StateProviders;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 
@@ -11,6 +12,8 @@ namespace Core.Components.BaseClassess
 
         [Inject]
         protected AuthenticationStateProvider AuthenticationStateProvider { get; set; }
+        [Inject]
+        protected ApiService ApiService { get; set; }
 
         protected CustomAuthStateProvider CustomAuthStateProvider => (CustomAuthStateProvider)AuthenticationStateProvider;
 

@@ -1,30 +1,18 @@
-﻿using Core.API;
-using Core.API.Requests;
-using Core.API.Responses;
+﻿using Core.API.Requests;
+using Core.API.Models;
 using Core.API.Services;
 using Core.Components.BaseClassess;
 using Core.Helpers;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.JSInterop;
-using System.Globalization;
 
 namespace Core.Components.Pages
 {
     public partial class Calendar : CustomComponentBase
     {
-        [Inject] private ApiService ApiService { get; set; }
         [Inject] private IJSRuntime JS { get; set; }
 
-        private List<CalendarItemResponse> CalendarItems { get; set; } = [];
-        private DateOnly SelectedDay { get; set; }
-        private DateSpan DisplayedDateSpan { get; set; }
-        private ElementReference DayScrollRef { get; set; }
-        private bool IsDragging { get; set; } = false;
-        private double DragStartX { get; set; }
-        private double ScrollStartX { get; set; }
-
-        private int SelectedMonth { get; set; } = DateTime.Now.Month;
         private Dictionary<int, string> Months { get; set; } = new Dictionary<int, string>
         {
             { 1, "Styczeń" }, { 2, "Luty" }, { 3, "Marzec" }, { 4, "Kwiecień" },
@@ -32,8 +20,26 @@ namespace Core.Components.Pages
             { 9, "Wrzesień" }, { 10, "Październik" }, { 11, "Listopad" }, { 12, "Grudzień" }
         };
 
+        private List<CalendarItemModel> CalendarItems { get; set; } = [];
+        private DateSpan DisplayedDateSpan { get; set; }
+        private CalendarItemModel? SelectedItem { get; set; }
+        private DateTime? NewNotificationTime { get; set; }
+        private ElementReference DayScrollRef { get; set; }
+        private DateOnly SelectedDay { get; set; }
+        private double DragStartX { get; set; }
+        private double ScrollStartX { get; set; }
+
+        private int SelectedMonth { get; set; } = DateTime.Now.Month;
+
+
+        private string ErrorText { get; set; } = string.Empty;
+
+        private bool IsDragging { get; set; } = false;
         private bool ShouldScrollToSelectedDay { get; set; } = false;
         private bool IsDataLoaded { get; set; } = false;
+        private bool IsHiddenErrorDialog { get; set; } = true;
+        private bool IsItemDialogHidden { get; set; } = true;
+
 
         protected override async Task OnInitializedAsync()
         {
@@ -53,12 +59,7 @@ namespace Core.Components.Pages
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
-            if (firstRender)
-            {
-                await JS.InvokeVoidAsync("scrollDayIntoView", $"day-{SelectedDay:yyyy-MM-dd}");
-            }
-
-            if (ShouldScrollToSelectedDay)
+            if (firstRender || ShouldScrollToSelectedDay)
             {
                 ShouldScrollToSelectedDay = false;
                 await JS.InvokeVoidAsync("scrollDayIntoView", $"day-{SelectedDay:yyyy-MM-dd}");
@@ -83,7 +84,7 @@ namespace Core.Components.Pages
                 EndDate = DisplayedDateSpan.End
             };
 
-            var apiResponse = await ApiService.PostWithResultAsync<CalendarItemRequest, List<CalendarItemResponse>>("api/v1/calendar-items", request);
+            var apiResponse = await ApiService.PostWithResultAsync<CalendarItemRequest, List<CalendarItemModel>>("api/v1/calendar-items", request);
 
             if (apiResponse.IsSuccess)
             {
@@ -98,14 +99,11 @@ namespace Core.Components.Pages
             IsDataLoaded = true;
         }
 
-        
-
         private string GetDayString(DateOnly date) => $"{date.Day} {date.GetShortDayWeekName()}";
 
         private Task SetSelectedDay(DateOnly date)
         {
             SelectedDay = date;
-
             return Task.CompletedTask;
         }
 
@@ -141,6 +139,69 @@ namespace Core.Components.Pages
         }
 
         private void EndDrag(MouseEventArgs e) => IsDragging = false;
+
+        private void ShowItemDialog(CalendarItemModel item)
+        {
+            SelectedItem = item;
+            NewNotificationTime = null;
+            IsItemDialogHidden = false;
+        }
+
+        private async Task RemoveNotification(int itemId)
+        {
+            var error = await ApiService.PostAsync($"/api/v1/calendar-item/{itemId}/remove-notification");
+            if (error is null)
+            {
+                await RefreshData();
+                await CloseItemDialog();
+            }
+            else
+            {
+                await CloseItemDialog();
+                await OpenErrorDialog(error.Message);
+            }
+        }
+
+        private async Task SetNotification(int itemId)
+        {
+            if (NewNotificationTime is null)
+                return;
+
+            var error = await ApiService.PostAsync<DateTime>($"/api/v1/calendar-item/{itemId}/set-notification", NewNotificationTime.Value);
+
+            if (error is null)
+            {
+                await RefreshData();
+                await CloseItemDialog();
+            }
+            else
+            {
+                await CloseItemDialog();
+                await OpenErrorDialog(error.Message);
+            }
+        }
+
+        private Task CloseItemDialog()
+        {
+            IsItemDialogHidden = true;
+            SelectedItem = null;
+            NewNotificationTime = null;
+            return Task.CompletedTask;
+        }
+
+        private Task OpenErrorDialog(string  message)
+        {
+            ErrorText = message;
+            IsItemDialogHidden = false;
+
+            return Task.CompletedTask;
+        }
+        private Task CloseErrorDialog()
+        {
+            IsItemDialogHidden = true;
+
+            return Task.CompletedTask;
+        }
 
         private class DateSpan
         {

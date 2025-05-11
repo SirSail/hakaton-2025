@@ -1,8 +1,8 @@
-﻿using Core.API.Responses.Enums;
+﻿using Core.API.Models.Enums;
 
-namespace Core.API.Responses
+namespace Core.API.Models
 {
-    public class CalendarItemResponse
+    public class CalendarItemModel
     {
         public int Id { get; set; }
 
@@ -15,5 +15,6 @@ namespace Core.API.Responses
         public string Title { get; set; }
 
         public string? Description { get; set; }
+        public DateTime? NotificationTime { get; set; }
     }
 }

@@ -53,6 +53,7 @@ namespace Core.API.StateProviders
                 string claimType = kvp.Key switch
                 {
                     "id" => ClaimTypes.NameIdentifier,
+                    "name" => ClaimTypes.Name,
                     _ => kvp.Key
                 };
 

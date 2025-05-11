@@ -41,7 +41,18 @@ namespace Core.API.Services
         }
 
         
+        public async Task<ApiError> PostAsync(string path)
+        {
+            await ConfigBearerToken();
 
+            var response = await _httpClient.PostAsync(path,null);
+
+            if (response.StatusCode is System.Net.HttpStatusCode.OK)
+                return null;
+
+            return await response.Content.ReadFromJsonAsync<ApiError>();
+
+        }
         public async Task<ApiError> PostAsync<T>(string path, T data)
         {
             await ConfigBearerToken();

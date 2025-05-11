@@ -1,4 +1,4 @@
-﻿namespace Core.API.Responses.Enums
+﻿namespace Core.API.Models.Enums
 {
     public enum CalendarItemType
     {

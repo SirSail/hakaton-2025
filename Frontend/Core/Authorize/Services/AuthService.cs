@@ -1,5 +1,5 @@
 ﻿using Core.API.Requests;
-using Core.API.Responses;
+using Core.API.Models;
 using Core.API.Services;
 using Core.API.StateProviders;
 using Microsoft.AspNetCore.Components.Authorization;
@@ -22,7 +22,7 @@ namespace Core.Authorize.Services
             CustomAuthStateProvider customAuthStateProvider = _serviceProvider.GetRequiredService<AuthenticationStateProvider>() as CustomAuthStateProvider;
 
 
-            var response = await apiService.PostWithResultAsync<LoginRequest, LoginResponse>("api/v1/authorize", loginRequest);
+            var response = await apiService.PostWithResultAsync<LoginRequest, AuthResponseModel>("api/v1/authorize", loginRequest);
 
             if (!response.IsSuccess)
             {
