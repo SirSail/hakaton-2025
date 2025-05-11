@@ -236,3 +236,106 @@ ul li button {
         background-color: #4fb89f;
         color: white;
     }
+.checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+    .checklist-item input[type="checkbox"] {
+        margin-top: 4px;
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+        accent-color: #4fb89f;
+    }
+
+    .checklist-item label {
+        flex: 1;
+        word-break: break-word;
+    }
+.hospital-packing-info {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+    .hospital-packing-info h6 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #4fb89f;
+        margin-bottom: 15px;
+    }
+
+    .hospital-packing-info ul.custom-checklist {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+        .hospital-packing-info ul.custom-checklist li {
+            margin-bottom: 10px;
+            list-style: disc;
+            text-align: left;
+        }
+.selection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+
+.selection-tile {
+    background: #f6fffc;
+    border: 1px solid #cbece5;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 1.05rem;
+    color: #3b9d8c;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    flex: 1 1 180px; 
+    max-width: 260px;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
+
+    .selection-tile:hover {
+        background: #d8f5ee;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        transform: translateY(-3px);
+    }
+
+.section-header, .section-subheader {
+    color: #4fb89f;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card, .dietetyka-card, .checklist-item, .hospital-packing-info {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+    .card-text, .card ul li, .checklist-item label {
+        line-height: 1.6;
+        text-align: left;
+        word-break: break-word;
+    }
+    .card p, .card span, .card div {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
