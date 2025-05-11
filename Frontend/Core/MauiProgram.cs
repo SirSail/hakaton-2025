@@ -31,6 +31,7 @@ namespace Core
             //{
             //    BaseAddress = new Uri("http://54.38.143.31:6999/")
             //});
+
             //builder.Services.AddScoped(sp => new HttpClient
             //{
             //    BaseAddress = new Uri("http://158.75.43.72:6999/")

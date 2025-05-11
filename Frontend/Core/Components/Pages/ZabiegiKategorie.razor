@@ -201,7 +201,7 @@
                                 <h5 class="card-title">@doc.Title</h5>
                                 <p class="card-text">@doc.Description</p>
 
-                                <a class="btn btn-outline-success mt-2" href="@doc.FilePath" target="_blank" download>
+                                <a class="btn btn-outline-success mt-2" href=@doc.FilePath download=@doc.FilePath.Split("/").Last()>
                                     <i class="bi bi-download"></i> Pobierz (@doc.FileType)
                                 </a>
                             </div>
@@ -506,7 +506,7 @@
                 <li>Utrzymuj pozycję od 30-60s, a następnie zmień stronę </li>
                 <li>Wykonuj ćwiczenie codziennie po 2 razy na każdą stronę</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/wyprost.jpg"
+        ImagePath = "/images/rehabilitacja/wyprost.jpg"
     },
     new CardItem
     {
@@ -520,7 +520,7 @@
                 <li>Zwróć uwagę na odcinek lędźwiowy kręgosłupa. Nie może on wyginać się podczas ćwiczenia. Jeżeli tak się dzieje, to warto wzmocnić dodatkowo mięśnie brzucha</li>
                 <li>Wykonuj ćwiczenie w 3 seriach po 6-8 powtórzeń na każdą stronę</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/zuraw.jpg"
+        ImagePath = "/images/rehabilitacja/zuraw.jpg"
     },
     new CardItem
     {
@@ -536,7 +536,7 @@
                 <li>Przy kolejnych powtórzeniach staraj się nie odkładać bezwładnie nogi na nogę, a dopiero opuścić ją po skończonej serii</li>
                 <li>Wykonuj ćwiczenie w 3 seriach po 6-8 powtórzeń na każdą stronę</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/miednica.jpg"
+        ImagePath = "/images/rehabilitacja/miednica.jpg"
     },
     new CardItem
     {
@@ -550,7 +550,7 @@
                 <li>Odłóż powoli ciało na matę. Wykonuj to w kontrolowany sposób</li>
                 <li>Wykonuj ćwiczenie w 3 seriach po 6–8 powtórzeń</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/pupa.jpg"
+        ImagePath = "/images/rehabilitacja/pupa.jpg"
     },
     new CardItem
     {
@@ -565,7 +565,7 @@
                 <li>Wykonaj to samo na lewą stronę</li>
                 <li>Wykonuj ćwiczenie w 3 seriach</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/swieca.jpg"
+        ImagePath = "/images/rehabilitacja/swieca.jpg"
     },
     new CardItem
     {
@@ -578,7 +578,7 @@
                 <li>Utrzymaj pozycję przez 30 sekund, a następnie zmień nogę</li>
                 <li>Wykonuj ćwiczenie w 4 seriach</li>
             </ol>",
-        ImagePath = "/Images/rehabilitacja/zgiecie.jpg"
+        ImagePath = "/images/rehabilitacja/zgiecie.jpg"
     }
     
 };
@@ -593,7 +593,7 @@
             <p>❌ W pozycji siedzącej nie podnosić kolan powyżej bioder</p>
             <p>❌ Nie siedzieć dłużej niż 1 godzinę bez wstawania</p>
             <p> ✅ Należy rozstawić wygodnie kolana  </p>",
-        ImagePath = "/Images/rehabilitacja/siedziec.jpg"
+        ImagePath = "/images/rehabilitacja/siedziec.jpg"
     },
     new CardItem
     {
@@ -603,7 +603,7 @@
                     ❌ Nie należy wykonywać zbyt głębokich skłonów podczas ani nie opuszczać rąk poniżej kolan
                 </p>
                 <p> ✅ W celu sięgnięcia po coś warto korzystać z chwytaka lub pomocy drugiej osoby </p>",
-        ImagePath = "/Images/rehabilitacja/sklon.jpg"
+        ImagePath = "/images/rehabilitacja/sklon.jpg"
     },
     new CardItem
     {
@@ -612,7 +612,7 @@
             <p> ❌ Podczas chodu nie należy kierować stóp ku sobie z palcami zwróconymi do środka</p>
             <p> ❌ Przy zmianie kierunku chodu należy unikać krzyżowania nóg </p>
             <p> ✅ Poprawny chód warto ćwiczyć przed operacją wraz z fizjoterapeutą  </p>",
-        ImagePath = "/Images/rehabilitacja/dziad.jpg"
+        ImagePath = "/images/rehabilitacja/dziad.jpg"
     },
     new CardItem
     {
@@ -622,7 +622,7 @@
                 ❌ Podczas wstawania nie należy gwałtownie przechylać się do przodu    
             </p>
             <p> ✅ Powinno się najpierw delikatnie pochylić tułów w przód i dopiero potem wstać </p>",
-        ImagePath = "/Images/rehabilitacja/wstawac.jpg"
+        ImagePath = "/images/rehabilitacja/wstawac.jpg"
     },
     new CardItem
     {
@@ -633,7 +633,7 @@
                 <p> ❌ Nie należy leżeć na stronie operowanej </p>
                 <p> ✅ Kładąc się na stronie nieoperowanej, umieść 1-2 poduszki między lekko zgiętymi nogami</p>
                 <p> ✅ Należy przez 15-30 min dziennie leżeć płasko na łóżku  </p>",
-         ImagePath = "/Images/rehabilitacja/lezec.jpg"
+         ImagePath = "/images/rehabilitacja/lezec.jpg"
     },
     new CardItem
     {
@@ -643,7 +643,7 @@
             <p> ❌ Nie należy siadać na miękkich obiciach mebli</p>
             <p> ✅ Należy stosować nakładkę podwyższającą na toaletę  </p>
             <p> ✅ Podczas siedzenia należy utrzymywać nogi w rozstawieniu  </p>",
-        ImagePath = "/Images/rehabilitacja/srac.jpg"
+        ImagePath = "/images/rehabilitacja/srac.jpg"
     },
     new CardItem
     {
@@ -652,7 +652,7 @@
             <p> ❌ Należy unikać schylania się o więcej niż 80 stopni</p>
             <p> ❌ Podczas siadania i wstawania nie można dopuszczać, by barki wychylały się dalej niż biodra </p>
             <p> ✅ Stolik nocny należy umieścić po stronie nieoperowanej  </p>",
-        ImagePath = "/Images/rehabilitacja/przykrywac.jpg"
+        ImagePath = "/images/rehabilitacja/przykrywac.jpg"
     },
     new CardItem
     {
@@ -661,7 +661,7 @@
             <p> ✅ Podczas wchodzenia po schodach najpierw stawiamy nogę zdrową, następnie operowaną, a na końcu obie kule </p>
             <p> ✅ Podczas schodzenia po schodach najpierw na stopniu niżej stawiamy obie kule, następnie nogę operowaną, a na końcu nogę zdrową </p>
             <p> ✅ Praktykuj schodzenie i wchodzenie ze wsparciem, aby uniknąć kontuzji  </p>",
-        ImagePath = "/Images/rehabilitacja/kule.jpg"
+        ImagePath = "/images/rehabilitacja/kule.jpg"
     },
     
 };
@@ -725,7 +725,7 @@
 
         <p><em>Jesteś dobrze przygotowany? To połowa sukcesu! Pamiętaj – zespół medyczny jest po to, by Ci pomóc.</em></p>
     ",
-            ImagePath = "/Images/procedury/wszystko_o_zabiegu.jpg"
+            ImagePath = "/images/procedury/wszystko_o_zabiegu.jpg"
     }
 };
 
@@ -746,7 +746,7 @@
                     wspierają wchłanianie witamin A, D, E, K</strong> – oliwa z oliwek, orzechy, awokado</li>
                 <li><strong>Produkty pełnoziarniste - dla energii i dobrego trawienia</strong> – kasza gryczana, kasza jaglana, płatki owsiane, pieczywo pełnoziarniste, makaron razowy</li>
             </ul>",
-        ImagePath = "/Images/dietetyka/awokado.jpg"
+        ImagePath = "/images/dietetyka/awokado.jpg"
     },
     new CardItem
     {
@@ -759,7 +759,7 @@
                 <li>❌alkoholu</li>
                 <li>❌tłuszczów trans- można je znaleźć w takich produktach jak margaryna, majonez, dania typu fast food, tłuszcze zwierzęce, chipsy,zupy w proszku, wyroby cukiernicze, krakersy, pączki, pizza</li>
             </ul>",
-        ImagePath = "/Images/dietetyka/oleje.jpg"
+        ImagePath = "/images/dietetyka/oleje.jpg"
     },
     new CardItem
     {
@@ -772,7 +772,7 @@
                 <li>Probiotyki</li>
                 <li>Kolagen, cynk, witaminę C</li>
             </ul></p>",
-        ImagePath = "/Images/dietetyka/lyzeczki.jpg"
+        ImagePath = "/images/dietetyka/lyzeczki.jpg"
     },
     new CardItem
     {
@@ -787,7 +787,7 @@
                 <li>Orzechy (np. nerkowce), pasty warzywne</li>
                 <li>Biszkopty, wafle ryżowe, batony owocowe bez cukru</li>
             </ul></p>",
-        ImagePath = "/Images/dietetyka/orzech.jpg"
+        ImagePath = "/images/dietetyka/orzech.jpg"
     }
 };
     private List<Dokument> Dokumenty = new()
@@ -844,7 +844,7 @@
             <p>Pobierz paczkę mandali w formacie ZIP do własnego wydruku i kolorowania.</p>",
         FilePath = "/terapia/mandale.zip",
         FileType = "ZIP",
-        ImagePath = "/Images/terapia/zip.jpg"
+        ImagePath = "/images/terapia/zip.jpg"
     },
     new HybridItem
     {
@@ -852,7 +852,7 @@
         Description = (MarkupString)@"
             <p>Mandale to symetryczne wzory tworzone intuicyjnie. Nie musisz mieć zdolności artystycznych – liczy się proces, nie efekt!</p>
             <p>Kolorowanie mandali pomaga się wyciszyć, zrelaksować i odzyskać równowagę emocjonalną. To forma medytacji w działaniu.</p>",
-        ImagePath = "/Images/terapia/mandala1.jpg"
+        ImagePath = "/images/terapia/mandala1.jpg"
     },
     new HybridItem
     {
@@ -860,7 +860,7 @@
         Description = (MarkupString)@"
             <p>Wybierz mandalę z naszego zbioru lub narysuj własną. Nie przejmuj się, jeśli rysunek nie będzie idealny – chodzi o twórczy proces.</p>
             <p>Użyj kredek, flamastrów lub farb. Poczuj barwy, oddychaj spokojnie. To czas tylko dla Ciebie.</p>",
-        ImagePath = "/Images/terapia/mandala2.jpg"
+        ImagePath = "/images/terapia/mandala2.jpg"
     },
     new HybridItem
     {
@@ -868,7 +868,7 @@
         Description = (MarkupString)@"
             <p>Mandala działa jak lustro – odzwierciedla Twój nastrój, a jej symetria wprowadza harmonię do myśli i emocji.</p>
             <p>To narzędzie wspierające koncentrację, redukcję stresu i autorefleksję – idealne dla osób w trakcie rekonwalescencji.</p>",
-        ImagePath = "/Images/terapia/mandala3.jpg"
+        ImagePath = "/images/terapia/mandala3.jpg"
     },
     new HybridItem
     {
@@ -876,7 +876,7 @@
         Description = (MarkupString)@"
             <p>Zarezerwuj codziennie 10–15 minut na kolorowanie. Możesz wybrać różne wzory w zależności od nastroju lub pory dnia.</p>
             <p>Obserwuj, jak zmienia się Twój nastrój. Prowadź dziennik kolorów lub zapisz, co czułeś podczas rysowania.</p>",
-        ImagePath = "/Images/terapia/mandala4.jpg"
+        ImagePath = "/images/terapia/mandala4.jpg"
     },
     new HybridItem
     {
@@ -894,7 +894,7 @@
                 <li><strong>Fioletowy:</strong> Może symbolizować uduchowienie, inspirację, uczciwość, a także duchową głębię.</li>
                 <li><strong>Różowy:</strong> Reprezentuje kobiecość, delikatność, romantyzm i miłość.</li>
             </ul>",
-        ImagePath = "/Images/terapia/mandala5.jpg"
+        ImagePath = "/images/terapia/mandala5.jpg"
     }
 
 };private List<CardItem> StrategieRelaksacyjneCards = new()
@@ -916,7 +916,7 @@
                 <li>Zwiększyć wytrzymałość i odporność psychiczną</li>
             </ul>
             <p>Najlepsze jest to, że możesz wykonywać je w zasadzie w każdej pozycji i każdym miejscu, więc idealnie sprawdzą się jako Twoje asy w rękawie, czy to w rehabilitacji i poprawie wydolności, czy też jako zwalczacz stresu.</p>",
-        ImagePath = "/Images/relaks/oddech.jpg"
+        ImagePath = "/images/relaks/oddech.jpg"
     },
     new CardItem
     {
@@ -931,7 +931,7 @@
                 <li>Zrób powolny wydech NOSEM przez 3 sekund – nie wypychaj powietrza siłą, wypuszczaj je spokojnie</li>
             </ol>
             <p>Powtarzaj przez 2 minuty. Cały czas licz!</p>",
-        ImagePath = "/Images/relaks/trojkat.jpg"
+        ImagePath = "/images/relaks/trojkat.jpg"
     },
     new CardItem
     {
@@ -950,7 +950,7 @@
                 <li>Zmniejszy napięcie w mięśniach</li>
                 <li>Może być też świetnym treningiem oddechu – jeśli ćwiczysz, pływasz lub grasz w sport</li>
             </ul>",
-        ImagePath = "/Images/relaks/wizualizacja_trojkat.jpg"
+        ImagePath = "/images/relaks/wizualizacja_trojkat.jpg"
     },
     new CardItem
     {
@@ -969,7 +969,7 @@
              Wizualizacja:
             Wdech → Zatrzymanie → Wydech → Zatrzymanie
             (pomyśl o rysowaniu boków kwadratu, każde 4 sekundy)</p>",
-        ImagePath = "/Images/relaks/box.jpg"
+        ImagePath = "/images/relaks/box.jpg"
     },
     new CardItem
     {
@@ -985,7 +985,7 @@
                 <li>📌 Sprawdza się w pracy, przed egzaminem, wystąpieniem lub treningiem</li>
             </ul>
             <p>To jedno z najprostszych i najpotężniejszych ćwiczeń mentalnych, jakie możesz mieć zawsze przy sobie.</p>",
-        ImagePath = "/Images/relaks/box_korzysci.jpg"
+        ImagePath = "/images/relaks/box_korzysci.jpg"
     },
 
     new CardItem
@@ -1002,7 +1002,7 @@
                 <li>🌙 Przed snem – jako sposób na wyciszenie</li>
             </ul>
            " ,
-        ImagePath = "/Images/relaks/podsumowanie.jpg"
+        ImagePath = "/images/relaks/podsumowanie.jpg"
     }
 };
     private List<CardItem> FaqCards = new()

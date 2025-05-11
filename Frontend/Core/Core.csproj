@@ -46,9 +46,9 @@
         <!-- Splash Screen -->
         <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#ffffff" BaseSize="128,128" />
 
-        <!-- Images -->
-        <MauiImage Include="Resources\Images\*" />
-        <MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+        <!-- images -->
+        <MauiImage Include="Resources\images\*" />
+        <MauiImage Update="Resources\images\dotnet_bot.svg" BaseSize="168,208" />
 
         <!-- Custom Fonts -->
         <MauiFont Include="Resources\Fonts\*" />
@@ -79,7 +79,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\Images\Nowy folder1\" />
+      <Folder Include="wwwroot\images\Nowy folder1\" />
     </ItemGroup>
 
     <ItemGroup>
