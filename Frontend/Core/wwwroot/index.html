@@ -20,6 +20,19 @@
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
 
     <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script>
+        // Blokowanie zdarzeń żyroskopu globalnie
+        window.addEventListener('deviceorientation', function (e) {
+            e.stopImmediatePropagation();
+        }, true);
+
+        // Opcjonalnie – zablokuj też dostęp do API
+        if (typeof DeviceOrientationEvent !== 'undefined') {
+            DeviceOrientationEvent = undefined;
+        }
+    </script>
+
 </head>
 
 <body>
