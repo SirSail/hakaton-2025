@@ -22,19 +22,19 @@ namespace Core
 
 
 
-            //builder.Services.AddScoped(sp => new HttpClient
-            //{
-            //    BaseAddress = new Uri("http://192.168.43.9:6999/")
-            //}); // huwawei
+            builder.Services.AddScoped(sp => new HttpClient
+            {
+                BaseAddress = new Uri("http://192.168.43.9:6999/")
+            }); // huwawei
 
             //builder.Services.AddScoped(sp => new HttpClient
             //{
             //    BaseAddress = new Uri("http://54.38.143.31:6999/")
             //});
-            builder.Services.AddScoped(sp => new HttpClient
-            {
-                BaseAddress = new Uri("http://158.75.43.72:6999/")
-            }); //eduoram
+            //builder.Services.AddScoped(sp => new HttpClient
+            //{
+            //    BaseAddress = new Uri("http://158.75.43.72:6999/")
+            //}); //eduoram
 
 
             builder.Services.AddMauiBlazorWebView();
