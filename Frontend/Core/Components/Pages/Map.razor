@@ -1,15 +1,42 @@
 ﻿@page "/map"
 @inject IJSRuntime JS
 
-<h3>Mapa piętra (SVG)</h3>
+<h3>Mapa piętra @SvgNum</h3>
 
-<div style="width: 100%; height: 90vh; overflow: auto; border: 1px solid #ccc;">
-    <object id="svgObject"
-            type="image/svg+xml"
-            data="/images/map/map0.svg"
-            style="min-width: 1000px; min-height: 800px;">
-    </object>
+<div style="margin-bottom: 10px;">
+    <label for="floorSelect" style="margin-right: 8px;">Wybierz piętro:</label>
+    <select id="floorSelect" class="form-select" style="width: 120px; display: inline-block;"
+            @onchange="FloorSelected">
+        <option value="0">0</option>
+        <option value="1">1</option>
+    </select>
 </div>
+
+<!-- Dynamicznie ładowany SVG -->
+@if (SvgNum == 0)
+{
+    <div style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc;">
+        <object @key="SvgPath"
+                id="svgObject"
+                type="image/svg+xml"
+                data="@SvgPath"
+                style="min-width: 1000px; min-height: 800px;">
+        </object>
+    </div>
+
+}
+else
+{
+    <div style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc;">
+        <object @key="SvgPath"
+                id="svgObject"
+                type="image/svg+xml"
+                data="@SvgPath"
+                style="min-width: 1000px; min-height: 800px;">
+        </object>
+    </div>
+
+}
 
 <Core.Components.Dialogs.TemplatedDialog IsHidden="string.IsNullOrEmpty(ImagePath)" OnClose="CloseDialog">
     <div style="position: relative; width: 100%; height: 100%;">
@@ -20,11 +47,11 @@
         <div class="button-overlay">
             @if (PreviousImage is not null)
             {
-                    <button @onclick="() => SwitchDialog(false)" class="nav-button btn-back">←</button>
+                <button @onclick="() => SwitchDialog(false)" class="nav-button btn-back">←</button>
             }
             @if (NextImage is not null)
             {
-                    <button @onclick="() => SwitchDialog(true)" class="nav-button btn-next">→</button>
+                <button @onclick="() => SwitchDialog(true)" class="nav-button btn-next">→</button>
             }
         </div>
     </div>
@@ -75,10 +102,10 @@
         pointer-events: auto;
     }
 
-    .nav-button:hover {
-        background-color: var(--btn-bg-hover);
-        transform: scale(1.1);
-    }
+        .nav-button:hover {
+            background-color: var(--btn-bg-hover);
+            transform: scale(1.1);
+        }
 
     .btn-back {
         margin-left: var(--overlay-padding);
@@ -90,22 +117,45 @@
 </style>
 
 @code {
+    private int SvgNum { get; set; } = 0;
+    private string SvgPath => $"/Images/map/map{SvgNum}.svg";
     private string ImageName { get; set; } = string.Empty;
     private string ImagePath { get; set; } = string.Empty;
     private DotNetObjectReference<Map>? ObjRef;
     private string? PreviousImage { get; set; } = string.Empty;
     private string? NextImage { get; set; } = string.Empty;
 
+    private string? LastSelectedLabel { get; set; }
+
     [JSInvokable]
-    public Task OnSvgCircleClicked(string path)
+    public async Task OnSvgCircleClicked(string path)
     {
+        if (!string.IsNullOrEmpty(LastSelectedLabel))
+        {
+            await JS.InvokeVoidAsync("setSvgCircleColor", LastSelectedLabel, "red");
+        }
+
         ImageName = path;
         ImagePath = $"images/map/spheres/{path}";
         PreviousImage = GetRelativeImage(-1);
         NextImage = GetRelativeImage(1);
+        LastSelectedLabel = path;
+
         StateHasChanged();
-        return Task.CompletedTask;
+
+        await JS.InvokeVoidAsync("setSvgCircleColor", path, "gold");
     }
+
+    private async Task FloorSelected(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value?.ToString(), out int num))
+        {
+            SvgNum = num;
+            await InvokeAsync(StateHasChanged);
+            await JS.InvokeVoidAsync("attachSvgClickHandlers", ObjRef);
+        }
+    }
+
 
     private string? GetRelativeImage(int offset)
     {
@@ -113,11 +163,16 @@
         if (int.TryParse(currentName, out int currentNumber))
         {
             int target = currentNumber + offset;
-            if (target >= 1 && target <= 8) return target + ".jpg";
+            if (target >= 1 && target <= 12)
+                return $"{target}.jpg";
+
             return null;
         }
         return null;
     }
+
+
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -128,12 +183,45 @@
         }
     }
 
-    public Task SwitchDialog(bool right)
+    public async Task SwitchDialog(bool right)
     {
-        if (right && NextImage is not null) return OnSvgCircleClicked(NextImage);
-        if (!right && PreviousImage is not null) return OnSvgCircleClicked(PreviousImage);
-        return Task.CompletedTask;
+        var current = Path.GetFileNameWithoutExtension(ImageName);
+        if (!int.TryParse(current, out int currentNumber)) return;
+
+        int target = currentNumber + (right ? 1 : -1);
+
+        string? nextImage = null;
+
+        if (target == 9 && SvgNum == 0)
+        {
+            SvgNum = 1;
+            nextImage = "9.jpg";
+        }
+        else if (target == 8 && SvgNum == 1)
+        {
+            SvgNum = 0;
+            nextImage = "8.jpg";
+        }
+        else
+        {
+            nextImage = GetRelativeImage(right ? 1 : -1);
+        }
+
+        if (nextImage is not null)
+        {
+            await InvokeAsync(StateHasChanged); // Renderuj nowy <object>
+
+            // Poczekaj aż SVG się fizycznie załaduje
+            await JS.InvokeVoidAsync("waitForSvgLoad");
+
+            // Podłącz klikacze
+            await JS.InvokeVoidAsync("attachSvgClickHandlers", ObjRef);
+
+            // Zaznacz circle i otwórz dialog
+            await OnSvgCircleClicked(nextImage);
+        }
     }
+
 
     private Task CloseDialog()
     {
@@ -143,7 +231,7 @@
 }
 
 <script>
-    window.attachSvgClickHandlers = (dotnetHelper) => {
+        window.attachSvgClickHandlers = (dotnetHelper) => {
         const obj = document.getElementById("svgObject");
         if (!obj) return;
 
@@ -155,15 +243,44 @@
             }
 
             const elements = svgDoc.querySelectorAll("circle");
+
             elements.forEach(el => {
                 el.style.cursor = "pointer";
+
                 el.addEventListener("click", () => {
                     const label = el.getAttribute("inkscape:label");
-                    if (label) {
-                        dotnetHelper.invokeMethodAsync("OnSvgCircleClicked", label);
-                    }
+                    if (!label) return;
+
+                    dotnetHelper.invokeMethodAsync("OnSvgCircleClicked", label);
                 });
             });
         });
     };
+
+    window.setSvgCircleColor = (circleId, color) => {
+        const obj = document.getElementById("svgObject");
+        if (!obj || !obj.contentDocument) return;
+
+        const elements = obj.contentDocument.querySelectorAll("circle");
+        elements.forEach(el => {
+            if (el.getAttribute("inkscape:label") === circleId) {
+                el.style.fill = color;
+            }
+        });
+    };
+
+        window.waitForSvgLoad = () => {
+        return new Promise((resolve, reject) => {
+            const obj = document.getElementById("svgObject");
+            if (!obj) return reject("Brak svgObject");
+
+            if (obj.contentDocument?.readyState === "complete") {
+                resolve();
+                return;
+            }
+
+            obj.addEventListener("load", () => resolve(), { once: true });
+        });
+    };
+
 </script>
