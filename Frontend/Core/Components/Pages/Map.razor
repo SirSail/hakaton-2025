@@ -1,13 +1,13 @@
 ﻿@page "/map"
 @inject IJSRuntime JS
 
-<h3>Mapa piętra @SvgNum</h3>
+<h3>Mapa piętra @(SvgNum == 0 ? "Parter" : SvgNum.ToString())</h3>
 
 <div style="margin-bottom: 10px;">
     <label for="floorSelect" style="margin-right: 8px;">Wybierz piętro:</label>
     <select id="floorSelect" class="form-select" style="width: 120px; display: inline-block;"
             @onchange="FloorSelected">
-        <option value="0">0</option>
+        <option value="0">Parter</option>
         <option value="1">1</option>
     </select>
 </div>
