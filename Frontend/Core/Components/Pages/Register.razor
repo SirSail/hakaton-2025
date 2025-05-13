@@ -13,57 +13,56 @@ else
         <DataAnnotationsValidator />
 
         <div class="register-container">
-            <div class="glass-box">
+            <div class="glass-box elevated">
                 <img src="images/szpital_brzeziny_logo_uzupelniajace.png" alt="Logo" class="register-logo" />
 
-                <h3 class="text-center register-title">Rejestracja</h3>
+                <h3 class="text-center register-title">Utwórz konto</h3>
 
-                <!-- Imię -->
+                @* FirstName *@
                 <label class="form-label">Imię</label>
                 <div class="input-frame">
                     <InputText @bind-Value="FormModel.FirstName" class="form-control input-text" placeholder="Imię" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.FirstName)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.FirstName)" class="validation-message" />
 
-
-                <!-- Nazwisko -->
+                @* LastName *@
                 <label class="form-label">Nazwisko</label>
                 <div class="input-frame">
                     <InputText @bind-Value="FormModel.LastName" class="form-control input-text" placeholder="Nazwisko" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.LastName)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.LastName)" class="validation-message" />
 
-                <!-- Data urodzenia -->
+                @* BirthDate *@
                 <label class="form-label">Data urodzenia</label>
                 <div class="input-frame">
                     <InputDate @bind-Value="FormModel.BirthDate"
                                TValue="DateOnly?"
-                               AdditionalAttributes="@(new Dictionary<string, object> { { "placeholder", "DD-MM-RRRR" },{"class","form-control input-text"} })" />
+                               class="form-control input-text custom-date" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.BirthDate)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.BirthDate)" class="validation-message" />
 
-                <!-- Email -->
+                @* Email *@
                 <label class="form-label">Adres e-mail</label>
                 <div class="input-frame">
-                    <InputText @bind-Value="FormModel.Email" class="form-control input-text" placeholder="Adres e-mail" />
+                    <InputText @bind-Value="FormModel.Email" class="form-control input-text" placeholder="np. jan@szpital.pl" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.Email)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.Email)" class="validation-message" />
 
-                <!-- Hasło -->
+                @* Password *@
                 <label class="form-label">Hasło</label>
                 <div class="input-frame">
-                    <InputText @bind-Value="FormModel.Password" type="password" class="form-control input-text" placeholder="Hasło" />
+                    <InputText @bind-Value="FormModel.Password" type="password" class="form-control input-text" placeholder="••••••••" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.Password)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.Password)" class="validation-message" />
 
-                <!-- Potwierdź hasło -->
+                @* Confirm Password *@
                 <label class="form-label">Powtórz hasło</label>
                 <div class="input-frame mb-3">
-                    <InputText @bind-Value="FormModel.ConfirmPassword" type="password" class="form-control input-text" placeholder="Potwierdź hasło" />
+                    <InputText @bind-Value="FormModel.ConfirmPassword" type="password" class="form-control input-text" placeholder="••••••••" />
                 </div>
-                <ValidationMessage For="@(() => FormModel.ConfirmPassword)" style="font-size:0.8rem;color:red;" />
+                <ValidationMessage For="@(() => FormModel.ConfirmPassword)" class="validation-message" />
 
-                <button type="submit" class="btn btn-primary submit-btn">Zarejestruj się</button>
+                <button type="submit" class="btn submit-btn">Zarejestruj się</button>
 
                 <div class="text-center mt-3">
                     <span>Masz już konto? </span>

@@ -2,8 +2,8 @@
 using Core.API.Models;
 using Core.API.Services;
 using Core.API.StateProviders;
-using Microsoft.AspNetCore.Components.Authorization;
 using Core.API;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace Core.Authorize.Services
 {

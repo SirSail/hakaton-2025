@@ -2,51 +2,56 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: system-ui, sans-serif;
-    background-color: #ffffff;
-    color: #2c3e50;
+    font-family: "Segoe UI", Roboto, system-ui, sans-serif;
+    background-color: #f9fcfd;
+    color: #212529; /* dark neutral for text */
 }
 
 .app-header {
-    background-color: #e3f9e5; /* Light green */
+    background-color: #2f8f64; /* stronger green */
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .app-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
     margin: 0;
-    color: #2d6a4f;
+    color: #ffffff;
+    letter-spacing: 0.5px;
 }
 
 .app-nav {
-    background-color: #d6f0ff; /* Light blue */
+    background-color: #1976d2; /* richer blue */
     padding: 0.5rem 1rem;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    color: #ffffff;
 }
 
 .app-content {
     flex: 1;
-    padding: 1rem;
+    padding: 1.2rem;
+    background-color: #ffffff;
+    color: #212529;
 }
 
 .app-footer {
-    background-color: #f8f9fa;
+    background-color: #2f8f64;
     padding: 0.75rem;
     font-size: 0.9rem;
     text-align: center;
-    color: #6c757d;
-    border-top: 1px solid #dee2e6;
+    color: #e4f5ec;
+    border-top: 2px solid #217b5a;
 }
 
+/* Responsive tweaks */
 @media (max-width: 768px) {
     .app-title {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 
     .app-content {
-        padding: 0.75rem;
+        padding: 0.9rem;
     }
 }
-

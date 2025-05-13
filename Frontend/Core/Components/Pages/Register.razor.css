@@ -4,99 +4,106 @@
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
-    background: linear-gradient(to bottom right, #e0f7fa, #e8f5e9);
+    background: linear-gradient(to bottom right, #f0fdf4, #e8f5e9);
 }
 
 .glass-box {
     width: 100%;
-    max-width: 400px;
-    padding: 2rem 1.5rem;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 1rem;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    padding: 2rem 1.75rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(8px);
 }
 
 .register-logo {
     display: block;
     margin: 0 auto 1rem auto;
-    max-width: 150px;
+    max-width: 140px;
     height: auto;
 }
 
 .register-title {
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    color: #2d6a4f;
+    font-weight: 700;
+    color: #1b4332;
 }
 
 .form-label {
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0.25rem;
-    display: block;
+    font-size: 0.95rem;
+    color: #333;
 }
 
 .input-frame {
-    border: 1px solid #cfe8dc;
-    border-radius: 0.5rem;
-    margin-bottom: 0.8rem;
+    border: 1px solid #a3d3b4;
+    border-radius: 10px;
+    margin-bottom: 1rem;
     overflow: hidden;
+    background-color: #f8f9fa;
 }
 
-.input-text {
-    border: none !important;
-    padding: 0.75rem;
-    font-size: 1rem;
-    width: 100%;
-}
-
-    .input-text:focus {
-        outline: none;
-        box-shadow: none;
-    }
-
-.submit-btn {
-    width: 100%;
-    background-color: #81c784;
+.input-text,
+.custom-date {
     border: none;
     padding: 0.75rem;
     font-size: 1rem;
+    width: 100%;
+    background-color: transparent;
+    color: #222;
+}
+
+    .input-text::placeholder,
+    .custom-date::placeholder {
+        color: #888;
+        font-style: italic;
+        opacity: 1 !important;
+    }
+
+/* Ensure InputDate placeholder appears on mobile */
+input[type="date"]::before {
+    content: attr(placeholder);
+    color: #999;
+    font-style: italic;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+    content: "";
+}
+
+.input-text:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #2f8f64;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
     border-radius: 0.5rem;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
 }
 
     .submit-btn:hover {
-        background-color: #66bb6a;
+        background-color: #256d4f;
     }
 
-.debug-box {
-    font-size: 0.85rem;
-    color: #6c757d;
-    word-break: break-word;
-}
 .validation-message {
-        font-size: 0.8rem;
-        color: #d32f2f;
-        margin-top: 0.2rem;
-        margin-bottom: 0.4rem;
-        padding-left: 0.4rem;
-        line-height: 1.2;
-    }
-
-    /* Ensure nested spans don’t ruin spacing */
-    .validation-message > div,
-    .validation-message > span,
-    .validation-message span {
-        margin: 0 !important;
-        padding: 0 !important;
-        display: block;
-    }
-
-    /* Tighten input + message spacing */
-    .input-frame + .validation-message {
-        margin-top: -0.3rem;
-    }
+    font-size: 0.8rem;
+    color: #d32f2f;
+    margin-top: -0.4rem;
+    margin-bottom: 0.6rem;
+    padding-left: 0.4rem;
+}
 
 @media (max-width: 400px) {
     .glass-box {
@@ -104,6 +111,6 @@
     }
 
     .register-title {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 }

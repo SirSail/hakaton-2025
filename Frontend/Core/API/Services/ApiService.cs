@@ -88,7 +88,14 @@ namespace Core.API.Services
             }
             else
             {
-                apiResponse.Error = await response.Content.ReadFromJsonAsync<ApiError>();
+                try
+                {
+                    apiResponse.Error = await response.Content.ReadFromJsonAsync<ApiError>();
+                }
+                catch(Exception ex)
+                {
+                    apiResponse.Error = new() { Message = ex.StackTrace };
+                }
             }
 
             return apiResponse;

@@ -45,7 +45,7 @@
 		</div>
 
 		<div class="task-list mt-4">
-			@foreach (var calendarItem in CalendarItems.Where(x => DateOnly.FromDateTime(x.Time) == SelectedDay))
+			@foreach (var calendarItem in CalendarItems.Where(x => DateOnly.FromDateTime(x.Time) == SelectedDay).OrderBy(x => x.Time))
 			{
 				<div class="task-card">
 					<div class="time">@calendarItem.Time.ToString("HH:mm")</div>
